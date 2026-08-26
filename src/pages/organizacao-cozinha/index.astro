@@ -4,6 +4,34 @@ import ProdutoCard from '../../components/ProdutoCard.astro';
 import dados from '../../data/produtos.json';
 
 const zonas = dados.zonas;
+
+const faq = [
+  {
+    pergunta: "Por onde eu começo a organizar a cozinha?",
+    resposta: "[substituir: resposta real, provavelmente indicando a zona que mais incomoda ou a mais rápida de resolver primeiro]",
+  },
+  {
+    pergunta: "Preciso comprar tudo de uma vez?",
+    resposta: "[substituir: resposta real — reforçar que dá pra fazer zona por zona, sem gastar tudo de uma vez]",
+  },
+  {
+    pergunta: "Pote de plástico ou de vidro, qual vale mais a pena?",
+    resposta: "[substituir: resposta real com base nos produtos escolhidos pra cada zona]",
+  },
+];
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faq.map((item) => ({
+    "@type": "Question",
+    name: item.pergunta,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: item.resposta,
+    },
+  })),
+};
 ---
 <Layout
   title="Organização de cozinha, zona por zona"
@@ -39,6 +67,27 @@ const zonas = dados.zonas;
     </section>
   ))}
 
+  <section class="honestidade">
+    <h2>Onde vale gastar mais, onde não faz diferença</h2>
+    <p>
+      [substituir: 2-3 frases resumindo, com base nos produtos reais escolhidos,
+      em quais zonas compensa investir em um item de qualidade e em quais um
+      produto mais barato resolve igual.]
+    </p>
+  </section>
+
+  <section class="faq">
+    <h2>Perguntas frequentes</h2>
+    {faq.map((item) => (
+      <div class="faq-item">
+        <h3>{item.pergunta}</h3>
+        <p>{item.resposta}</p>
+      </div>
+    ))}
+  </section>
+
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+
   <style>
     .atualizado { color: var(--cor-texto-suave); font-size: 0.9rem; }
     .zonas-nav {
@@ -63,5 +112,13 @@ const zonas = dados.zonas;
       font-weight: 600;
       margin: 0 0 0.75rem;
     }
+    .honestidade, .faq {
+      margin-top: 2.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--cor-borda);
+    }
+    .faq-item { margin-bottom: 1.25rem; }
+    .faq-item h3 { font-size: 1rem; margin: 0 0 0.35rem; }
+    .faq-item p { margin: 0; color: var(--cor-texto-suave); }
   </style>
 </Layout>

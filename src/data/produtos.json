@@ -52,6 +52,110 @@
           "linkMercadoLivre": "#"
         }
       ]
+    },
+    {
+      "id": "geladeira",
+      "nome": "Geladeira",
+      "tempoEstimado": "25 a 35 min",
+      "descricao": "Pote sem tampa, sobra esquecida no fundo, gaveta de verdura virando poça — é a zona que mais gera desperdício de comida quando fica desorganizada.",
+      "produtos": [
+        {
+          "id": "EXEMPLO-03",
+          "nome": "[substituir] Organizador de geladeira exemplo",
+          "selo": "Mais vendido",
+          "precoMin": 50,
+          "precoMax": 90,
+          "nota": null,
+          "avaliacoes": null,
+          "pros": [
+            "[substituir por benefício real 1]",
+            "[substituir por benefício real 2]",
+            "[substituir por benefício real 3]"
+          ],
+          "contra": "[substituir pelo contra real do produto escolhido]",
+          "paraQuem": "[substituir pela frase de fechamento]",
+          "linkAmazon": "#",
+          "linkMercadoLivre": "#"
+        }
+      ]
+    },
+    {
+      "id": "armario-panelas",
+      "nome": "Armário de panelas",
+      "tempoEstimado": "20 a 30 min",
+      "descricao": "Panela empilhada errado risca o fundo, e tampa solta nunca combina com a panela certa na hora que você precisa dela.",
+      "produtos": [
+        {
+          "id": "EXEMPLO-04",
+          "nome": "[substituir] Organizador de panelas exemplo",
+          "selo": "Recomendado",
+          "precoMin": 80,
+          "precoMax": 150,
+          "nota": null,
+          "avaliacoes": null,
+          "pros": [
+            "[substituir por benefício real 1]",
+            "[substituir por benefício real 2]",
+            "[substituir por benefício real 3]"
+          ],
+          "contra": "[substituir pelo contra real do produto escolhido]",
+          "paraQuem": "[substituir pela frase de fechamento]",
+          "linkAmazon": "#",
+          "linkMercadoLivre": "#"
+        }
+      ]
+    },
+    {
+      "id": "gaveta-utensilios",
+      "nome": "Gaveta de utensílios",
+      "tempoEstimado": "10 a 15 min",
+      "descricao": "A gaveta que não fecha direito de tanta coisa solta — espátula, abridor, talher avulso. Resolve rápido, mas é a que mais fica pra depois.",
+      "produtos": [
+        {
+          "id": "EXEMPLO-05",
+          "nome": "[substituir] Divisor de gaveta exemplo",
+          "selo": "Melhor custo-benefício",
+          "precoMin": 30,
+          "precoMax": 60,
+          "nota": null,
+          "avaliacoes": null,
+          "pros": [
+            "[substituir por benefício real 1]",
+            "[substituir por benefício real 2]",
+            "[substituir por benefício real 3]"
+          ],
+          "contra": "[substituir pelo contra real do produto escolhido]",
+          "paraQuem": "[substituir pela frase de fechamento]",
+          "linkAmazon": "#",
+          "linkMercadoLivre": "#"
+        }
+      ]
+    },
+    {
+      "id": "bancada",
+      "nome": "Bancada",
+      "tempoEstimado": "15 a 20 min",
+      "descricao": "Eletro parado e potinho de tempero solto roubam o espaço de trabalho todo dia — é a zona que mais aparece no dia a dia de quem cozinha.",
+      "produtos": [
+        {
+          "id": "EXEMPLO-06",
+          "nome": "[substituir] Suporte organizador de bancada exemplo",
+          "selo": "Mais compacto",
+          "precoMin": 40,
+          "precoMax": 80,
+          "nota": null,
+          "avaliacoes": null,
+          "pros": [
+            "[substituir por benefício real 1]",
+            "[substituir por benefício real 2]",
+            "[substituir por benefício real 3]"
+          ],
+          "contra": "[substituir pelo contra real do produto escolhido]",
+          "paraQuem": "[substituir pela frase de fechamento]",
+          "linkAmazon": "#",
+          "linkMercadoLivre": "#"
+        }
+      ]
     }
   ]
 }

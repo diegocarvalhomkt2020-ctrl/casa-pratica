@@ -4,6 +4,23 @@ const {
   nome, selo, precoMin, precoMax, nota, avaliacoes,
   pros, contra, paraQuem, linkAmazon, linkMercadoLivre
 } = produto;
+
+const schema = nota && {
+  "@context": "https://schema.org",
+  "@type": "Product",
+  name: nome,
+  aggregateRating: {
+    "@type": "AggregateRating",
+    ratingValue: nota,
+    reviewCount: avaliacoes,
+  },
+  offers: {
+    "@type": "AggregateOffer",
+    priceCurrency: "BRL",
+    lowPrice: precoMin,
+    highPrice: precoMax,
+  },
+};
 ---
 <div class="card">
   {selo && <p class="selo">{selo}</p>}
@@ -36,6 +53,8 @@ const {
     )}
   </div>
 </div>
+
+{schema && <script type="application/ld+json" set:html={JSON.stringify(schema)} />}
 
 <style>
   .card {
