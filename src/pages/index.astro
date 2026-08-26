@@ -10,7 +10,54 @@ import Layout from '../layouts/Layout.astro';
     Listas e comparativos separados por orçamento e por ordem de urgência —
     não é sobre comprar mais, é sobre comprar melhor.
   </p>
-  <p>
-    <a href="/organizacao-cozinha/">Ver a lista de organização de cozinha →</a>
-  </p>
+
+  <section class="como-funciona">
+    <h2>Como funciona</h2>
+    <p>
+      Cada assunto tem uma lista completa — o guia principal — e conteúdos
+      menores que recortam essa lista de formas diferentes: por erro comum,
+      por orçamento, por comparativo direto. Tudo linkado entre si, sem
+      repetir o que já foi escrito em outro lugar.
+    </p>
+  </section>
+
+  <section class="nichos">
+    <h2>Organização de cozinha</h2>
+    <div class="nicho-links">
+      <a class="nicho-card" href="/organizacao-cozinha/">
+        <strong>Guia por zona</strong>
+        <span>Despensa, geladeira, armário de panelas e mais — organizado por onde bagunça, não por urgência.</span>
+      </a>
+      <a class="nicho-card" href="/organizacao-cozinha/erros-comuns/">
+        <strong>Erros comuns</strong>
+        <span>Os erros que mais fazem a organização não durar — e como evitar cada um.</span>
+      </a>
+    </div>
+  </section>
+
+  <style>
+    .como-funciona {
+      margin: 2rem 0;
+      padding: 1rem 1.25rem;
+      background: var(--cor-superficie);
+      border: 1px solid var(--cor-borda);
+      border-radius: 10px;
+    }
+    .como-funciona h2 { font-size: 1rem; margin: 0 0 0.4rem; }
+    .como-funciona p { margin: 0; font-size: 0.9rem; color: var(--cor-texto-suave); }
+    .nichos { margin: 2rem 0; }
+    .nichos h2 { font-size: 1.1rem; margin: 0 0 0.9rem; }
+    .nicho-links { display: grid; gap: 0.9rem; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+    .nicho-card {
+      display: block;
+      border: 1px solid var(--cor-borda);
+      border-radius: 10px;
+      padding: 1rem 1.1rem;
+      text-decoration: none;
+      color: var(--cor-texto);
+      background: var(--cor-superficie);
+    }
+    .nicho-card strong { display: block; margin-bottom: 0.35rem; color: var(--cor-acento); }
+    .nicho-card span { font-size: 0.88rem; color: var(--cor-texto-suave); }
+  </style>
 </Layout>
