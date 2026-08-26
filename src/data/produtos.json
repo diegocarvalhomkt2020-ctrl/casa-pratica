@@ -57,7 +57,7 @@
       "id": "geladeira",
       "nome": "Geladeira",
       "tempoEstimado": "25 a 35 min",
-      "descricao": "Pote sem tampa, sobra esquecida no fundo, gaveta de verdura virando poça — é a zona que mais gera desperdício de comida quando fica desorganizada.",
+      "descricao": "Pote sem tampa, sobra esquecida no fundo, gaveta de verdura virando poça: é a zona que mais gera desperdício de comida quando fica desorganizada.",
       "produtos": [
         {
           "id": "EXEMPLO-03",
@@ -109,7 +109,7 @@
       "id": "gaveta-utensilios",
       "nome": "Gaveta de utensílios",
       "tempoEstimado": "10 a 15 min",
-      "descricao": "A gaveta que não fecha direito de tanta coisa solta — espátula, abridor, talher avulso. Resolve rápido, mas é a que mais fica pra depois.",
+      "descricao": "A gaveta que não fecha direito de tanta coisa solta: espátula, abridor, talher avulso. Resolve rápido, mas é a que mais fica pra depois.",
       "produtos": [
         {
           "id": "EXEMPLO-05",
@@ -135,7 +135,7 @@
       "id": "bancada",
       "nome": "Bancada",
       "tempoEstimado": "15 a 20 min",
-      "descricao": "Eletro parado e potinho de tempero solto roubam o espaço de trabalho todo dia — é a zona que mais aparece no dia a dia de quem cozinha.",
+      "descricao": "Eletro parado e potinho de tempero solto roubam o espaço de trabalho todo dia: é a zona que mais aparece no dia a dia de quem cozinha.",
       "produtos": [
         {
           "id": "EXEMPLO-06",
