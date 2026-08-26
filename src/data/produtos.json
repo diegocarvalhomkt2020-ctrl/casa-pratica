@@ -1,5 +1,5 @@
 {
-  "_nota": "Dados de EXEMPLO. Substitua por produtos reais pesquisados, mantendo o mesmo formato.",
+  "_nota": "Despensa e Embaixo da pia já têm produtos reais pesquisados na Amazon. As demais 4 zonas ainda são dados de EXEMPLO, substituir mantendo o mesmo formato.",
   "zonas": [
     {
       "id": "despensa",
@@ -8,21 +8,21 @@
       "descricao": "Arroz, feijão e farinha em pacote aberto atraem inseto e perdem validade mais rápido. É a zona que mais gera arrependimento quando fica pra depois.",
       "produtos": [
         {
-          "id": "EXEMPLO-01",
-          "nome": "[substituir] Kit de potes herméticos exemplo",
-          "selo": "Melhor preço",
-          "precoMin": 60,
-          "precoMax": 100,
-          "nota": null,
-          "avaliacoes": null,
+          "id": "AMZ-DESP-01",
+          "nome": "Kit 10 Potes de Vidro Herméticos 640ml com 4 Travas",
+          "selo": "Mais vendido",
+          "precoMin": 90,
+          "precoMax": 110,
+          "nota": 4.7,
+          "avaliacoes": 807,
           "pros": [
-            "[substituir por benefício real 1]",
-            "[substituir por benefício real 2]",
-            "[substituir por benefício real 3]"
+            "Vidro refratário: vai do freezer direto pro forno e micro-ondas, sem trocar de recipiente",
+            "Vedação com 4 travas evita vazamento de verdade, segundo quem já comprou",
+            "Mais de 5 mil compras no último mês, com nota 4,7 em 807 avaliações"
           ],
-          "contra": "[substituir pelo contra real do produto escolhido]",
-          "paraQuem": "[substituir pela frase de fechamento]",
-          "linkAmazon": "#",
+          "contra": "É de vidro, então pesa mais que um kit de plástico e quebra se cair. Não vem com etiquetas pra identificar o conteúdo.",
+          "paraQuem": "Pra quem quer durabilidade e não se importa com o peso extra do vidro",
+          "linkAmazon": "https://www.amazon.com.br/dp/B0GSH6DCCJ?tag=dicasinteli05-20",
           "linkMercadoLivre": "#"
         }
       ]
@@ -34,21 +34,21 @@
       "descricao": "O espaço mais desperdiçado da cozinha. Detergente, esponja e sacos de lixo soltos viram bagunça em uma semana.",
       "produtos": [
         {
-          "id": "EXEMPLO-02",
-          "nome": "[substituir] Organizador expansível para embaixo da pia",
+          "id": "AMZ-PIA-01",
+          "nome": "Sevenblue Organizador 2 Andares com Gavetas Deslizantes",
           "selo": "Mais avaliado",
-          "precoMin": 70,
-          "precoMax": 140,
-          "nota": null,
-          "avaliacoes": null,
+          "precoMin": 210,
+          "precoMax": 230,
+          "nota": 4.5,
+          "avaliacoes": 4176,
           "pros": [
-            "[substituir por benefício real 1]",
-            "[substituir por benefício real 2]",
-            "[substituir por benefício real 3]"
+            "Design de 2 andares com gaveta deslizante aproveita bem o espaço vertical embaixo da pia",
+            "Estrutura resistente, aguenta peso sem entortar, segundo avaliações",
+            "Uso versátil: serve pra cozinha, banheiro e lavanderia"
           ],
-          "contra": "[substituir pelo contra real do produto escolhido]",
-          "paraQuem": "[substituir pela frase de fechamento]",
-          "linkAmazon": "#",
+          "contra": "É produto importado (Amazon Global): garrafa muito grande pode não caber direito na gaveta, e o prazo de devolução é de 7 dias, menor que o padrão de 30 dias da Amazon.",
+          "paraQuem": "Pra quem tem bastante produto de limpeza solto embaixo da pia e quer aproveitar melhor a altura do armário",
+          "linkAmazon": "https://www.amazon.com.br/dp/B0CBDF4SMK?tag=dicasinteli05-20",
           "linkMercadoLivre": "#"
         }
       ]
