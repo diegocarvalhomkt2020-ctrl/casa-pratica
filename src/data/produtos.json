@@ -1,5 +1,5 @@
 {
-  "_nota": "Despensa e Embaixo da pia já têm produtos reais pesquisados na Amazon. As demais 4 zonas ainda são dados de EXEMPLO, substituir mantendo o mesmo formato.",
+  "_nota": "Todas as 6 zonas têm produtos reais pesquisados na Amazon. Falta gerar as imagens (ver coluna Prompt_imagem_IA da planilha) e, quando possível, achar o link equivalente no Mercado Livre.",
   "zonas": [
     {
       "id": "despensa",
@@ -62,21 +62,22 @@
       "descricao": "Pote sem tampa, sobra esquecida no fundo, gaveta de verdura virando poça: é a zona que mais gera desperdício de comida quando fica desorganizada.",
       "produtos": [
         {
-          "id": "EXEMPLO-03",
-          "nome": "[substituir] Organizador de geladeira exemplo",
-          "selo": "Mais vendido",
+          "id": "AMZ-GEL-01",
+          "nome": "OU Organizador de Geladeira Cesto Triplo 5L",
+          "imagem": null,
+          "selo": "Mais avaliado",
           "precoMin": 50,
-          "precoMax": 90,
-          "nota": null,
-          "avaliacoes": null,
+          "precoMax": 56,
+          "nota": 4.6,
+          "avaliacoes": 6094,
           "pros": [
-            "[substituir por benefício real 1]",
-            "[substituir por benefício real 2]",
-            "[substituir por benefício real 3]"
+            "Transparente e com tampa que fecha bem, mantém frutas e verduras frescas por mais tempo",
+            "Altura resolve o problema de guardar alface e folhas sem amassar",
+            "Marca OU é referência em organização de geladeira no Brasil, com mais de 6 mil avaliações"
           ],
-          "contra": "[substituir pelo contra real do produto escolhido]",
-          "paraQuem": "[substituir pela frase de fechamento]",
-          "linkAmazon": "#",
+          "contra": "É plástico rígido: segundo compradores, quebra se cair. Não é hermético, só uma tampa de encaixe.",
+          "paraQuem": "Pra quem quer parar de perder fruta e verdura no fundo da geladeira",
+          "linkAmazon": "https://www.amazon.com.br/dp/B0CKLSLWHQ?tag=dicasinteli05-20",
           "linkMercadoLivre": "#"
         }
       ]
@@ -88,21 +89,22 @@
       "descricao": "Panela empilhada errado risca o fundo, e tampa solta nunca combina com a panela certa na hora que você precisa dela.",
       "produtos": [
         {
-          "id": "EXEMPLO-04",
-          "nome": "[substituir] Organizador de panelas exemplo",
-          "selo": "Recomendado",
-          "precoMin": 80,
-          "precoMax": 150,
-          "nota": null,
-          "avaliacoes": null,
+          "id": "AMZ-PAN-01",
+          "nome": "Arthi Suporte Organizador de Tampas Cromado 6 Divisórias",
+          "imagem": null,
+          "selo": "Mais vendido",
+          "precoMin": 32,
+          "precoMax": 42,
+          "nota": 4.8,
+          "avaliacoes": 2623,
           "pros": [
-            "[substituir por benefício real 1]",
-            "[substituir por benefício real 2]",
-            "[substituir por benefício real 3]"
+            "Organiza tampas e evita amontoado, deixando fácil achar a tampa certa",
+            "Material cromado resistente, aprovado até por quem comprou mais de uma unidade",
+            "Nota 4,8 com mais de 2,6 mil avaliações, selo Mais Vendido da própria Amazon"
           ],
-          "contra": "[substituir pelo contra real do produto escolhido]",
-          "paraQuem": "[substituir pela frase de fechamento]",
-          "linkAmazon": "#",
+          "contra": "Segundo avaliação real, encaixa mal tampas de vidro: funciona melhor com tampas de plástico/alumínio e frigideiras.",
+          "paraQuem": "Pra quem tem mais tampa solta do que tampa de vidro no armário",
+          "linkAmazon": "https://www.amazon.com.br/dp/B07FW37FJV?tag=dicasinteli05-20",
           "linkMercadoLivre": "#"
         }
       ]
@@ -114,21 +116,22 @@
       "descricao": "A gaveta que não fecha direito de tanta coisa solta: espátula, abridor, talher avulso. Resolve rápido, mas é a que mais fica pra depois.",
       "produtos": [
         {
-          "id": "EXEMPLO-05",
-          "nome": "[substituir] Divisor de gaveta exemplo",
+          "id": "AMZ-GAV-01",
+          "nome": "Arthi Divisor de Gavetas Extensível",
+          "imagem": null,
           "selo": "Melhor custo-benefício",
-          "precoMin": 30,
-          "precoMax": 60,
-          "nota": null,
-          "avaliacoes": null,
+          "precoMin": 40,
+          "precoMax": 43,
+          "nota": 4.8,
+          "avaliacoes": 1362,
           "pros": [
-            "[substituir por benefício real 1]",
-            "[substituir por benefício real 2]",
-            "[substituir por benefício real 3]"
+            "Se ajusta ao tamanho da gaveta (extensível), serve pra talheres e utensílios grandes como concha e escumadeira",
+            "Material grosso e durável, segundo quem já comprou",
+            "Nota 4,8 com mais de 1,3 mil avaliações"
           ],
-          "contra": "[substituir pelo contra real do produto escolhido]",
-          "paraQuem": "[substituir pela frase de fechamento]",
-          "linkAmazon": "#",
+          "contra": "Uma avaliação real relatou que a peça chegou com pequenas manchas: vale conferir o produto assim que receber.",
+          "paraQuem": "Pra quem quer parar de abrir a gaveta e ver tudo solto e embolado",
+          "linkAmazon": "https://www.amazon.com.br/dp/B09FBQ9R5R?tag=dicasinteli05-20",
           "linkMercadoLivre": "#"
         }
       ]
@@ -140,21 +143,22 @@
       "descricao": "Eletro parado e potinho de tempero solto roubam o espaço de trabalho todo dia: é a zona que mais aparece no dia a dia de quem cozinha.",
       "produtos": [
         {
-          "id": "EXEMPLO-06",
-          "nome": "[substituir] Suporte organizador de bancada exemplo",
-          "selo": "Mais compacto",
-          "precoMin": 40,
-          "precoMax": 80,
-          "nota": null,
-          "avaliacoes": null,
+          "id": "AMZ-BAN-01",
+          "nome": "SONGMICS Kit 4 Prateleiras Organizadoras para Bancada",
+          "imagem": null,
+          "selo": "Mais avaliado",
+          "precoMin": 120,
+          "precoMax": 130,
+          "nota": 4.5,
+          "avaliacoes": 4423,
           "pros": [
-            "[substituir por benefício real 1]",
-            "[substituir por benefício real 2]",
-            "[substituir por benefício real 3]"
+            "Estrutura robusta, aguenta peso melhor que organizador aramado, segundo comprador",
+            "Fácil de montar e bom acabamento, aprovado em avaliações",
+            "Quase 4,5 mil avaliações, marca internacional (SONGMICS) com histórico consistente"
           ],
-          "contra": "[substituir pelo contra real do produto escolhido]",
-          "paraQuem": "[substituir pela frase de fechamento]",
-          "linkAmazon": "#",
+          "contra": "Uma avaliação real apontou que o tamanho ficou um pouco menor do que esperava pelas fotos: confira as medidas exatas antes de comprar.",
+          "paraQuem": "Pra quem quer ganhar altura útil na bancada sem gastar com móvel novo",
+          "linkAmazon": "https://www.amazon.com.br/dp/B0CLNLTVQ3?tag=dicasinteli05-20",
           "linkMercadoLivre": "#"
         }
       ]
