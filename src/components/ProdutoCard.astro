@@ -2,7 +2,7 @@
 const { produto } = Astro.props;
 const {
   nome, selo, precoMin, precoMax, nota, avaliacoes,
-  pros, contra, paraQuem, linkAmazon, linkMercadoLivre
+  pros, contra, paraQuem, linkAmazon, linkMercadoLivre, imagem
 } = produto;
 
 const schema = nota && {
@@ -23,6 +23,7 @@ const schema = nota && {
 };
 ---
 <div class="card">
+  {imagem && <img class="foto" src={imagem} alt={nome} loading="lazy" />}
   {selo && <p class="selo">{selo}</p>}
   <h4>{nome}</h4>
 
@@ -63,6 +64,15 @@ const schema = nota && {
     padding: 1.1rem 1.25rem;
     margin-bottom: 1.25rem;
     background: var(--cor-superficie);
+  }
+  .foto {
+    display: block;
+    width: 100%;
+    max-height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 0 0 0.75rem;
+    background: var(--cor-fundo);
   }
   .selo {
     font-size: 0.75rem;
