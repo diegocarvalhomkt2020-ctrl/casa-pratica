@@ -165,23 +165,29 @@ const faqSchema = {
     .como-escolhemos p { margin: 0; font-size: 0.9rem; color: var(--cor-texto-suave); }
     .comparativo { margin: 1.5rem 0 2.5rem; }
     .tabela-wrap { overflow-x: auto; }
-    table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+    table { width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 0.85rem; }
     th, td {
       text-align: left;
-      padding: 0.6rem 0.75rem;
+      padding: 0.6rem 0.5rem;
       border-bottom: 1px solid var(--cor-borda);
-      white-space: nowrap;
+      white-space: normal;
+      overflow-wrap: break-word;
     }
-    th { color: var(--cor-texto-suave); font-weight: 600; font-size: 0.8rem; text-transform: uppercase; }
+    th { color: var(--cor-texto-suave); font-weight: 600; font-size: 0.75rem; text-transform: uppercase; }
+    th:nth-child(1), td:nth-child(1) { width: 32%; }
+    th:nth-child(2), td:nth-child(2) { width: 14%; }
+    th:nth-child(3), td:nth-child(3) { width: 18%; }
+    th:nth-child(4), td:nth-child(4) { width: 15%; }
+    th:nth-child(5), td:nth-child(5) { width: 21%; }
     .botao-tabela {
       display: inline-block;
       background: var(--cor-acento);
       color: #fff;
       text-decoration: none;
-      padding: 0.35rem 0.85rem;
+      padding: 0.3rem 0.55rem;
       border-radius: 999px;
-      font-size: 0.82rem;
-      white-space: nowrap;
+      font-size: 0.76rem;
+      white-space: normal;
     }
     .botao-tabela-secundario { background: var(--cor-texto-suave); }
 
