@@ -1,0 +1,57 @@
+{
+  "_nota": "Dados de EXEMPLO. Substitua por produtos reais pesquisados, mantendo o mesmo formato.",
+  "zonas": [
+    {
+      "id": "despensa",
+      "nome": "Despensa",
+      "tempoEstimado": "20 a 30 min",
+      "descricao": "Arroz, feijão e farinha em pacote aberto atraem inseto e perdem validade mais rápido. É a zona que mais gera arrependimento quando fica pra depois.",
+      "produtos": [
+        {
+          "id": "EXEMPLO-01",
+          "nome": "[substituir] Kit de potes herméticos exemplo",
+          "selo": "Melhor preço",
+          "precoMin": 60,
+          "precoMax": 100,
+          "nota": null,
+          "avaliacoes": null,
+          "pros": [
+            "[substituir por benefício real 1]",
+            "[substituir por benefício real 2]",
+            "[substituir por benefício real 3]"
+          ],
+          "contra": "[substituir pelo contra real do produto escolhido]",
+          "paraQuem": "[substituir pela frase de fechamento]",
+          "linkAmazon": "#",
+          "linkMercadoLivre": "#"
+        }
+      ]
+    },
+    {
+      "id": "embaixo-da-pia",
+      "nome": "Embaixo da pia",
+      "tempoEstimado": "10 a 15 min",
+      "descricao": "O espaço mais desperdiçado da cozinha. Detergente, esponja e sacos de lixo soltos viram bagunça em uma semana.",
+      "produtos": [
+        {
+          "id": "EXEMPLO-02",
+          "nome": "[substituir] Organizador expansível para embaixo da pia",
+          "selo": "Mais avaliado",
+          "precoMin": 70,
+          "precoMax": 140,
+          "nota": null,
+          "avaliacoes": null,
+          "pros": [
+            "[substituir por benefício real 1]",
+            "[substituir por benefício real 2]",
+            "[substituir por benefício real 3]"
+          ],
+          "contra": "[substituir pelo contra real do produto escolhido]",
+          "paraQuem": "[substituir pela frase de fechamento]",
+          "linkAmazon": "#",
+          "linkMercadoLivre": "#"
+        }
+      ]
+    }
+  ]
+}

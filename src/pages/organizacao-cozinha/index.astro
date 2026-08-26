@@ -1,0 +1,67 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import ProdutoCard from '../../components/ProdutoCard.astro';
+import dados from '../../data/produtos.json';
+
+const zonas = dados.zonas;
+---
+<Layout
+  title="Organização de cozinha, zona por zona"
+  description="Organize a cozinha por zona, com tempo e faixa de preço estimados pra cada uma."
+>
+  <p><a href="/">← Início</a></p>
+  <h1>Organização de cozinha, zona por zona</h1>
+  <p class="atualizado">Atualizado em agosto de 2026</p>
+
+  <p>
+    ⚠️ <strong>Esta página usa dados de EXEMPLO.</strong> Substitua os produtos
+    em <code>src/data/produtos.json</code> por itens reais antes de publicar.
+  </p>
+
+  <p>
+    Organizar a cozinha inteira leva algumas horas, divididas em zonas
+    pequenas. Não precisa fazer tudo no mesmo dia — comece pela zona que
+    mais incomoda.
+  </p>
+
+  <nav class="zonas-nav">
+    {zonas.map((zona) => (
+      <a href={`#${zona.id}`} class="pill">{zona.nome}</a>
+    ))}
+  </nav>
+
+  {zonas.map((zona) => (
+    <section id={zona.id} class="zona">
+      <h2>{zona.nome}</h2>
+      <p class="tempo">Tempo estimado: {zona.tempoEstimado}</p>
+      <p>{zona.descricao}</p>
+      {zona.produtos.map((produto) => <ProdutoCard produto={produto} />)}
+    </section>
+  ))}
+
+  <style>
+    .atualizado { color: var(--cor-texto-suave); font-size: 0.9rem; }
+    .zonas-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin: 1.5rem 0 2.5rem;
+    }
+    .pill {
+      border: 1px solid var(--cor-borda);
+      border-radius: 999px;
+      padding: 0.4rem 0.9rem;
+      font-size: 0.85rem;
+      text-decoration: none;
+      color: var(--cor-texto);
+    }
+    .zona { margin-bottom: 2.5rem; padding-top: 0.5rem; }
+    .tempo {
+      display: inline-block;
+      font-size: 0.82rem;
+      color: var(--cor-acento);
+      font-weight: 600;
+      margin: 0 0 0.75rem;
+    }
+  </style>
+</Layout>

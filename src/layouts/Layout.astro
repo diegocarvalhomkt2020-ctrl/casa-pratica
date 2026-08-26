@@ -1,0 +1,70 @@
+---
+const { title, description } = Astro.props;
+---
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title} | Casa Prática</title>
+    <meta name="description" content={description} />
+  </head>
+  <body>
+    <header class="topo">
+      <a href="/" class="marca">Casa Prática</a>
+      <nav>
+        <a href="/organizacao-cozinha/">Organização de cozinha</a>
+      </nav>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer class="rodape">
+      <p>
+        <strong>Aviso de transparência.</strong> Este site participa de programas
+        de afiliados e pode receber comissão pelas compras qualificadas feitas
+        através dos links, sem custo adicional para você.
+      </p>
+      <p>Preços citados são faixas de referência e mudam com o tempo.</p>
+    </footer>
+    <style is:global>
+      :root {
+        --cor-texto: #262521;
+        --cor-texto-suave: #6b6a63;
+        --cor-fundo: #fbfaf6;
+        --cor-superficie: #ffffff;
+        --cor-borda: #e4e1d6;
+        --cor-acento: #0f6e56;
+        --cor-vale-saber: #d85a30;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: -apple-system, "Segoe UI", Arial, sans-serif;
+        color: var(--cor-texto);
+        background: var(--cor-fundo);
+        line-height: 1.6;
+      }
+      h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; font-weight: 600; }
+      .topo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 1.5rem;
+        border-bottom: 1px solid var(--cor-borda);
+        background: var(--cor-superficie);
+      }
+      .marca { font-weight: 700; text-decoration: none; color: var(--cor-texto); font-family: Georgia, serif; }
+      .topo nav a { color: var(--cor-texto); text-decoration: none; margin-left: 1.5rem; }
+      main { max-width: 720px; margin: 0 auto; padding: 2rem 1.5rem; }
+      .rodape {
+        max-width: 720px;
+        margin: 3rem auto 0;
+        padding: 1.5rem;
+        border-top: 1px solid var(--cor-borda);
+        color: var(--cor-texto-suave);
+        font-size: 0.85rem;
+      }
+    </style>
+  </body>
+</html>

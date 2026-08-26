@@ -1,0 +1,80 @@
+---
+const { produto } = Astro.props;
+const {
+  nome, selo, precoMin, precoMax, nota, avaliacoes,
+  pros, contra, paraQuem, linkAmazon, linkMercadoLivre
+} = produto;
+---
+<div class="card">
+  {selo && <p class="selo">{selo}</p>}
+  <h4>{nome}</h4>
+
+  <p class="prova-social">
+    {nota
+      ? `★ ${nota} (${avaliacoes} avaliações)`
+      : "Ainda sem avaliações suficientes"}
+  </p>
+
+  <p class="preco">R$ {precoMin} a R$ {precoMax}</p>
+
+  <ul class="pros">
+    {pros.map((p) => <li>{p}</li>)}
+  </ul>
+
+  {contra && (
+    <p class="vale-saber"><strong>Vale saber:</strong> {contra}</p>
+  )}
+
+  {paraQuem && <p class="para-quem">{paraQuem}</p>}
+
+  <div class="acoes">
+    {linkAmazon && linkAmazon !== "#" && (
+      <a class="botao" href={linkAmazon} rel="sponsored nofollow">Ver preço na Amazon</a>
+    )}
+    {linkMercadoLivre && linkMercadoLivre !== "#" && (
+      <a class="botao botao-secundario" href={linkMercadoLivre} rel="sponsored nofollow">Ver no Mercado Livre</a>
+    )}
+  </div>
+</div>
+
+<style>
+  .card {
+    border: 1px solid var(--cor-borda);
+    border-radius: 10px;
+    padding: 1.1rem 1.25rem;
+    margin-bottom: 1.25rem;
+    background: var(--cor-superficie);
+  }
+  .selo {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: var(--cor-acento);
+    margin: 0 0 0.3rem;
+    font-weight: 600;
+  }
+  h4 { margin: 0 0 0.4rem; font-size: 1.05rem; }
+  .prova-social { margin: 0 0 0.4rem; font-size: 0.88rem; color: var(--cor-texto-suave); }
+  .preco { font-weight: 700; margin: 0 0 0.75rem; }
+  .pros { margin: 0 0 0.75rem; padding-left: 1.1rem; }
+  .pros li { margin-bottom: 0.25rem; }
+  .vale-saber {
+    border-left: 3px solid var(--cor-vale-saber);
+    padding: 0.1rem 0 0.1rem 0.75rem;
+    font-size: 0.88rem;
+    margin: 0 0 0.75rem;
+    color: var(--cor-texto);
+  }
+  .para-quem { font-style: italic; color: var(--cor-texto-suave); margin: 0 0 1rem; }
+  .acoes { display: flex; gap: 0.75rem; flex-wrap: wrap; }
+  .botao {
+    display: inline-block;
+    background: var(--cor-acento);
+    color: #fff;
+    text-decoration: none;
+    padding: 0.55rem 1.05rem;
+    border-radius: 999px;
+    font-size: 0.88rem;
+  }
+  .botao-secundario { background: var(--cor-texto-suave); }
+</style>
