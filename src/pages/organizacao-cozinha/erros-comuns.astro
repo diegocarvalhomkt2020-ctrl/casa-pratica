@@ -27,6 +27,16 @@ const erros = [
     texto: "É o erro que mais faz gente desistir no meio. Divida por zona (despensa, embaixo da pia, geladeira, armário de panelas, gaveta de utensílios, bancada) e resolva uma de cada vez — cada uma leva entre 10 e 35 minutos.",
   },
 ];
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Início", item: "https://casapratica.dicasinteligentes.com/" },
+    { "@type": "ListItem", position: 2, name: "Organização de cozinha", item: "https://casapratica.dicasinteligentes.com/organizacao-cozinha/" },
+    { "@type": "ListItem", position: 3, name: "Erros comuns", item: "https://casapratica.dicasinteligentes.com/organizacao-cozinha/erros-comuns/" },
+  ],
+};
 ---
 <Layout
   title="Erros comuns ao organizar a cozinha"
@@ -54,6 +64,8 @@ const erros = [
   <p class="cta-final">
     Já sabe onde não errar? <a href="/organizacao-cozinha/">Veja a lista completa por zona →</a>
   </p>
+
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
 
   <style>
     .atualizado { color: var(--cor-texto-suave); font-size: 0.9rem; }

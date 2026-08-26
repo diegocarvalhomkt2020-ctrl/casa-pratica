@@ -1,5 +1,6 @@
 ---
 const { title, description } = Astro.props;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 <!doctype html>
 <html lang="pt-BR">
@@ -8,6 +9,18 @@ const { title, description } = Astro.props;
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title} | Casa Prática</title>
     <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalURL} />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Casa Prática" />
+    <meta property="og:title" content={`${title} | Casa Prática`} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:locale" content="pt_BR" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={`${title} | Casa Prática`} />
+    <meta name="twitter:description" content={description} />
   </head>
   <body>
     <header class="topo">
