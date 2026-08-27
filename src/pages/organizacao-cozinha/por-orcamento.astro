@@ -1,0 +1,96 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import ProdutoCard from '../../components/ProdutoCard.astro';
+import dados from '../../data/produtos.json';
+
+const zonas = dados.zonas;
+const todosProdutos = zonas.flatMap((zona) =>
+  zona.produtos.map((produto) => ({ ...produto, zonaNome: zona.nome, zonaId: zona.id }))
+);
+
+const faixas = [
+  {
+    id: 'ate-50',
+    titulo: 'Até R$ 50',
+    texto: 'A faixa mais barata da lista. Resolve zonas pequenas e específicas, sem grande investimento.',
+    produtos: todosProdutos.filter((p) => p.precoMin < 50),
+  },
+  {
+    id: '50-a-150',
+    titulo: 'De R$ 50 a R$ 150',
+    texto: 'Faixa intermediária: produtos mais robustos ou com mais peças, pra zonas que exigem mais estrutura.',
+    produtos: todosProdutos.filter((p) => p.precoMin >= 50 && p.precoMin < 150),
+  },
+  {
+    id: 'acima-150',
+    titulo: 'Acima de R$ 150',
+    texto: 'O investimento mais alto da lista — geralmente por ser um produto maior, importado ou com mais peças.',
+    produtos: todosProdutos.filter((p) => p.precoMin >= 150),
+  },
+];
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Início", item: "https://casapratica.dicasinteligentes.com/" },
+    { "@type": "ListItem", position: 2, name: "Organização de cozinha", item: "https://casapratica.dicasinteligentes.com/organizacao-cozinha/" },
+    { "@type": "ListItem", position: 3, name: "Por orçamento", item: "https://casapratica.dicasinteligentes.com/organizacao-cozinha/por-orcamento/" },
+  ],
+};
+---
+<Layout
+  title="Organização de cozinha por orçamento"
+  description="Os produtos de organização de cozinha separados por faixa de preço, do mais barato ao mais caro, pra você decidir por onde começar de acordo com o que tem pra gastar."
+>
+  <p><a href="/organizacao-cozinha/">← Organização de cozinha, zona por zona</a></p>
+  <h1>Organização de cozinha por orçamento</h1>
+  <p class="atualizado">Atualizado em agosto de 2026</p>
+
+  <p>
+    Nem sempre dá pra organizar a cozinha inteira de uma vez. Aqui os mesmos
+    produtos do guia principal estão separados por faixa de preço, pra você
+    decidir por onde começar de acordo com o que tem disponível pra gastar
+    agora.
+  </p>
+
+  {faixas.map((faixa) => (
+    <section id={faixa.id} class="faixa">
+      <h2>{faixa.titulo}</h2>
+      <p>{faixa.texto}</p>
+      {faixa.produtos.map((produto) => (
+        <div class="produto-com-zona">
+          <p class="zona-tag">{produto.zonaNome}</p>
+          <ProdutoCard produto={produto} />
+        </div>
+      ))}
+    </section>
+  ))}
+
+  <p class="cta-final">
+    Quer ver zona por zona, com tempo estimado pra cada uma?
+    <a href="/organizacao-cozinha/">Volte pro guia completo →</a>
+  </p>
+
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+
+  <style>
+    .atualizado { color: var(--cor-texto-suave); font-size: 0.9rem; }
+    .faixa { margin-bottom: 2.5rem; padding-top: 0.5rem; }
+    .produto-com-zona { margin-bottom: 0.5rem; }
+    .zona-tag {
+      display: inline-block;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      color: var(--cor-texto-suave);
+      margin: 0 0 0.35rem;
+    }
+    .cta-final {
+      margin-top: 2rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--cor-borda);
+      font-weight: 600;
+    }
+  </style>
+</Layout>

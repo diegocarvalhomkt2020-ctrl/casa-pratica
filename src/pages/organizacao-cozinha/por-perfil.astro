@@ -1,0 +1,91 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import ProdutoCard from '../../components/ProdutoCard.astro';
+import dados from '../../data/produtos.json';
+
+const zonas = dados.zonas;
+function zonaPorId(id) {
+  return zonas.find((z) => z.id === id);
+}
+
+const perfis = [
+  {
+    id: 'mora-sozinho',
+    titulo: 'Mora sozinho(a) ou casal sem filhos',
+    texto: 'Cozinha pequena, uso concentrado no dia a dia. O que mais compensa aqui é o que você mexe todo dia, não o que fica guardado.',
+    zonaIds: ['bancada', 'gaveta-utensilios'],
+  },
+  {
+    id: 'familia-grande',
+    titulo: 'Família grande ou casa cheia',
+    texto: 'Mais gente cozinhando, comprando e guardando comida. As zonas que mais geram desperdício de comida (e brigam por espaço) fazem mais diferença aqui.',
+    zonaIds: ['despensa', 'geladeira'],
+  },
+  {
+    id: 'apartamento-pequeno',
+    titulo: 'Apartamento pequeno',
+    texto: 'Pouco espaço de armário sobrando. Aproveitar melhor o que já existe (embaixo da pia, dentro do armário de panelas) rende mais do que comprar móvel novo.',
+    zonaIds: ['embaixo-da-pia', 'armario-panelas'],
+  },
+];
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Início", item: "https://casapratica.dicasinteligentes.com/" },
+    { "@type": "ListItem", position: 2, name: "Organização de cozinha", item: "https://casapratica.dicasinteligentes.com/organizacao-cozinha/" },
+    { "@type": "ListItem", position: 3, name: "Por perfil", item: "https://casapratica.dicasinteligentes.com/organizacao-cozinha/por-perfil/" },
+  ],
+};
+---
+<Layout
+  title="Organização de cozinha por perfil"
+  description="Por onde começar a organizar a cozinha de acordo com o seu perfil: mora sozinho, família grande ou apartamento pequeno."
+>
+  <p><a href="/organizacao-cozinha/">← Organização de cozinha, zona por zona</a></p>
+  <h1>Organização de cozinha por perfil</h1>
+  <p class="atualizado">Atualizado em agosto de 2026</p>
+
+  <p>
+    Nem toda zona pesa igual pra todo mundo. Aqui vai uma sugestão de por
+    onde começar de acordo com o seu perfil de casa — as outras zonas
+    continuam valendo, essas só tendem a fazer mais diferença primeiro.
+  </p>
+
+  {perfis.map((perfil) => (
+    <section id={perfil.id} class="perfil">
+      <h2>{perfil.titulo}</h2>
+      <p>{perfil.texto}</p>
+      {perfil.zonaIds.map((zid) => {
+        const zona = zonaPorId(zid);
+        return (
+          <div class="zona-do-perfil">
+            <h3>{zona.nome}</h3>
+            {zona.produtos.map((produto) => <ProdutoCard produto={produto} />)}
+          </div>
+        );
+      })}
+    </section>
+  ))}
+
+  <p class="cta-final">
+    Quer ver todas as zonas, não só as recomendadas pro seu perfil?
+    <a href="/organizacao-cozinha/">Volte pro guia completo →</a>
+  </p>
+
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+
+  <style>
+    .atualizado { color: var(--cor-texto-suave); font-size: 0.9rem; }
+    .perfil { margin-bottom: 2.5rem; padding-top: 0.5rem; }
+    .zona-do-perfil { margin-top: 1.25rem; }
+    .zona-do-perfil h3 { font-size: 1rem; margin: 0 0 0.5rem; color: var(--cor-acento); }
+    .cta-final {
+      margin-top: 2rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--cor-borda);
+      font-weight: 600;
+    }
+  </style>
+</Layout>
