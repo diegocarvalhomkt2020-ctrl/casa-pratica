@@ -1,0 +1,129 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import dados from '../../data/produtos.json';
+
+const zonas = dados.zonas;
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Início", item: "https://casapratica.dicasinteligentes.com/" },
+    { "@type": "ListItem", position: 2, name: "Organização de cozinha", item: "https://casapratica.dicasinteligentes.com/organizacao-cozinha/" },
+    { "@type": "ListItem", position: 3, name: "Comparativo Top 3", item: "https://casapratica.dicasinteligentes.com/organizacao-cozinha/comparativo-top3/" },
+  ],
+};
+---
+<Layout
+  title="Comparativo Top 3 por zona"
+  description="Os 3 melhores produtos pesquisados pra cada zona da cozinha, lado a lado, pra você comparar antes de decidir."
+>
+  <p><a href="/organizacao-cozinha/">← Organização de cozinha, zona por zona</a></p>
+  <h1>Comparativo Top 3 por zona</h1>
+  <p class="atualizado">Atualizado em agosto de 2026</p>
+
+  <p>
+    Pra cada zona, os 3 produtos que pesquisamos lado a lado — preço, nota,
+    principal ponto forte e o contra que mais pesa na decisão. Pensado pra
+    quem já sabe qual zona quer resolver e só precisa escolher entre as
+    opções.
+  </p>
+
+  {zonas.map((zona) => (
+    <section id={zona.id} class="zona-comparativo">
+      <h2>{zona.nome}</h2>
+      <div class="tabela-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th></th>
+              {zona.produtos.map((p) => <th>{p.selo}</th>)}
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-label="">Produto</td>
+              {zona.produtos.map((p) => <td data-label="Produto"><strong>{p.nome}</strong></td>)}
+            </tr>
+            <tr>
+              <td data-label="">Preço</td>
+              {zona.produtos.map((p) => <td data-label="Preço">R$ {p.precoMin} a R$ {p.precoMax}</td>)}
+            </tr>
+            <tr>
+              <td data-label="">Nota</td>
+              {zona.produtos.map((p) => <td data-label="Nota">★ {p.nota} ({p.avaliacoes} avaliações)</td>)}
+            </tr>
+            <tr>
+              <td data-label="">Maior ponto forte</td>
+              {zona.produtos.map((p) => <td data-label="Maior ponto forte">{p.pros[0]}</td>)}
+            </tr>
+            <tr>
+              <td data-label="">Vale saber</td>
+              {zona.produtos.map((p) => <td data-label="Vale saber" class="linha-contra">{p.contra}</td>)}
+            </tr>
+            <tr>
+              <td data-label=""></td>
+              {zona.produtos.map((p) => (
+                <td data-label="">
+                  {p.linkAmazon && p.linkAmazon !== "#" && (
+                    <a class="botao-tabela" href={p.linkAmazon} rel="sponsored nofollow">Ver preço</a>
+                  )}
+                </td>
+              ))}
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  ))}
+
+  <p class="cta-final">
+    Quer ver a descrição completa de cada zona, com tempo estimado?
+    <a href="/organizacao-cozinha/">Volte pro guia completo →</a>
+  </p>
+
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+
+  <style>
+    .atualizado { color: var(--cor-texto-suave); font-size: 0.9rem; }
+    .zona-comparativo { margin-bottom: 3rem; padding-top: 0.5rem; }
+    .tabela-wrap { overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.85rem; min-width: 560px; }
+    th, td {
+      text-align: left;
+      padding: 0.65rem 0.6rem;
+      border-bottom: 1px solid var(--cor-borda);
+      vertical-align: top;
+    }
+    th {
+      color: var(--cor-acento);
+      font-weight: 700;
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+    tbody td:first-child {
+      font-weight: 600;
+      color: var(--cor-texto-suave);
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+    .linha-contra { color: var(--cor-vale-saber); font-size: 0.82rem; }
+    .botao-tabela {
+      display: inline-block;
+      background: var(--cor-acento);
+      color: #fff;
+      text-decoration: none;
+      padding: 0.35rem 0.7rem;
+      border-radius: 999px;
+      font-size: 0.78rem;
+    }
+    .cta-final {
+      margin-top: 2rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--cor-borda);
+      font-weight: 600;
+    }
+  </style>
+</Layout>
