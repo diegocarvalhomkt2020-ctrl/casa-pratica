@@ -1,0 +1,106 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Início", item: "https://casapratica.dicasinteligentes.com/" },
+    { "@type": "ListItem", position: 2, name: "Política de Privacidade", item: "https://casapratica.dicasinteligentes.com/privacidade/" },
+  ],
+};
+---
+<Layout
+  title="Política de Privacidade"
+  description="Como o Casa Prática coleta, usa e protege os dados de quem visita o site."
+>
+  <p><a href="/">← Início</a></p>
+  <h1>Política de Privacidade</h1>
+  <p class="atualizado">Atualizado em agosto de 2026</p>
+
+  <section class="bloco">
+    <h2>Quem somos</h2>
+    <p>
+      O Casa Prática (casapratica.dicasinteligentes.com) é um site de
+      comparativos e listas de produtos de organização de casa. Esta página
+      explica quais dados coletamos de quem visita o site e como esses
+      dados são usados.
+    </p>
+  </section>
+
+  <section class="bloco">
+    <h2>Quais dados coletamos</h2>
+    <p>
+      Usamos o Google Analytics para entender como as pessoas usam o site:
+      quais páginas são mais visitadas, de onde vem o acesso (ex: busca do
+      Google, Pinterest) e informações técnicas básicas do navegador e
+      dispositivo. Esses dados são agregados e não identificam você
+      pessoalmente.
+    </p>
+    <p>
+      O Google Analytics usa cookies para esse fim. Você pode bloquear
+      cookies nas configurações do seu navegador a qualquer momento, sem
+      perder acesso ao conteúdo do site.
+    </p>
+  </section>
+
+  <section class="bloco">
+    <h2>Links de afiliado</h2>
+    <p>
+      Este site participa de programas de afiliados (como a Amazon
+      Associados). Isso significa que, ao clicar em um link de produto e
+      fazer uma compra, o site pode receber uma pequena comissão, sem
+      nenhum custo adicional para você. Não temos acesso a dados da sua
+      compra além de sabermos que uma venda foi originada por um clique no
+      nosso link.
+    </p>
+  </section>
+
+  <section class="bloco">
+    <h2>Compartilhamento de dados</h2>
+    <p>
+      Não vendemos nem compartilhamos seus dados pessoais com terceiros
+      para fins de marketing. Os únicos dados tratados por serviços de
+      terceiros são os do Google Analytics (Google LLC) e, quando você
+      clica em um link de produto, os dados normais de navegação tratados
+      pela própria Amazon.
+    </p>
+  </section>
+
+  <section class="bloco">
+    <h2>Seus direitos</h2>
+    <p>
+      De acordo com a LGPD (Lei Geral de Proteção de Dados), você pode
+      solicitar informações sobre quais dados temos sobre você, pedir
+      correção ou exclusão, e retirar consentimento a qualquer momento.
+      Como não coletamos dados de cadastro (não há login ou formulário
+      neste site), a forma mais direta de exercer esses direitos é
+      desativando cookies de análise no seu navegador.
+    </p>
+  </section>
+
+  <section class="bloco">
+    <h2>Contato</h2>
+    <p>
+      Dúvidas sobre esta política podem ser enviadas para
+      <a href="mailto:suporte@dicasinteligentes.com">suporte@dicasinteligentes.com</a>.
+    </p>
+  </section>
+
+  <section class="bloco">
+    <h2>Mudanças nesta política</h2>
+    <p>
+      Esta política pode ser atualizada conforme o site evolui. A data no
+      topo desta página sempre indica a última revisão.
+    </p>
+  </section>
+
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+
+  <style>
+    .atualizado { color: var(--cor-texto-suave); font-size: 0.9rem; }
+    .bloco { margin: 2rem 0; }
+    .bloco h2 { font-size: 1.1rem; margin: 0 0 0.6rem; }
+    .bloco p { margin: 0 0 0.75rem; color: var(--cor-texto-suave); }
+  </style>
+</Layout>
