@@ -10,7 +10,7 @@
         {
           "id": "AMZ-DESP-01",
           "nome": "Kit 10 Potes de Vidro Herméticos 640ml com 4 Travas",
-          "imagem": null,
+          "imagem": "/images/produtos/desp-01.png",
           "selo": "Mais vendido",
           "precoMin": 90,
           "precoMax": 110,
@@ -29,7 +29,7 @@
         {
           "id": "AMZ-DESP-02",
           "nome": "Kit 10 Potes Herméticos com Etiquetas e Caneta",
-          "imagem": null,
+          "imagem": "/images/produtos/desp-02.png",
           "selo": "Mais avaliado",
           "precoMin": 95,
           "precoMax": 105,
@@ -48,7 +48,7 @@
         {
           "id": "AMZ-DESP-03",
           "nome": "Kit 6 Potes de Vidro Borossilicato 640ml",
-          "imagem": null,
+          "imagem": "/images/produtos/desp-03.png",
           "selo": "Mais barato",
           "precoMin": 55,
           "precoMax": 65,
