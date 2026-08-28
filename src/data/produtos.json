@@ -75,7 +75,7 @@
         {
           "id": "AMZ-PIA-01",
           "nome": "Sevenblue Organizador 2 Andares com Gavetas Deslizantes",
-          "imagem": null,
+          "imagem": "/images/produtos/pia-01.png",
           "selo": "Mais avaliado",
           "precoMin": 210,
           "precoMax": 230,
@@ -94,7 +94,7 @@
         {
           "id": "AMZ-PIA-02",
           "nome": "Tramontina Plurale Organizador de Pia",
-          "imagem": null,
+          "imagem": "/images/produtos/pia-02.png",
           "selo": "Mais elegante",
           "precoMin": 74,
           "precoMax": 90,
@@ -113,7 +113,7 @@
         {
           "id": "AMZ-PIA-03",
           "nome": "OU Organizador de Pia Duplo",
-          "imagem": null,
+          "imagem": "/images/produtos/pia-03.png",
           "selo": "Mais barato",
           "precoMin": 20,
           "precoMax": 25,
@@ -140,7 +140,7 @@
         {
           "id": "AMZ-GEL-01",
           "nome": "OU Organizador de Geladeira Cesto Triplo 5L",
-          "imagem": null,
+          "imagem": "/images/produtos/gel-01.png",
           "selo": "Mais avaliado",
           "precoMin": 50,
           "precoMax": 56,
@@ -159,7 +159,7 @@
         {
           "id": "AMZ-GEL-02",
           "nome": "OU OF450NT Organizador com Escorredor Interno 2,2L",
-          "imagem": null,
+          "imagem": "/images/produtos/gel-02.png",
           "selo": "Mais barato",
           "precoMin": 22,
           "precoMax": 30,
@@ -178,7 +178,7 @@
         {
           "id": "AMZ-GEL-03",
           "nome": "House Organizer Kit 4 Organizadores 2,2L",
-          "imagem": null,
+          "imagem": "/images/produtos/gel-03.png",
           "selo": "Kit completo",
           "precoMin": 90,
           "precoMax": 100,
@@ -205,7 +205,7 @@
         {
           "id": "AMZ-PAN-01",
           "nome": "Arthi Suporte Organizador de Tampas Cromado 6 Divisórias",
-          "imagem": null,
+          "imagem": "/images/produtos/pan-01.png",
           "selo": "Mais vendido",
           "precoMin": 32,
           "precoMax": 42,
@@ -224,7 +224,7 @@
         {
           "id": "AMZ-PAN-02",
           "nome": "Arthi Organizador para Refratários",
-          "imagem": null,
+          "imagem": "/images/produtos/pan-02.png",
           "selo": "Nº 1 mais avaliado",
           "precoMin": 27,
           "precoMax": 30,
@@ -243,7 +243,7 @@
         {
           "id": "AMZ-PAN-03",
           "nome": "Future Organizador Prateleira Aramada 44cm",
-          "imagem": null,
+          "imagem": "/images/produtos/pan-03.png",
           "selo": "Melhor nota",
           "precoMin": 75,
           "precoMax": 85,
@@ -270,7 +270,7 @@
         {
           "id": "AMZ-GAV-01",
           "nome": "Arthi Divisor de Gavetas Extensível",
-          "imagem": null,
+          "imagem": "/images/produtos/gav-01.png",
           "selo": "Melhor custo-benefício",
           "precoMin": 40,
           "precoMax": 43,
@@ -289,7 +289,7 @@
         {
           "id": "AMZ-GAV-02",
           "nome": "Organizador de Talheres 5 Divisórias",
-          "imagem": null,
+          "imagem": "/images/produtos/gav-02.png",
           "selo": "Mais barato",
           "precoMin": 18,
           "precoMax": 25,
@@ -308,7 +308,7 @@
         {
           "id": "AMZ-GAV-03",
           "nome": "Porta Talheres Ajustável 8 Divisórias",
-          "imagem": null,
+          "imagem": "/images/produtos/gav-03.png",
           "selo": "Mais espaçoso",
           "precoMin": 65,
           "precoMax": 80,
@@ -335,7 +335,7 @@
         {
           "id": "AMZ-BAN-01",
           "nome": "SONGMICS Kit 4 Prateleiras Organizadoras para Bancada",
-          "imagem": null,
+          "imagem": "/images/produtos/ban-01.png",
           "selo": "Mais robusto",
           "precoMin": 120,
           "precoMax": 130,
@@ -354,7 +354,7 @@
         {
           "id": "AMZ-BAN-02",
           "nome": "Porta Tempero Giratório Inox 12 Potes",
-          "imagem": null,
+          "imagem": "/images/produtos/ban-02.png",
           "selo": "Melhor nota",
           "precoMin": 55,
           "precoMax": 62,
@@ -373,7 +373,7 @@
         {
           "id": "AMZ-BAN-03",
           "nome": "SWOMMOLY Organizador de Temperos com 24 Potes",
-          "imagem": null,
+          "imagem": "/images/produtos/ban-03.png",
           "selo": "Mais avaliado",
           "precoMin": 220,
           "precoMax": 230,
