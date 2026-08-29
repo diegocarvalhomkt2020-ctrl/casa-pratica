@@ -194,7 +194,7 @@ const faqSchema = {
       padding: 0.3rem 0.55rem;
       border-radius: 999px;
       font-size: 0.76rem;
-      white-space: normal;
+      white-space: nowrap;
     }
     .botao-tabela-secundario { background: var(--cor-texto-suave); }
 
@@ -213,6 +213,7 @@ const faqSchema = {
         padding: 0.35rem 0;
         white-space: normal;
       }
+      td[data-label="Preço"] { white-space: nowrap; }
       td[data-label]:not([data-label=""])::before {
         content: attr(data-label);
         display: block;
