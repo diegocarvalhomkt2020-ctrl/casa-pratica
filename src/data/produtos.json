@@ -1,5 +1,5 @@
 {
-  "_nota": "Todas as 6 zonas têm 3 produtos reais pesquisados na Amazon cada. Falta gerar as imagens (ver coluna Prompt_imagem_IA da planilha) e, quando possível, achar o link equivalente no Mercado Livre.",
+  "_nota": "Todas as 6 zonas têm 3 produtos reais pesquisados na Amazon cada, com foto e link de afiliado. Apenas Amazon — sem Mercado Livre.",
   "zonas": [
     {
       "id": "despensa",
@@ -23,8 +23,7 @@
           ],
           "contra": "É de vidro, então pesa mais que um kit de plástico e quebra se cair. Não vem com etiquetas pra identificar o conteúdo.",
           "paraQuem": "Pra quem quer durabilidade e não se importa com o peso extra do vidro",
-          "linkAmazon": "https://www.amazon.com.br/dp/B0GSH6DCCJ?tag=dicasinteli05-20",
-          "linkMercadoLivre": "#"
+          "linkAmazon": "https://www.amazon.com.br/dp/B0GSH6DCCJ?tag=dicasinteli05-20"
         },
         {
           "id": "AMZ-DESP-02",
@@ -42,8 +41,7 @@
           ],
           "contra": "É um pouco alto: pode não caber em prateleiras baixas, vale medir antes. Algumas tampas não encaixam fácil de primeira, segundo avaliação real.",
           "paraQuem": "Pra quem quer rotular tudo e não se importa com o pote não ser de vidro",
-          "linkAmazon": "https://www.amazon.com.br/dp/B0DFY753G9?tag=dicasinteli05-20",
-          "linkMercadoLivre": "#"
+          "linkAmazon": "https://www.amazon.com.br/dp/B0DFY753G9?tag=dicasinteli05-20"
         },
         {
           "id": "AMZ-DESP-03",
@@ -61,8 +59,7 @@
           ],
           "contra": "Só vem em 1 tamanho (640ml) e apenas 6 unidades: os outros kits da lista trazem mais peças e tamanhos variados.",
           "paraQuem": "Pra quem só precisa de um tamanho de pote e quer o menor investimento em vidro",
-          "linkAmazon": "https://www.amazon.com.br/dp/B0H8W6FLR2?tag=dicasinteli05-20",
-          "linkMercadoLivre": "#"
+          "linkAmazon": "https://www.amazon.com.br/dp/B0H8W6FLR2?tag=dicasinteli05-20"
         }
       ]
     },
@@ -88,8 +85,7 @@
           ],
           "contra": "É produto importado (Amazon Global): garrafa muito grande pode não caber direito na gaveta, e o prazo de devolução é de 7 dias, menor que o padrão de 30 dias da Amazon.",
           "paraQuem": "Pra quem tem bastante produto de limpeza solto embaixo da pia e quer aproveitar melhor a altura do armário",
-          "linkAmazon": "https://www.amazon.com.br/dp/B0CBDF4SMK?tag=dicasinteli05-20",
-          "linkMercadoLivre": "#"
+          "linkAmazon": "https://www.amazon.com.br/dp/B0CBDF4SMK?tag=dicasinteli05-20"
         },
         {
           "id": "AMZ-PIA-02",
@@ -107,8 +103,7 @@
           ],
           "contra": "A bandeja de recolher água é difícil de remover pra limpar, segundo avaliação real, e o acabamento poderia ser melhor pro preço, na opinião de quem comprou.",
           "paraQuem": "Pra quem prioriza marca confiável e visual bonito perto da pia",
-          "linkAmazon": "https://www.amazon.com.br/dp/B0DGRBZMZV?tag=dicasinteli05-20",
-          "linkMercadoLivre": "#"
+          "linkAmazon": "https://www.amazon.com.br/dp/B0DGRBZMZV?tag=dicasinteli05-20"
         },
         {
           "id": "AMZ-PIA-03",
@@ -126,8 +121,7 @@
           ],
           "contra": "Não vem com furinhos de escoamento de água: a água da esponja molhada fica empoçada em vez de escorrer, segundo mais de uma avaliação.",
           "paraQuem": "Pra quem só precisa organizar detergente e esponja perto da pia, sem gastar muito",
-          "linkAmazon": "https://www.amazon.com.br/dp/B07KRKG67G?tag=dicasinteli05-20",
-          "linkMercadoLivre": "#"
+          "linkAmazon": "https://www.amazon.com.br/dp/B07KRKG67G?tag=dicasinteli05-20"
         }
       ]
     },
@@ -153,8 +147,7 @@
           ],
           "contra": "É plástico rígido: segundo compradores, quebra se cair. Não é hermético, só uma tampa de encaixe.",
           "paraQuem": "Pra quem quer parar de perder fruta e verdura no fundo da geladeira",
-          "linkAmazon": "https://www.amazon.com.br/dp/B0CKLSLWHQ?tag=dicasinteli05-20",
-          "linkMercadoLivre": "#"
+          "linkAmazon": "https://www.amazon.com.br/dp/B0CKLSLWHQ?tag=dicasinteli05-20"
         },
         {
           "id": "AMZ-GEL-02",
@@ -172,8 +165,7 @@
           ],
           "contra": "O plástico externo é frágil, segundo avaliação real — trate com cuidado ao lavar e guardar.",
           "paraQuem": "Pra quem quer testar organização de geladeira gastando pouco",
-          "linkAmazon": "https://www.amazon.com.br/dp/B09JYYJ6Q3?tag=dicasinteli05-20",
-          "linkMercadoLivre": "#"
+          "linkAmazon": "https://www.amazon.com.br/dp/B09JYYJ6Q3?tag=dicasinteli05-20"
         },
         {
           "id": "AMZ-GEL-03",
@@ -191,8 +183,7 @@
           ],
           "contra": "Alguns compradores relatam que os potes são menores do que esperavam pelas fotos — atende a necessidade, mas vale calibrar a expectativa de tamanho.",
           "paraQuem": "Pra quem quer resolver várias gavetas da geladeira de uma vez só",
-          "linkAmazon": "https://www.amazon.com.br/dp/B0BLZR6JFJ?tag=dicasinteli05-20",
-          "linkMercadoLivre": "#"
+          "linkAmazon": "https://www.amazon.com.br/dp/B0BLZR6JFJ?tag=dicasinteli05-20"
         }
       ]
     },
@@ -218,8 +209,7 @@
           ],
           "contra": "Segundo avaliação real, encaixa mal tampas de vidro: funciona melhor com tampas de plástico/alumínio e frigideiras.",
           "paraQuem": "Pra quem tem mais tampa solta do que tampa de vidro no armário",
-          "linkAmazon": "https://www.amazon.com.br/dp/B07FW37FJV?tag=dicasinteli05-20",
-          "linkMercadoLivre": "#"
+          "linkAmazon": "https://www.amazon.com.br/dp/B07FW37FJV?tag=dicasinteli05-20"
         },
         {
           "id": "AMZ-PAN-02",
@@ -237,8 +227,7 @@
           ],
           "contra": "Alguns compradores usam mais como escorredor de travessas grandes do que organizador fixo — funciona bem pros dois usos, mas não é feito só pra um deles.",
           "paraQuem": "Pra quem tem travessa e tampa grande que não cabe em lugar nenhum",
-          "linkAmazon": "https://www.amazon.com.br/dp/B07FWNVH4T?tag=dicasinteli05-20",
-          "linkMercadoLivre": "#"
+          "linkAmazon": "https://www.amazon.com.br/dp/B07FWNVH4T?tag=dicasinteli05-20"
         },
         {
           "id": "AMZ-PAN-03",
@@ -256,8 +245,7 @@
           ],
           "contra": "É uma prateleira plana elevada: funciona melhor pra pratos e copos do que pra panela em si, que geralmente é grande e pesada demais pra ficar em cima dela.",
           "paraQuem": "Pra quem quer aproveitar melhor o armário como um todo, não só o espaço de panela",
-          "linkAmazon": "https://www.amazon.com.br/dp/B076LH75HY?tag=dicasinteli05-20",
-          "linkMercadoLivre": "#"
+          "linkAmazon": "https://www.amazon.com.br/dp/B076LH75HY?tag=dicasinteli05-20"
         }
       ]
     },
@@ -283,8 +271,7 @@
           ],
           "contra": "Uma avaliação real relatou que a peça chegou com pequenas manchas: vale conferir o produto assim que receber.",
           "paraQuem": "Pra quem quer parar de abrir a gaveta e ver tudo solto e embolado",
-          "linkAmazon": "https://www.amazon.com.br/dp/B09FBQ9R5R?tag=dicasinteli05-20",
-          "linkMercadoLivre": "#"
+          "linkAmazon": "https://www.amazon.com.br/dp/B09FBQ9R5R?tag=dicasinteli05-20"
         },
         {
           "id": "AMZ-GAV-02",
@@ -302,8 +289,7 @@
           ],
           "contra": "Não é extensível: tem pouco espaço pra muitos talheres, e é curto demais pra faca grande, segundo avaliação real.",
           "paraQuem": "Pra quem tem gaveta pequena e poucos talheres pra organizar",
-          "linkAmazon": "https://www.amazon.com.br/dp/B0DY826QH4?tag=dicasinteli05-20",
-          "linkMercadoLivre": "#"
+          "linkAmazon": "https://www.amazon.com.br/dp/B0DY826QH4?tag=dicasinteli05-20"
         },
         {
           "id": "AMZ-GAV-03",
@@ -321,8 +307,7 @@
           ],
           "contra": "Pelo menos um comprador recebeu com uma trava quebrada (não impede o uso, mas vale conferir ao receber). Meça a gaveta antes de comprar.",
           "paraQuem": "Pra quem tem gaveta grande e quer dividir bem o espaço",
-          "linkAmazon": "https://www.amazon.com.br/dp/B0DR7GY2Z2?tag=dicasinteli05-20",
-          "linkMercadoLivre": "#"
+          "linkAmazon": "https://www.amazon.com.br/dp/B0DR7GY2Z2?tag=dicasinteli05-20"
         }
       ]
     },
@@ -348,8 +333,7 @@
           ],
           "contra": "Uma avaliação real apontou que o tamanho ficou um pouco menor do que esperava pelas fotos: confira as medidas exatas antes de comprar.",
           "paraQuem": "Pra quem quer ganhar altura útil na bancada sem gastar com móvel novo",
-          "linkAmazon": "https://www.amazon.com.br/dp/B0CLNLTVQ3?tag=dicasinteli05-20",
-          "linkMercadoLivre": "#"
+          "linkAmazon": "https://www.amazon.com.br/dp/B0CLNLTVQ3?tag=dicasinteli05-20"
         },
         {
           "id": "AMZ-BAN-02",
@@ -367,8 +351,7 @@
           ],
           "contra": "Segundo relato real, os potes podem cair e quebrar se o suporte for inclinado antes de estarem cheios e encaixados. Cuidado ao desembalar.",
           "paraQuem": "Pra quem tem muito tempero solto e quer tudo rotulado e à mão",
-          "linkAmazon": "https://www.amazon.com.br/dp/B0C4LYBBPH?tag=dicasinteli05-20",
-          "linkMercadoLivre": "#"
+          "linkAmazon": "https://www.amazon.com.br/dp/B0C4LYBBPH?tag=dicasinteli05-20"
         },
         {
           "id": "AMZ-BAN-03",
@@ -386,8 +369,7 @@
           ],
           "contra": "É produto importado (Amazon Global) e, até a última checagem, sem nenhuma avaliação de comprador brasileiro no anúncio — considere o prazo de entrega mais longo.",
           "paraQuem": "Pra quem tem muito tempero e quer resolver tudo de uma vez, com etiqueta e organização completa",
-          "linkAmazon": "https://www.amazon.com.br/dp/B08CXX442P?tag=dicasinteli05-20",
-          "linkMercadoLivre": "#"
+          "linkAmazon": "https://www.amazon.com.br/dp/B08CXX442P?tag=dicasinteli05-20"
         }
       ]
     }

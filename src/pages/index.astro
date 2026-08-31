@@ -1,9 +1,28 @@
 ---
 import Layout from '../layouts/Layout.astro';
+
+const site = "https://casapratica.dicasinteligentes.com";
+
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "Casa Prática",
+  url: `${site}/`,
+  inLanguage: "pt-BR",
+  description: "Listas e comparativos honestos de produtos pra organizar a casa sem gastar à toa.",
+};
+
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Casa Prática",
+  url: `${site}/`,
+  description: "Site de listas e comparativos de produtos de organização de casa, da rede Dicas Inteligentes.",
+};
 ---
 <Layout
-  title="Início"
-  description="Listas e comparativos honestos pra organizar sua casa sem gastar à toa."
+  title="Organize a casa sem gastar à toa"
+  description="Listas e comparativos honestos de produtos pra organizar a cozinha por zona: por orçamento, por perfil e comparativo Top 3, tudo com contra declarado."
 >
   <h1>Organize sua casa sem gastar à toa.</h1>
   <p>
@@ -54,6 +73,9 @@ import Layout from '../layouts/Layout.astro';
       comparativos de produtos pra gato e cachorro.
     </p>
   </section>
+
+  <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(organizationSchema)} />
 
   <style>
     .como-funciona {

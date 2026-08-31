@@ -1,6 +1,9 @@
 ---
-const { title, description } = Astro.props;
+const { title, description, image } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+// Imagem social padrão: foto de produto provisória. Trocar por uma imagem
+// de marca 1200x630 quando existir (ex: /images/og-casa-pratica.png).
+const ogImage = new URL(image ?? "/images/produtos/ban-01.png", Astro.site).href;
 ---
 <!doctype html>
 <html lang="pt-BR">
@@ -19,10 +22,12 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalURL} />
     <meta property="og:locale" content="pt_BR" />
+    <meta property="og:image" content={ogImage} />
 
-    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={`${title} | Casa Prática`} />
     <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-FVDZTWF746"></script>

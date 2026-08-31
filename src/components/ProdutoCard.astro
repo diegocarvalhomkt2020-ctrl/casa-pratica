@@ -2,13 +2,17 @@
 const { produto } = Astro.props;
 const {
   nome, selo, precoMin, precoMax, nota, avaliacoes,
-  pros, contra, paraQuem, linkAmazon, linkMercadoLivre, imagem
+  pros, contra, paraQuem, linkAmazon, imagem
 } = produto;
+
+const imagemAbsoluta = imagem ? new URL(imagem, Astro.site).href : undefined;
 
 const schema = nota && {
   "@context": "https://schema.org",
   "@type": "Product",
   name: nome,
+  ...(imagemAbsoluta && { image: imagemAbsoluta }),
+  ...(paraQuem && { description: paraQuem }),
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: nota,
@@ -19,11 +23,12 @@ const schema = nota && {
     priceCurrency: "BRL",
     lowPrice: precoMin,
     highPrice: precoMax,
+    offerCount: 1,
   },
 };
 ---
 <div class="card">
-  {imagem && <img class="foto" src={imagem} alt={nome} loading="lazy" />}
+  {imagem && <img class="foto" src={imagem} alt={nome} width="660" height="220" loading="lazy" />}
   {selo && <p class="selo">{selo}</p>}
   <h4>{nome}</h4>
 
@@ -49,9 +54,6 @@ const schema = nota && {
     {linkAmazon && linkAmazon !== "#" && (
       <a class="botao" href={linkAmazon} rel="sponsored nofollow">Ver preço na Amazon</a>
     )}
-    {linkMercadoLivre && linkMercadoLivre !== "#" && (
-      <a class="botao botao-secundario" href={linkMercadoLivre} rel="sponsored nofollow">Ver no Mercado Livre</a>
-    )}
   </div>
 </div>
 
@@ -68,7 +70,7 @@ const schema = nota && {
   .foto {
     display: block;
     width: 100%;
-    max-height: 220px;
+    height: 220px;
     object-fit: cover;
     border-radius: 8px;
     margin: 0 0 0.75rem;
@@ -104,6 +106,6 @@ const schema = nota && {
     padding: 0.55rem 1.05rem;
     border-radius: 999px;
     font-size: 0.88rem;
+    white-space: nowrap;
   }
-  .botao-secundario { background: var(--cor-texto-suave); }
 </style>
