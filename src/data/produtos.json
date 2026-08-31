@@ -10,7 +10,7 @@
         {
           "id": "AMZ-DESP-01",
           "nome": "Kit 10 Potes de Vidro Herméticos 640ml com 4 Travas",
-          "imagem": "/images/produtos/desp-01.png",
+          "imagem": "/images/produtos/potes-vidro-hermeticos-despensa.png",
           "selo": "Mais vendido",
           "precoMin": 90,
           "precoMax": 110,
@@ -28,7 +28,7 @@
         {
           "id": "AMZ-DESP-02",
           "nome": "Kit 10 Potes Herméticos com Etiquetas e Caneta",
-          "imagem": "/images/produtos/desp-02.png",
+          "imagem": "/images/produtos/potes-etiquetados-despensa.png",
           "selo": "Mais avaliado",
           "precoMin": 95,
           "precoMax": 105,
@@ -46,7 +46,7 @@
         {
           "id": "AMZ-DESP-03",
           "nome": "Kit 6 Potes de Vidro Borossilicato 640ml",
-          "imagem": "/images/produtos/desp-03.png",
+          "imagem": "/images/produtos/potes-vidro-borossilicato-despensa.png",
           "selo": "Mais barato",
           "precoMin": 55,
           "precoMax": 65,
@@ -72,7 +72,7 @@
         {
           "id": "AMZ-PIA-01",
           "nome": "Sevenblue Organizador 2 Andares com Gavetas Deslizantes",
-          "imagem": "/images/produtos/pia-01.png",
+          "imagem": "/images/produtos/organizador-2-andares-pia.png",
           "selo": "Mais avaliado",
           "precoMin": 210,
           "precoMax": 230,
@@ -91,7 +91,7 @@
         {
           "id": "AMZ-PIA-02",
           "nome": "Tramontina Plurale Organizador de Pia",
-          "imagem": "/images/produtos/pia-02.png",
+          "imagem": "/images/produtos/organizador-tramontina-pia.png",
           "selo": "Mais elegante",
           "precoMin": 74,
           "precoMax": 90,
@@ -109,7 +109,7 @@
         {
           "id": "AMZ-PIA-03",
           "nome": "OU Organizador de Pia Duplo",
-          "imagem": "/images/produtos/pia-03.png",
+          "imagem": "/images/produtos/organizador-duplo-pia.png",
           "selo": "Mais barato",
           "precoMin": 20,
           "precoMax": 25,
@@ -135,7 +135,7 @@
         {
           "id": "AMZ-GEL-01",
           "nome": "OU Organizador de Geladeira Cesto Triplo 5L",
-          "imagem": "/images/produtos/gel-01.png",
+          "imagem": "/images/produtos/cesto-triplo-geladeira.png",
           "selo": "Mais avaliado",
           "precoMin": 50,
           "precoMax": 56,
@@ -153,7 +153,7 @@
         {
           "id": "AMZ-GEL-02",
           "nome": "OU OF450NT Organizador com Escorredor Interno 2,2L",
-          "imagem": "/images/produtos/gel-02.png",
+          "imagem": "/images/produtos/organizador-escorredor-geladeira.png",
           "selo": "Mais barato",
           "precoMin": 22,
           "precoMax": 30,
@@ -171,7 +171,7 @@
         {
           "id": "AMZ-GEL-03",
           "nome": "House Organizer Kit 4 Organizadores 2,2L",
-          "imagem": "/images/produtos/gel-03.png",
+          "imagem": "/images/produtos/kit-4-organizadores-geladeira.png",
           "selo": "Kit completo",
           "precoMin": 90,
           "precoMax": 100,
@@ -197,7 +197,7 @@
         {
           "id": "AMZ-PAN-01",
           "nome": "Arthi Suporte Organizador de Tampas Cromado 6 Divisórias",
-          "imagem": "/images/produtos/pan-01.png",
+          "imagem": "/images/produtos/suporte-tampas-cromado.png",
           "selo": "Mais vendido",
           "precoMin": 32,
           "precoMax": 42,
@@ -215,7 +215,7 @@
         {
           "id": "AMZ-PAN-02",
           "nome": "Arthi Organizador para Refratários",
-          "imagem": "/images/produtos/pan-02.png",
+          "imagem": "/images/produtos/organizador-refratarios.png",
           "selo": "Nº 1 mais avaliado",
           "precoMin": 27,
           "precoMax": 30,
@@ -233,7 +233,7 @@
         {
           "id": "AMZ-PAN-03",
           "nome": "Future Organizador Prateleira Aramada 44cm",
-          "imagem": "/images/produtos/pan-03.png",
+          "imagem": "/images/produtos/prateleira-aramada-armario.png",
           "selo": "Melhor nota",
           "precoMin": 75,
           "precoMax": 85,
@@ -259,7 +259,7 @@
         {
           "id": "AMZ-GAV-01",
           "nome": "Arthi Divisor de Gavetas Extensível",
-          "imagem": "/images/produtos/gav-01.png",
+          "imagem": "/images/produtos/divisor-gaveta-extensivel.png",
           "selo": "Melhor custo-benefício",
           "precoMin": 40,
           "precoMax": 43,
@@ -277,7 +277,7 @@
         {
           "id": "AMZ-GAV-02",
           "nome": "Organizador de Talheres 5 Divisórias",
-          "imagem": "/images/produtos/gav-02.png",
+          "imagem": "/images/produtos/organizador-talheres-5-divisorias.png",
           "selo": "Mais barato",
           "precoMin": 18,
           "precoMax": 25,
@@ -295,7 +295,7 @@
         {
           "id": "AMZ-GAV-03",
           "nome": "Porta Talheres Ajustável 8 Divisórias",
-          "imagem": "/images/produtos/gav-03.png",
+          "imagem": "/images/produtos/porta-talheres-8-divisorias.png",
           "selo": "Mais espaçoso",
           "precoMin": 65,
           "precoMax": 80,
@@ -321,7 +321,7 @@
         {
           "id": "AMZ-BAN-01",
           "nome": "SONGMICS Kit 4 Prateleiras Organizadoras para Bancada",
-          "imagem": "/images/produtos/ban-01.png",
+          "imagem": "/images/produtos/prateleiras-bancada-songmics.png",
           "selo": "Mais robusto",
           "precoMin": 120,
           "precoMax": 130,
@@ -339,7 +339,7 @@
         {
           "id": "AMZ-BAN-02",
           "nome": "Porta Tempero Giratório Inox 12 Potes",
-          "imagem": "/images/produtos/ban-02.png",
+          "imagem": "/images/produtos/porta-tempero-giratorio-inox.png",
           "selo": "Melhor nota",
           "precoMin": 55,
           "precoMax": 62,
@@ -357,7 +357,7 @@
         {
           "id": "AMZ-BAN-03",
           "nome": "SWOMMOLY Organizador de Temperos com 24 Potes",
-          "imagem": "/images/produtos/ban-03.png",
+          "imagem": "/images/produtos/organizador-temperos-24-potes.png",
           "selo": "Mais avaliado",
           "precoMin": 220,
           "precoMax": 230,
