@@ -36,36 +36,36 @@ const breadcrumbSchema = {
         <table>
           <thead>
             <tr>
-              <th></th>
-              {zona.produtos.map((p) => <th>{p.selo}</th>)}
+              <td></td>
+              {zona.produtos.map((p) => <th scope="col">{p.selo}</th>)}
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td data-label="">Produto</td>
+              <th scope="row">Produto</th>
               {zona.produtos.map((p) => <td data-label="Produto"><strong>{p.nome}</strong></td>)}
             </tr>
             <tr>
-              <td data-label="">Preço</td>
+              <th scope="row">Preço</th>
               {zona.produtos.map((p) => <td data-label="Preço">R$ {p.precoMin} a R$ {p.precoMax}</td>)}
             </tr>
             <tr>
-              <td data-label="">Nota</td>
-              {zona.produtos.map((p) => <td data-label="Nota">★ {p.nota} ({p.avaliacoes} avaliações)</td>)}
+              <th scope="row">Nota</th>
+              {zona.produtos.map((p) => <td data-label="Nota">★ {p.nota} ({p.avaliacoes} avaliações{p.avaliacoesObs ? ` ${p.avaliacoesObs}` : ""})</td>)}
             </tr>
             <tr>
-              <td data-label="">Maior ponto forte</td>
+              <th scope="row">Maior ponto forte</th>
               {zona.produtos.map((p) => <td data-label="Maior ponto forte">{p.pros[0]}</td>)}
             </tr>
             <tr>
-              <td data-label="">Vale saber</td>
+              <th scope="row">Vale saber</th>
               {zona.produtos.map((p) => <td data-label="Vale saber" class="linha-contra">{p.contra}</td>)}
             </tr>
             <tr>
-              <td data-label=""></td>
+              <th scope="row"><span class="sr-only">Link</span></th>
               {zona.produtos.map((p) => (
                 <td data-label="">
-                  {p.linkAmazon && p.linkAmazon !== "#" && (
+                  {p.linkAmazon && (
                     <a class="botao-tabela" href={p.linkAmazon} rel="sponsored nofollow">Ver preço</a>
                   )}
                 </td>
@@ -95,19 +95,31 @@ const breadcrumbSchema = {
       border-bottom: 1px solid var(--cor-borda);
       vertical-align: top;
     }
-    th {
+    thead th {
       color: var(--cor-acento);
       font-weight: 700;
       font-size: 0.78rem;
       text-transform: uppercase;
       white-space: nowrap;
     }
-    tbody td:first-child {
+    tbody th {
+      text-align: left;
       font-weight: 600;
       color: var(--cor-texto-suave);
       font-size: 0.78rem;
       text-transform: uppercase;
       white-space: nowrap;
+    }
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0 0 0 0);
+      white-space: nowrap;
+      border: 0;
     }
     .linha-contra { color: var(--cor-vale-saber); font-size: 0.82rem; }
     .botao-tabela {

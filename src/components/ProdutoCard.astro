@@ -1,7 +1,7 @@
 ---
 const { produto } = Astro.props;
 const {
-  nome, selo, precoMin, precoMax, nota, avaliacoes,
+  nome, selo, precoMin, precoMax, nota, avaliacoes, avaliacoesObs,
   pros, contra, paraQuem, linkAmazon, imagem
 } = produto;
 
@@ -34,7 +34,7 @@ const schema = nota && {
 
   <p class="prova-social">
     {nota
-      ? `★ ${nota} (${avaliacoes} avaliações)`
+      ? `★ ${nota} (${avaliacoes} avaliações${avaliacoesObs ? ` ${avaliacoesObs}` : ""})`
       : "Ainda sem avaliações suficientes"}
   </p>
 

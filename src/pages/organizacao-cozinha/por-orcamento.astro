@@ -54,7 +54,7 @@ const breadcrumbSchema = {
     agora.
   </p>
 
-  {faixas.map((faixa) => (
+  {faixas.filter((faixa) => faixa.produtos.length > 0).map((faixa) => (
     <section id={faixa.id} class="faixa">
       <h2>{faixa.titulo}</h2>
       <p>{faixa.texto}</p>

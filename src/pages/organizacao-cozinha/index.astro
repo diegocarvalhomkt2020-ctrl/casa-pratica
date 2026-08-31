@@ -82,11 +82,11 @@ const faqSchema = {
       <table>
         <thead>
           <tr>
-            <th>Produto</th>
-            <th>Zona</th>
-            <th>Preço</th>
-            <th>Selo</th>
-            <th></th>
+            <th scope="col">Produto</th>
+            <th scope="col">Zona</th>
+            <th scope="col">Preço</th>
+            <th scope="col">Selo</th>
+            <th scope="col"><span class="sr-only">Link</span></th>
           </tr>
         </thead>
         <tbody>
@@ -97,7 +97,7 @@ const faqSchema = {
               <td data-label="Preço">R$ {produto.precoMin} a R$ {produto.precoMax}</td>
               <td data-label="Selo">{produto.selo || "—"}</td>
               <td data-label="">
-                {produto.linkAmazon && produto.linkAmazon !== "#" ? (
+                {produto.linkAmazon ? (
                   <a class="botao-tabela" href={produto.linkAmazon} rel="sponsored nofollow">Ver preço</a>
                 ) : (
                   <a class="botao-tabela botao-tabela-secundario" href={`#${produto.zonaId}`}>Ver detalhes</a>
@@ -203,6 +203,17 @@ const faqSchema = {
       white-space: nowrap;
     }
     .botao-tabela-secundario { background: var(--cor-texto-suave); }
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0 0 0 0);
+      white-space: nowrap;
+      border: 0;
+    }
 
     @media (max-width: 640px) {
       table, thead, tbody, th, td, tr { display: block; }
