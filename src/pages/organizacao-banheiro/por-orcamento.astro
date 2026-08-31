@@ -1,0 +1,79 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import ProdutoCard from '../../components/ProdutoCard.astro';
+import dados from '../../data/produtos-banheiro.json';
+
+const zona = dados.zonas[0];
+const produtos = zona.produtos;
+
+const faixas = [
+  {
+    id: 'ate-40',
+    titulo: 'Até R$ 40',
+    texto: 'A faixa mais barata: nichos e prateleiras adesivas simples, ideais pra resolver rápido sem gastar muito.',
+    produtos: produtos.filter((p) => p.precoMin < 40),
+  },
+  {
+    id: '40-a-100',
+    titulo: 'De R$ 40 a R$ 100',
+    texto: 'Faixa intermediária: fixação mais reforçada (parafuso + encaixe), pra quem quer mais firmeza.',
+    produtos: produtos.filter((p) => p.precoMin >= 40 && p.precoMin < 100),
+  },
+  {
+    id: 'acima-100',
+    titulo: 'Acima de R$ 100',
+    texto: 'O investimento mais alto da lista — acabamento em porcelanato, visual permanente e embutido.',
+    produtos: produtos.filter((p) => p.precoMin >= 100),
+  },
+];
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Início", item: "https://casapratica.dicasinteligentes.com/" },
+    { "@type": "ListItem", position: 2, name: "Organização de banheiro", item: "https://casapratica.dicasinteligentes.com/organizacao-banheiro/" },
+    { "@type": "ListItem", position: 3, name: "Por orçamento", item: "https://casapratica.dicasinteligentes.com/organizacao-banheiro/por-orcamento/" },
+  ],
+};
+---
+<Layout
+  title="Organização de banheiro por orçamento"
+  description="Nichos e prateleiras de box de banheiro separados por faixa de preço, do mais barato ao mais caro, pra decidir por onde começar a organizar."
+>
+  <p><a href="/organizacao-banheiro/">← Organização de banheiro</a></p>
+  <h1>Organização de banheiro por orçamento</h1>
+  <p class="atualizado">Atualizado em agosto de 2026</p>
+
+  <p>
+    Os mesmos produtos do guia principal, separados por faixa de preço, pra
+    você decidir por onde começar de acordo com o que tem disponível pra
+    gastar agora.
+  </p>
+
+  {faixas.filter((faixa) => faixa.produtos.length > 0).map((faixa) => (
+    <section id={faixa.id} class="faixa">
+      <h2>{faixa.titulo}</h2>
+      <p>{faixa.texto}</p>
+      {faixa.produtos.map((produto) => <ProdutoCard produto={produto} />)}
+    </section>
+  ))}
+
+  <p class="cta-final">
+    Quer ver a lista completa, com comparativo rápido?
+    <a href="/organizacao-banheiro/">Volte pro guia completo →</a>
+  </p>
+
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+
+  <style>
+    .atualizado { color: var(--cor-texto-suave); font-size: 0.9rem; }
+    .faixa { margin-bottom: 2.5rem; padding-top: 0.5rem; }
+    .cta-final {
+      margin-top: 2rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--cor-borda);
+      font-weight: 600;
+    }
+  </style>
+</Layout>

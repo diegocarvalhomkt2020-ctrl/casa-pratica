@@ -1,0 +1,214 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import ProdutoCard from '../../components/ProdutoCard.astro';
+import dados from '../../data/produtos-banheiro.json';
+
+const zona = dados.zonas[0];
+const produtos = zona.produtos;
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Início", item: "https://casapratica.dicasinteligentes.com/" },
+    { "@type": "ListItem", position: 2, name: "Organização de banheiro", item: "https://casapratica.dicasinteligentes.com/organizacao-banheiro/" },
+  ],
+};
+
+const faq = [
+  {
+    pergunta: "Nicho adesivo aguenta o peso de shampoo e condicionador cheios?",
+    resposta: "Aguenta, mas só se a parede for limpa e desengordurada antes de colar — é a reclamação mais comum nas avaliações reais dos produtos adesivos: quem pula esse passo tem mais chance de descolar em poucas semanas. Se você tem muito produto pesado, os modelos com parafuso ou porcelanato seguram melhor.",
+  },
+  {
+    pergunta: "Vale mais a pena colar ou furar a parede?",
+    resposta: "Se você aluga o imóvel ou não quer marca na parede, o adesivo resolve bem, desde que prepare a superfície direito. Se você é proprietário e quer algo definitivo, parafuso ou nicho de porcelanato aguenta mais peso e dura mais tempo.",
+  },
+  {
+    pergunta: "Nicho de porcelanato vale o preço mais alto?",
+    resposta: "Só se o visual de nicho embutido (permanente, mais sofisticado) for importante pra você. Em termos de nota, o porcelanato não é muito melhor avaliado que as opções adesivas mais baratas — a diferença de preço é sobre acabamento e durabilidade, não sobre resolver melhor a bagunça.",
+  },
+];
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faq.map((item) => ({
+    "@type": "Question",
+    name: item.pergunta,
+    acceptedAnswer: { "@type": "Answer", text: item.resposta },
+  })),
+};
+---
+<Layout
+  title="Organização de banheiro: nicho e prateleira pro box"
+  description="Nichos e prateleiras pra box de banheiro pesquisados na Amazon, com preço, nota e o defeito real de cada um — adesivo, parafuso ou porcelanato, sem furar a parede."
+>
+  <p><a href="/">← Início</a></p>
+  <h1>Organização de banheiro: nicho e prateleira pro box</h1>
+  <p class="atualizado">Todos os produtos abaixo foram pesquisados na Amazon com preço, nota e avaliações reais. Fotos ainda em produção.</p>
+
+  <p>
+    Shampoo, sabonete e condicionador soltos no chão do box é o tipo de
+    bagunça que volta toda semana. Os produtos abaixo resolvem isso sem
+    quebrar azulejo — a diferença entre eles é a fixação (adesivo, parafuso
+    ou porcelanato) e é exatamente aí que mora o defeito real de cada um.
+  </p>
+
+  <section class="como-escolhemos">
+    <h2>Como escolhemos</h2>
+    <p>
+      Nenhum produto entra nessa lista sem um defeito real, pesquisado
+      direto nas avaliações de quem comprou — nunca inventado. Preço sempre
+      em faixa, nunca fixo.
+    </p>
+  </section>
+
+  <section class="comparativo">
+    <h2>Comparativo rápido</h2>
+    <div class="tabela-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Produto</th>
+            <th scope="col">Preço</th>
+            <th scope="col">Selo</th>
+            <th scope="col"><span class="sr-only">Ação</span></th>
+          </tr>
+        </thead>
+        <tbody>
+          {produtos.map((produto) => (
+            <tr>
+              <td data-label="Produto">{produto.nome}</td>
+              <td data-label="Preço">R$ {produto.precoMin} a R$ {produto.precoMax}</td>
+              <td data-label="Selo">{produto.selo || "—"}</td>
+              <td data-label="">
+                <a class="botao-tabela" href={produto.linkAmazon} rel="sponsored nofollow">Ver preço</a>
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="nicho-box" class="categoria">
+    <h2>{zona.nome}</h2>
+    <p>{zona.descricao}</p>
+    {produtos.map((produto) => <ProdutoCard produto={produto} />)}
+  </section>
+
+  <p class="cluster-link">
+    Veja também:
+    <a href="/organizacao-banheiro/erros-comuns/">os erros mais comuns organizando o box →</a>
+    ·
+    <a href="/organizacao-banheiro/por-orcamento/">os mesmos produtos por orçamento →</a>
+    ·
+    <a href="/organizacao-banheiro/comparativo-top3/">comparativo Top 3 lado a lado →</a>
+  </p>
+
+  <section class="honestidade">
+    <h2>Onde vale gastar mais, onde não faz diferença</h2>
+    <p>
+      A diferença de preço entre o mais barato (~R$28) e o nicho de
+      porcelanato (~R$140) não é sobre resolver melhor a bagunça — os dois
+      têm nota parecida. É sobre acabamento e durabilidade: se você quer
+      algo visualmente embutido e permanente, o porcelanato compensa. Se
+      você só quer parar de ver shampoo no chão do box, a opção mais barata
+      já resolve, desde que prepare bem a parede antes de colar.
+    </p>
+  </section>
+
+  <section class="faq">
+    <h2>Perguntas frequentes</h2>
+    {faq.map((item) => (
+      <div class="faq-item">
+        <h3>{item.pergunta}</h3>
+        <p>{item.resposta}</p>
+      </div>
+    ))}
+  </section>
+
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+
+  <style>
+    .sr-only {
+      position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+      overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;
+    }
+    .atualizado { color: var(--cor-texto-suave); font-size: 0.9rem; }
+    .cluster-link { font-weight: 600; margin: 2.5rem 0 0; line-height: 2; }
+    .como-escolhemos {
+      background: var(--cor-superficie);
+      border: 1px solid var(--cor-borda);
+      border-radius: 10px;
+      padding: 1rem 1.25rem;
+      margin: 1.5rem 0;
+    }
+    .como-escolhemos h2 { font-size: 1rem; margin: 0 0 0.4rem; }
+    .como-escolhemos p { margin: 0; font-size: 0.9rem; color: var(--cor-texto-suave); }
+    .comparativo { margin: 1.5rem 0 2.5rem; }
+    .tabela-wrap { overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 0.85rem; }
+    th, td {
+      text-align: left;
+      padding: 0.6rem 0.5rem;
+      border-bottom: 1px solid var(--cor-borda);
+      white-space: normal;
+      overflow-wrap: break-word;
+    }
+    th { color: var(--cor-texto-suave); font-weight: 600; font-size: 0.75rem; text-transform: uppercase; }
+    th:nth-child(1), td:nth-child(1) { width: 40%; }
+    th:nth-child(2), td:nth-child(2) { width: 22%; }
+    th:nth-child(3), td:nth-child(3) { width: 20%; }
+    th:nth-child(4), td:nth-child(4) { width: 18%; }
+    .botao-tabela {
+      display: inline-block;
+      background: var(--cor-acento);
+      color: #fff;
+      text-decoration: none;
+      padding: 0.3rem 0.55rem;
+      border-radius: 999px;
+      font-size: 0.76rem;
+      white-space: nowrap;
+    }
+    .categoria { margin-bottom: 2.5rem; padding-top: 0.5rem; }
+    .honestidade, .faq {
+      margin-top: 2.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--cor-borda);
+    }
+    .faq-item { margin-bottom: 1.25rem; }
+    .faq-item h3 { font-size: 1rem; margin: 0 0 0.35rem; }
+    .faq-item p { margin: 0; color: var(--cor-texto-suave); }
+
+    @media (max-width: 640px) {
+      table, thead, tbody, th, td, tr { display: block; }
+      thead { position: absolute; left: -9999px; }
+      tr {
+        border: 1px solid var(--cor-borda);
+        border-radius: 10px;
+        padding: 0.75rem 0.9rem;
+        margin-bottom: 0.75rem;
+        background: var(--cor-superficie);
+      }
+      td {
+        border: none;
+        padding: 0.35rem 0;
+        white-space: normal;
+      }
+      td[data-label="Preço"] { white-space: nowrap; }
+      td[data-label]:not([data-label=""])::before {
+        content: attr(data-label);
+        display: block;
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+        color: var(--cor-texto-suave);
+        margin-bottom: 0.1rem;
+      }
+      td:last-child { padding-top: 0.6rem; }
+    }
+  </style>
+</Layout>

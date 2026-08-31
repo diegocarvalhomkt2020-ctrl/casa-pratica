@@ -1,0 +1,105 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const erros = [
+  {
+    titulo: "Colar o adesivo sem limpar a parede antes",
+    texto: "É o erro que mais aparece nas avaliações reais dos produtos adesivos. Azulejo com resíduo de sabão ou gordura não deixa a cola aderir direito — o nicho descola em poucas semanas. Limpe com álcool ou desengordurante, seque bem, e só depois cole.",
+  },
+  {
+    titulo: "Colar sobre parede úmida ou recém pintada",
+    texto: "Adesivo forte precisa de superfície seca e curada. Grude sobre parede ainda úmida do banho, ou pintura recente, e o resultado é o mesmo: descola rápido, mesmo com produto de qualidade.",
+  },
+  {
+    titulo: "Sobrecarregar um nicho pequeno com item pesado",
+    texto: "Garrafa grande de shampoo ou pote de creme pesado em excesso é o que mais derruba prateleira adesiva. Se você tem muito produto pesado, vale um modelo com parafuso ou o de porcelanato, que aguentam mais peso.",
+  },
+  {
+    titulo: "Não conferir o produto assim que chega",
+    texto: "Mais de uma avaliação real relata peça manchada, com borda aberta ou parafuso que não encaixa. Confira tudo antes de instalar — trocar depois de colado é bem mais chato.",
+  },
+  {
+    titulo: "Ignorar as medidas reais do canto ou espaço",
+    texto: "Foto de anúncio não é referência de tamanho confiável — mais de um comprador real relatou que a peça chegou menor do que esperava. Meça o espaço exato antes de comprar, principalmente nos modelos de canto.",
+  },
+];
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Início", item: "https://casapratica.dicasinteligentes.com/" },
+    { "@type": "ListItem", position: 2, name: "Organização de banheiro", item: "https://casapratica.dicasinteligentes.com/organizacao-banheiro/" },
+    { "@type": "ListItem", position: 3, name: "Erros comuns", item: "https://casapratica.dicasinteligentes.com/organizacao-banheiro/erros-comuns/" },
+  ],
+};
+---
+<Layout
+  title="Erros comuns organizando o banheiro"
+  description="Os erros mais comuns na hora de instalar nicho e prateleira no box de banheiro, incluindo por que o adesivo descola, e como evitar cada um."
+>
+  <p><a href="/organizacao-banheiro/">← Organização de banheiro</a></p>
+  <h1>Erros comuns organizando o banheiro</h1>
+  <p class="atualizado">Atualizado em agosto de 2026</p>
+
+  <p>
+    A maior parte das reclamações reais nos produtos de nicho e prateleira
+    de box não é sobre o produto em si — é sobre como ele foi instalado.
+    Confira esses erros antes de colar ou parafusar qualquer coisa.
+  </p>
+
+  <ol class="erros-lista">
+    {erros.map((erro) => (
+      <li>
+        <h2>{erro.titulo}</h2>
+        <p>{erro.texto}</p>
+      </li>
+    ))}
+  </ol>
+
+  <p class="cta-final">
+    Já sabe onde não errar? <a href="/organizacao-banheiro/">Veja a lista completa →</a>
+  </p>
+
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+
+  <style>
+    .atualizado { color: var(--cor-texto-suave); font-size: 0.9rem; }
+    .erros-lista {
+      list-style: none;
+      padding: 0;
+      margin: 2rem 0;
+      counter-reset: erro;
+    }
+    .erros-lista li {
+      counter-increment: erro;
+      padding: 1.1rem 0 1.1rem 2.5rem;
+      position: relative;
+      border-bottom: 1px solid var(--cor-borda);
+    }
+    .erros-lista li::before {
+      content: counter(erro);
+      position: absolute;
+      left: 0;
+      top: 1.1rem;
+      width: 1.6rem;
+      height: 1.6rem;
+      border-radius: 50%;
+      background: var(--cor-acento);
+      color: #fff;
+      font-size: 0.85rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .erros-lista h2 { font-size: 1.05rem; margin: 0 0 0.35rem; }
+    .erros-lista p { margin: 0; color: var(--cor-texto-suave); }
+    .cta-final {
+      margin-top: 2rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--cor-borda);
+      font-weight: 600;
+    }
+  </style>
+</Layout>

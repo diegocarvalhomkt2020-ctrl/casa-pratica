@@ -1,0 +1,103 @@
+{
+  "_nota": "Categoria nova (organização de banheiro). 5 produtos reais pesquisados na Amazon, com preço, nota e avaliações reais extraídas da página do produto. Contras vêm das reviews reais de cada anúncio (não de reclamações genéricas). Fotos ainda em produção — ativar 'imagem' de cada produto assim que a foto for gerada e salva.",
+  "zonas": [
+    {
+      "id": "nicho-box",
+      "nome": "Nicho para box e pia",
+      "tempoEstimado": "10 a 20 min",
+      "descricao": "Shampoo, sabonete e condicionador soltos no chão do box é o tipo de bagunça que volta toda semana. Um nicho ou prateleira resolve isso sem precisar quebrar azulejo.",
+      "produtos": [
+        {
+          "id": "AMZ-BANH-01",
+          "nome": "Kit 2 Nichos Prateleiras Suporte Porta Shampoo Box Banheiro Sem Furar Parede (Preto)",
+          "imagem": null,
+          "selo": "Mais vendido",
+          "precoMin": 28,
+          "precoMax": 35,
+          "nota": 4.3,
+          "avaliacoes": 1622,
+          "pros": [
+            "Alumínio com pintura resistente à umidade, feito pra não enferrujar no box",
+            "Instala com adesivo forte (sem furar) ou parafuso, se quiser mais segurança",
+            "Mais de 1.600 avaliações reais, nota 4,3 — o mais testado da lista"
+          ],
+          "contra": "A cola só firma de verdade se a parede for limpa e desengordurada antes de colar — quem pula esse passo relata descolamento em poucos dias. Um comprador também recebeu a peça em plástico em vez do alumínio anunciado.",
+          "paraQuem": "Pra quem quer resolver rápido sem furar, e topa preparar bem a parede antes de colar",
+          "linkAmazon": "https://www.amazon.com.br/dp/B0CP2WT5BS?tag=dicasinteli05-20"
+        },
+        {
+          "id": "AMZ-BANH-02",
+          "nome": "Kit 3 Suportes Porta Shampoo Organizador Prateleira de Canto Banheiro com Adesivo Sem Furar",
+          "imagem": null,
+          "selo": "Formato de canto",
+          "precoMin": 27,
+          "precoMax": 32,
+          "nota": 4.2,
+          "avaliacoes": 217,
+          "pros": [
+            "Formato de canto aproveita o espaço que uma prateleira reta não alcança",
+            "Kit com 3 peças (2 de canto + 1 reta) por um dos menores preços da lista",
+            "Adesivo funciona bem quando a parede é limpa antes de colar, segundo maioria das avaliações"
+          ],
+          "contra": "A cola vem fraca em parte dos relatos — quem guarda item mais pesado reforça com fita dupla face — e as medidas reais chegam um pouco menores do que a foto sugere, então vale medir o canto antes de comprar.",
+          "paraQuem": "Pra quem tem um canto vazio no box e quer aproveitar sem furar",
+          "linkAmazon": "https://www.amazon.com.br/dp/B0FT9MY1XP?tag=dicasinteli05-20"
+        },
+        {
+          "id": "AMZ-BANH-03",
+          "nome": "Kit 2 Prateleiras Nicho para Box de Banheiro com Adesivo Sem Furar a Parede (Preto)",
+          "imagem": null,
+          "selo": "Fixação reforçada",
+          "precoMin": 54,
+          "precoMax": 65,
+          "nota": 4.1,
+          "avaliacoes": 121,
+          "pros": [
+            "Fixação combinando parafuso e encaixe, mais firme que só adesivo, segundo quem comprou",
+            "Acabamento elogiado como \"elegante\" em boa parte das avaliações",
+            "Aguenta bastante peso sem ficar frágil, mesmo cheio de produto"
+          ],
+          "contra": "O encaixe com parafuso é apontado como frágil por parte dos compradores, que reforçam com fita ou solda extra — e o produto não vem com instrução de montagem, o que já levou pelo menos um comprador a devolver.",
+          "paraQuem": "Pra quem prefere fixação mais firme que adesivo puro e não se importa em montar sem manual",
+          "linkAmazon": "https://www.amazon.com.br/dp/B0F2SKSCKC?tag=dicasinteli05-20"
+        },
+        {
+          "id": "AMZ-BANH-04",
+          "nome": "Hytalux Kit 2 Prateleiras Suporte Porta Shampoo Sabonete Banheiro Box Sem Furar Parede",
+          "imagem": null,
+          "selo": "Estilo moderno",
+          "precoMin": 30,
+          "precoMax": 36,
+          "nota": 3.9,
+          "avaliacoes": 21,
+          "pros": [
+            "Design moderno bem avaliado por quem teve boa experiência de montagem",
+            "Instalação sem furar quando os encaixes alinham certo",
+            "Suporta vários produtos ao mesmo tempo, segundo review positivo"
+          ],
+          "contra": "É o modelo com mais reclamação de montagem da lista: parte dos compradores relata parafuso que não encaixa e instrução mal impressa, chegando a \"impossível montar\" em mais de um review — é o produto que mais varia entre \"ótimo\" e \"não comprem\" nas avaliações.",
+          "paraQuem": "Pra quem gosta do design e topa lidar com uma montagem mais trabalhosa",
+          "linkAmazon": "https://www.amazon.com.br/dp/B0GY5RZWDW?tag=dicasinteli05-20"
+        },
+        {
+          "id": "AMZ-BANH-05",
+          "nome": "Nicho Porcelanato Banheiro Porta Shampoo Prateleira Organizador Lavabo Box (Branco)",
+          "imagem": null,
+          "selo": "Mais premium",
+          "precoMin": 130,
+          "precoMax": 150,
+          "nota": 4.2,
+          "avaliacoes": 23,
+          "pros": [
+            "Acabamento em porcelanato: visual de nicho embutido, mais sofisticado que os adesivos",
+            "Cola de instalação elogiada como forte por quem comprou",
+            "Alta durabilidade quando bem instalado, segundo a maioria das avaliações"
+          ],
+          "contra": "É o mais caro da lista e tem controle de qualidade inconsistente segundo reviews: pelo menos um comprador recebeu a peça manchada de cola e com as bordas abertas — vale conferir o produto assim que chegar, antes de instalar de vez.",
+          "paraQuem": "Pra quem quer visual de nicho embutido e permanente, e topa pagar mais por isso",
+          "linkAmazon": "https://www.amazon.com.br/dp/B0G86XYJNN?tag=dicasinteli05-20"
+        }
+      ]
+    }
+  ]
+}
