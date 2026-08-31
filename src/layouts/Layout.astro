@@ -1,9 +1,9 @@
 ---
 const { title, description, image } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
-// Imagem social padrão: foto de produto provisória. Trocar por uma imagem
-// de marca 1200x630 quando existir (ex: /images/og-casa-pratica.png).
-const ogImage = new URL(image ?? "/images/produtos/ban-01.png", Astro.site).href;
+// Imagem social padrão da marca (1200x630). Páginas podem passar `image`
+// para sobrescrever com algo mais específico.
+const ogImage = new URL(image ?? "/images/og-casa-pratica.png", Astro.site).href;
 ---
 <!doctype html>
 <html lang="pt-BR">
