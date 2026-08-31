@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://casapratica.dicasinteligentes.com/sitemap.xml
+Sitemap: https://casapratica.dicasinteligentes.com/sitemap-index.xml
