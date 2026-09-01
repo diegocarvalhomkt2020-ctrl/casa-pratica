@@ -1,5 +1,5 @@
 {
-  "_nota": "Categoria nova (organização de banheiro). 5 produtos reais pesquisados na Amazon, com preço, nota e avaliações reais extraídas da página do produto. Contras vêm das reviews reais de cada anúncio (não de reclamações genéricas). Fotos ainda em produção: ativar 'imagem' de cada produto assim que a foto for gerada e salva.",
+  "_nota": "Categoria nova (organização de banheiro). 5 produtos reais pesquisados na Amazon, com preço, nota e avaliações reais extraídas da página do produto. Contras vêm das reviews reais de cada anúncio (não de reclamações genéricas). Fotos ativadas.",
   "zonas": [
     {
       "id": "nicho-box",
@@ -10,7 +10,7 @@
         {
           "id": "AMZ-BANH-01",
           "nome": "Kit 2 Nichos Prateleiras Suporte Porta Shampoo Box Banheiro Sem Furar Parede (Preto)",
-          "imagem": null,
+          "imagem": "/images/produtos/nicho-adesivo-preto-shampoo-box.png",
           "selo": "Mais vendido",
           "precoMin": 28,
           "precoMax": 35,
@@ -28,7 +28,7 @@
         {
           "id": "AMZ-BANH-02",
           "nome": "Kit 3 Suportes Porta Shampoo Organizador Prateleira de Canto Banheiro com Adesivo Sem Furar",
-          "imagem": null,
+          "imagem": "/images/produtos/prateleira-canto-adesiva-banheiro.png",
           "selo": "Formato de canto",
           "precoMin": 27,
           "precoMax": 32,
@@ -46,7 +46,7 @@
         {
           "id": "AMZ-BANH-03",
           "nome": "Kit 2 Prateleiras Nicho para Box de Banheiro com Adesivo Sem Furar a Parede (Preto)",
-          "imagem": null,
+          "imagem": "/images/produtos/nicho-parafuso-preto-box-banheiro.png",
           "selo": "Fixação reforçada",
           "precoMin": 54,
           "precoMax": 65,
@@ -64,7 +64,7 @@
         {
           "id": "AMZ-BANH-04",
           "nome": "Hytalux Kit 2 Prateleiras Suporte Porta Shampoo Sabonete Banheiro Box Sem Furar Parede",
-          "imagem": null,
+          "imagem": "/images/produtos/hytalux-prateleira-moderna-banheiro.png",
           "selo": "Estilo moderno",
           "precoMin": 30,
           "precoMax": 36,
@@ -82,7 +82,7 @@
         {
           "id": "AMZ-BANH-05",
           "nome": "Nicho Porcelanato Banheiro Porta Shampoo Prateleira Organizador Lavabo Box (Branco)",
-          "imagem": null,
+          "imagem": "/images/produtos/nicho-porcelanato-branco-banheiro.png",
           "selo": "Mais premium",
           "precoMin": 130,
           "precoMax": 150,
