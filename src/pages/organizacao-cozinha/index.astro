@@ -25,11 +25,11 @@ const faq = [
   },
   {
     pergunta: "Preciso comprar tudo de uma vez?",
-    resposta: "Não. Dá pra fazer zona por zona, comprando só o que aquela zona específica precisa — não precisa das 6 de uma vez. Se o orçamento for curto, a lista \"por orçamento\" separa os mesmos produtos por faixa de preço, do mais barato pro mais caro.",
+    resposta: "Não. Dá pra fazer zona por zona, comprando só o que aquela zona específica precisa, não precisa das 6 de uma vez. Se o orçamento for curto, a lista \"por orçamento\" separa os mesmos produtos por faixa de preço, do mais barato pro mais caro.",
   },
   {
     pergunta: "Pote de plástico ou de vidro, qual vale mais a pena?",
-    resposta: "Depende do que pesa mais pra você. Vidro (como o Kit 10 Potes Herméticos 640ml) vai do freezer direto pro forno e micro-ondas sem trocar de recipiente, mas pesa mais e quebra se cair. Plástico (como o Kit com Etiquetas e Caneta) é mais leve e já vem com etiqueta pra identificar o conteúdo, mas não vai ao forno. Não tem opção \"melhor\" — vidro compensa se você usa forno/micro-ondas com o mesmo pote; plástico compensa se prioriza leveza e organização visual.",
+    resposta: "Depende do que pesa mais pra você. Vidro (como o Kit 10 Potes Herméticos 640ml) vai do freezer direto pro forno e micro-ondas sem trocar de recipiente, mas pesa mais e quebra se cair. Plástico (como o Kit com Etiquetas e Caneta) é mais leve e já vem com etiqueta pra identificar o conteúdo, mas não vai ao forno. Não tem opção \"melhor\": vidro compensa se você usa forno/micro-ondas com o mesmo pote, plástico compensa se prioriza leveza e organização visual.",
   },
 ];
 
@@ -143,7 +143,7 @@ const faqSchema = {
       compra mais capacidade: o organizador de pia de dois andares aproveita
       muito mais espaço vertical que a opção de R$ 20, e o kit de temperos
       com 24 potes resolve tudo de uma vez, ao contrário dos modelos avulsos.
-      Já no armário de panelas não compensa gastar mais — os três produtos
+      Já no armário de panelas não compensa gastar mais. Os três produtos
       da lista ficam entre R$ 27 e R$ 85, todos com nota acima de 4,8, então
       o mais barato já resolve bem. Na despensa, vidro x plástico é questão
       de material (peso e resistência ao forno), não de qualidade: não existe
@@ -264,7 +264,17 @@ const faqSchema = {
       font-weight: 600;
       margin: 0 0 0.75rem;
     }
-    .honestidade, .faq {
+    .honestidade {
+      margin: 2.5rem 0;
+      padding: 1.5rem 1.75rem;
+      background: var(--cor-superficie);
+      border: 1px solid var(--cor-borda);
+      border-left: 4px solid var(--cor-vale-saber);
+      border-radius: 10px;
+    }
+    .honestidade h2 { margin: 0 0 0.75rem; font-size: 1.15rem; }
+    .honestidade p { margin: 0; color: var(--cor-texto-suave); }
+    .faq {
       margin-top: 2.5rem;
       padding-top: 1.5rem;
       border-top: 1px solid var(--cor-borda);

@@ -18,7 +18,7 @@ const breadcrumbSchema = {
 const faq = [
   {
     pergunta: "Nicho adesivo aguenta o peso de shampoo e condicionador cheios?",
-    resposta: "Aguenta, mas só se a parede for limpa e desengordurada antes de colar — é a reclamação mais comum nas avaliações reais dos produtos adesivos: quem pula esse passo tem mais chance de descolar em poucas semanas. Se você tem muito produto pesado, os modelos com parafuso ou porcelanato seguram melhor.",
+    resposta: "Aguenta, mas só se a parede for limpa e desengordurada antes de colar. É a reclamação mais comum nas avaliações reais dos produtos adesivos: quem pula esse passo tem mais chance de descolar em poucas semanas. Se você tem muito produto pesado, os modelos com parafuso ou porcelanato seguram melhor.",
   },
   {
     pergunta: "Vale mais a pena colar ou furar a parede?",
@@ -26,7 +26,7 @@ const faq = [
   },
   {
     pergunta: "Nicho de porcelanato vale o preço mais alto?",
-    resposta: "Só se o visual de nicho embutido (permanente, mais sofisticado) for importante pra você. Em termos de nota, o porcelanato não é muito melhor avaliado que as opções adesivas mais baratas — a diferença de preço é sobre acabamento e durabilidade, não sobre resolver melhor a bagunça.",
+    resposta: "Só se o visual de nicho embutido (permanente, mais sofisticado) for importante pra você. Em termos de nota, o porcelanato não é muito melhor avaliado que as opções adesivas mais baratas. A diferença de preço é sobre acabamento e durabilidade, não sobre resolver melhor a bagunça.",
   },
 ];
 
@@ -42,7 +42,7 @@ const faqSchema = {
 ---
 <Layout
   title="Organização de banheiro: nicho e prateleira pro box"
-  description="Nichos e prateleiras pra box de banheiro pesquisados na Amazon, com preço, nota e o defeito real de cada um — adesivo, parafuso ou porcelanato, sem furar a parede."
+  description="Nichos e prateleiras pra box de banheiro pesquisados na Amazon, com preço, nota e o defeito real de cada um: adesivo, parafuso ou porcelanato, sem furar a parede."
 >
   <p><a href="/">← Início</a></p>
   <h1>Organização de banheiro: nicho e prateleira pro box</h1>
@@ -51,7 +51,7 @@ const faqSchema = {
   <p>
     Shampoo, sabonete e condicionador soltos no chão do box é o tipo de
     bagunça que volta toda semana. Os produtos abaixo resolvem isso sem
-    quebrar azulejo — a diferença entre eles é a fixação (adesivo, parafuso
+    quebrar azulejo, e a diferença entre eles é a fixação (adesivo, parafuso
     ou porcelanato) e é exatamente aí que mora o defeito real de cada um.
   </p>
 
@@ -59,7 +59,7 @@ const faqSchema = {
     <h2>Como escolhemos</h2>
     <p>
       Nenhum produto entra nessa lista sem um defeito real, pesquisado
-      direto nas avaliações de quem comprou — nunca inventado. Preço sempre
+      direto nas avaliações de quem comprou, nunca inventado. Preço sempre
       em faixa, nunca fixo.
     </p>
   </section>
@@ -111,7 +111,7 @@ const faqSchema = {
     <h2>Onde vale gastar mais, onde não faz diferença</h2>
     <p>
       A diferença de preço entre o mais barato (~R$28) e o nicho de
-      porcelanato (~R$140) não é sobre resolver melhor a bagunça — os dois
+      porcelanato (~R$140) não é sobre resolver melhor a bagunça. Os dois
       têm nota parecida. É sobre acabamento e durabilidade: se você quer
       algo visualmente embutido e permanente, o porcelanato compensa. Se
       você só quer parar de ver shampoo no chão do box, a opção mais barata
@@ -174,7 +174,17 @@ const faqSchema = {
       white-space: nowrap;
     }
     .categoria { margin-bottom: 2.5rem; padding-top: 0.5rem; }
-    .honestidade, .faq {
+    .honestidade {
+      margin: 2.5rem 0;
+      padding: 1.5rem 1.75rem;
+      background: var(--cor-superficie);
+      border: 1px solid var(--cor-borda);
+      border-left: 4px solid var(--cor-vale-saber);
+      border-radius: 10px;
+    }
+    .honestidade h2 { margin: 0 0 0.75rem; font-size: 1.15rem; }
+    .honestidade p { margin: 0; color: var(--cor-texto-suave); }
+    .faq {
       margin-top: 2.5rem;
       padding-top: 1.5rem;
       border-top: 1px solid var(--cor-borda);
