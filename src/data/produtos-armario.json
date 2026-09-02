@@ -1,0 +1,191 @@
+{
+  "_nota": "Pilar novo (02/09/2026): organização de armário. 9 produtos reais pesquisados na Amazon, 3 por zona, preço/nota/avaliações extraídos direto da página do produto. Contras derivados da ficha técnica e características reais do produto (não foi possível filtrar avaliações negativas específicas sem login na Amazon): nenhum contra foi inventado, todos são limitações reais e verificáveis do próprio produto.",
+  "zonas": [
+    {
+      "id": "cabides-espaco-vertical",
+      "nome": "Cabides e espaço vertical",
+      "tempoEstimado": "15 a 20 min",
+      "descricao": "Cabide de plástico fino de loja de roupa ocupa espaço à toa e quebra fácil. Trocar por um sistema mais fino ou multiuso é o que mais rápido dobra a capacidade do cabideiro.",
+      "produtos": [
+        {
+          "id": "AMZ-ARM-01",
+          "nome": "SONGMICS Cabides para Calças, Kit com 30 Cabides de Veludo com Presilhas Ajustáveis",
+          "imagem": "/images/produtos/cabide-calca-veludo-songmics-kit30.jpg",
+          "selo": "Mais avaliado",
+          "precoMin": 123,
+          "precoMax": 130,
+          "nota": 4.7,
+          "avaliacoes": 9284,
+          "pros": [
+            "Só 0,6cm de espessura: cabe muito mais peça no mesmo espaço de um cabide comum",
+            "Gancho giratório 360° e clipe ajustável até 38cm, serve pra calça, saia e vestido",
+            "Nota 4,7 com mais de 9,2 mil avaliações, disparado o mais testado da categoria"
+          ],
+          "contra": "Cada prendedor de calça aguenta até 2,5kg, segundo a ficha técnica: jeans grosso ou peça pesada empilhada pode forçar o clipe. O fabricante também recomenda não usar em secadora.",
+          "paraQuem": "Pra quem quer ganhar espaço de armário pendurando calça, saia e vestido de forma fina e organizada",
+          "linkAmazon": "https://www.amazon.com.br/dp/B07QLY311C?tag=dicasinteli05-20"
+        },
+        {
+          "id": "AMZ-ARM-02",
+          "nome": "SONGMICS Cabides de Madeira, Conjunto com 10 Unidades",
+          "imagem": "/images/produtos/cabide-madeira-songmics-kit10.jpg",
+          "selo": "Mais elegante",
+          "precoMin": 62,
+          "precoMax": 70,
+          "nota": 4.7,
+          "avaliacoes": 2404,
+          "pros": [
+            "Madeira de verdade substitui os cabides de plástico fino que vêm de loja de roupa",
+            "Entalhe nos ombros evita marca em blusa de alcinha, e a barra antiderrapante segura a calça sem escorregar",
+            "Gancho giratório 360°, nota 4,7 com mais de 2,4 mil avaliações"
+          ],
+          "contra": "É um kit de só 10 unidades: pra um guarda-roupa cheio, o mais provável é precisar comprar mais de um kit.",
+          "paraQuem": "Pra quem quer trocar os cabides de plástico gastos por um visual mais uniforme e durável no closet",
+          "linkAmazon": "https://www.amazon.com.br/dp/B07MCSJDFJ?tag=dicasinteli05-20"
+        },
+        {
+          "id": "AMZ-ARM-03",
+          "nome": "Cabide Organizador de Madeira Maciça 8 Ganchos Giratórios Multiuso",
+          "imagem": "/images/produtos/cabide-madeira-8-ganchos-giratorios.jpg",
+          "selo": "Mais barato",
+          "precoMin": 17,
+          "precoMax": 22,
+          "nota": 4.2,
+          "avaliacoes": 64,
+          "pros": [
+            "Um cabide só resolve cinto, gravata, cachecol e bolsa pequena de uma vez, sem espalhar em vários ganchos",
+            "Os 8 ganchos giram individualmente, facilita pegar o acessório sem embolar os outros",
+            "Preço bem baixo pra testar o organizador vertical de acessórios"
+          ],
+          "contra": "Nota mais baixa e bem menos avaliações (64) que os outros dois desta lista: vale ler os comentários recentes antes de comprar mais de uma unidade.",
+          "paraQuem": "Pra quem tem cinto, gravata e acessório solto no armário e quer resolver gastando pouco",
+          "linkAmazon": "https://www.amazon.com.br/dp/B0G6NBXGLF?tag=dicasinteli05-20"
+        }
+      ]
+    },
+    {
+      "id": "caixas-organizadoras-roupa",
+      "nome": "Caixas organizadoras de roupa",
+      "tempoEstimado": "20 a 30 min",
+      "descricao": "Roupa de cama, cobertor e peça fora de estação empilhados soltos viram bagunça e ocupam o dobro do espaço. Uma caixa certa resolve isso e ainda protege contra poeira.",
+      "produtos": [
+        {
+          "id": "AMZ-ARM-04",
+          "nome": "Kit C/2 Bolsas Organizadoras Multiuso com Zíper e Visor Transparente (Bigzu)",
+          "imagem": "/images/produtos/bolsa-organizadora-ziper-bigzu-armario.jpg",
+          "selo": "Mais barato",
+          "precoMin": 39,
+          "precoMax": 45,
+          "nota": 4.4,
+          "avaliacoes": 291,
+          "pros": [
+            "Visor transparente mostra o conteúdo sem precisar abrir, ajuda a achar roupa de estação rápido",
+            "Dobra e ocupa quase nenhum espaço quando está vazia",
+            "Alças laterais facilitam carregar ou tirar de cima do armário"
+          ],
+          "contra": "É feita de tecido macio, não de plástico rígido: não empilha peso alto em cima sem amassar o que está dentro.",
+          "paraQuem": "Pra quem quer guardar roupa de cama, cobertor ou roupa de estação gastando pouco",
+          "linkAmazon": "https://www.amazon.com.br/dp/B0DDG3XNY7?tag=dicasinteli05-20"
+        },
+        {
+          "id": "AMZ-ARM-05",
+          "nome": "Kit 2 Caixa Organizadora 56 Litros com Tampa e Trava",
+          "imagem": "/images/produtos/caixa-organizadora-56l-tampa-trava.jpg",
+          "selo": "Melhor nota",
+          "precoMin": 91,
+          "precoMax": 101,
+          "nota": 4.8,
+          "avaliacoes": 69,
+          "pros": [
+            "Plástico rígido empilha com segurança, aguenta peso de outra caixa em cima sem amassar",
+            "Trava lateral mantém a tampa fechada mesmo puxando a caixa pela alça",
+            "56L por caixa: cabe edredom, cobertor ou várias peças de roupa de uma vez"
+          ],
+          "contra": "É opaca, não transparente: precisa etiquetar ou lembrar o que guardou dentro, diferente das opções com visor.",
+          "paraQuem": "Pra quem quer guardar roupa de inverno ou edredom no alto do armário com segurança de empilhar",
+          "linkAmazon": "https://www.amazon.com.br/dp/B0G3SLWJ58?tag=dicasinteli05-20"
+        },
+        {
+          "id": "AMZ-ARM-06",
+          "nome": "Kit C/4 Organizadores de Roupas com Tampa Transparente e 7 Divisórias (Bigzu)",
+          "imagem": "/images/produtos/organizador-roupas-7-divisorias-bigzu.jpg",
+          "selo": "Mais compartimentado",
+          "precoMin": 123,
+          "precoMax": 130,
+          "nota": 4.5,
+          "avaliacoes": 53,
+          "pros": [
+            "7 divisórias internas mantêm as peças dobradas sem misturar, diferente de uma caixa lisa",
+            "Tecido Oxford reforçado e alça frontal facilita tirar de cima do armário",
+            "Kit com 4 unidades resolve várias gavetas ou prateleiras de uma vez"
+          ],
+          "contra": "É o mais caro dos três desta lista, e tem só 53 avaliações até agora: histórico ainda curto pra confiar totalmente.",
+          "paraQuem": "Pra quem quer manter peça dobrada separada por tipo, não só empilhada sem critério",
+          "linkAmazon": "https://www.amazon.com.br/dp/B0FD1RY818?tag=dicasinteli05-20"
+        }
+      ]
+    },
+    {
+      "id": "sapateira",
+      "nome": "Sapateira",
+      "tempoEstimado": "20 a 30 min",
+      "descricao": "Sapato solto no chão do armário suja, desalinha e some. Uma sapateira do tamanho certo resolve isso e ainda libera o chão do closet.",
+      "produtos": [
+        {
+          "id": "AMZ-ARM-07",
+          "nome": "SONGMICS Sapateira de 3 Níveis com 4 Ganchos, até 18 Pares",
+          "imagem": "/images/produtos/sapateira-songmics-3-niveis-18-pares.jpg",
+          "selo": "Mais compacta",
+          "precoMin": 92,
+          "precoMax": 100,
+          "nota": 4.6,
+          "avaliacoes": 870,
+          "pros": [
+            "Cabe até 18 pares em só 3 níveis, ideal pra quem não tem muito espaço no chão do armário",
+            "Altura ajustável entre as prateleiras, adapta pra tênis ou salto alto",
+            "4 ganchos extras pra pendurar bolsa ou boné, aproveitando ainda mais o espaço"
+          ],
+          "contra": "É de tecido, não de plástico rígido: sapato molhado ou muito pesado pode ceder a prateleira com o tempo.",
+          "paraQuem": "Pra quem tem pouco espaço e quer resolver poucos pares sem gastar muito",
+          "linkAmazon": "https://www.amazon.com.br/dp/B0CLRJ4BMV?tag=dicasinteli05-20"
+        },
+        {
+          "id": "AMZ-ARM-08",
+          "nome": "SONGMICS Sapateira de 9 Níveis com Capa à Prova de Poeira, até 50 Pares",
+          "imagem": "/images/produtos/sapateira-songmics-9-niveis-capa.jpg",
+          "selo": "Mais avaliado",
+          "precoMin": 128,
+          "precoMax": 160,
+          "nota": 4.5,
+          "avaliacoes": 7494,
+          "pros": [
+            "9 níveis cabem até 50 pares, resolve o armário inteiro de calçado de uma vez",
+            "Capa com zíper protege contra poeira, diferencial que a versão de 3 níveis não tem",
+            "Quase 7,5 mil avaliações, de longe a mais testada da lista"
+          ],
+          "contra": "É grande: precisa medir o espaço antes de comprar, não é pra quarto pequeno ou corredor estreito.",
+          "paraQuem": "Pra quem tem muito sapato acumulado e quer resolver tudo de uma vez, com proteção contra poeira",
+          "linkAmazon": "https://www.amazon.com.br/dp/B00S0Q1COO?tag=dicasinteli05-20"
+        },
+        {
+          "id": "AMZ-ARM-09",
+          "nome": "VASAGLE Sapateira Estreita de 7 Níveis",
+          "imagem": "/images/produtos/sapateira-vasagle-estreita-7-niveis.jpg",
+          "selo": "Mais estreita",
+          "precoMin": 170,
+          "precoMax": 200,
+          "nota": 4.5,
+          "avaliacoes": 1151,
+          "pros": [
+            "Formato estreito cabe em corredor ou atrás de porta, onde uma sapateira comum não encaixa",
+            "7 níveis abertos (sem capa), fácil de ver e pegar o sapato rápido no dia a dia",
+            "Estrutura de aço, mais resistente que sapateira de tecido"
+          ],
+          "contra": "É a mais cara das três desta lista, e por ser aberta (sem capa), o sapato fica exposto à poeira.",
+          "paraQuem": "Pra quem tem pouco espaço horizontal (corredor, atrás de porta) e prioriza acesso rápido ao sapato",
+          "linkAmazon": "https://www.amazon.com.br/dp/B0BXK95YKP?tag=dicasinteli05-20"
+        }
+      ]
+    }
+  ]
+}
