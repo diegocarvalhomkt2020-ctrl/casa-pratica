@@ -94,7 +94,7 @@ const faqSchema = {
             <tr>
               <td data-label="Produto">{produto.nome}</td>
               <td data-label="Zona">{produto.zonaNome}</td>
-              <td data-label="Preço">R$ {produto.precoMin} a R$ {produto.precoMax}</td>
+              <td data-label="Preço">{produto.precoMin === produto.precoMax ? `R$ ${produto.precoMin}` : `R$ ${produto.precoMin} a R$ ${produto.precoMax}`}</td>
               <td data-label="Selo">{produto.selo || "—"}</td>
               <td data-label="">
                 {produto.linkAmazon ? (

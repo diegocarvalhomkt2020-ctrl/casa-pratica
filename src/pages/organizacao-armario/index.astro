@@ -90,7 +90,7 @@ const faqSchema = {
             <tr>
               <td data-label="Produto">{produto.nome}</td>
               <td data-label="Zona">{produto.zonaNome}</td>
-              <td data-label="Preço">R$ {produto.precoMin} a R$ {produto.precoMax}</td>
+              <td data-label="Preço">{produto.precoMin === produto.precoMax ? `R$ ${produto.precoMin}` : `R$ ${produto.precoMin} a R$ ${produto.precoMax}`}</td>
               <td data-label="Selo">{produto.selo || "—"}</td>
               <td data-label="">
                 <a class="botao-tabela" href={produto.linkAmazon} rel="sponsored nofollow">Ver preço</a>
@@ -137,6 +137,12 @@ const faqSchema = {
 
   <p class="cluster-link">
     Veja também:
+    <a href="/organizacao-armario/erros-comuns/">os erros mais comuns organizando o armário →</a>
+    ·
+    <a href="/organizacao-armario/por-orcamento/">os mesmos produtos por orçamento →</a>
+    ·
+    <a href="/organizacao-armario/comparativo-top3/">comparativo Top 3 lado a lado →</a>
+    ·
     <a href="/organizacao-cozinha/">organização de cozinha, zona por zona →</a>
     ·
     <a href="/organizacao-banheiro/">organização de banheiro sem furar parede →</a>

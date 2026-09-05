@@ -47,7 +47,7 @@ const breadcrumbSchema = {
             </tr>
             <tr>
               <th scope="row">Preço</th>
-              {zona.produtos.map((p) => <td data-label="Preço">R$ {p.precoMin} a R$ {p.precoMax}</td>)}
+              {zona.produtos.map((p) => <td data-label="Preço">{p.precoMin === p.precoMax ? `R$ ${p.precoMin}` : `R$ ${p.precoMin} a R$ ${p.precoMax}`}</td>)}
             </tr>
             <tr>
               <th scope="row">Nota</th>

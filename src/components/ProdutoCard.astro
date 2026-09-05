@@ -38,7 +38,7 @@ const schema = nota && {
       : "Ainda sem avaliações suficientes"}
   </p>
 
-  <p class="preco">R$ {precoMin} a R$ {precoMax}</p>
+  <p class="preco">{precoMin === precoMax ? `R$ ${precoMin}` : `R$ ${precoMin} a R$ ${precoMax}`}</p>
 
   <ul class="pros">
     {pros.map((p) => <li>{p}</li>)}
