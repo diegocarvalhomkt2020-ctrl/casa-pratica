@@ -68,6 +68,19 @@ const ehAtual = (href) => pathname === href || (href !== '/' && pathname.startsW
         });
       }
     </script>
+    <script>
+      // Rastreia clique em link de afiliado (rel="sponsored") como evento de conversão no GA4.
+      document.addEventListener('click', (e) => {
+        const link = e.target.closest('a[rel*="sponsored"]');
+        if (link && typeof gtag === 'function') {
+          gtag('event', 'click_afiliado', {
+            link_url: link.href,
+            link_text: link.textContent.trim(),
+            page_path: window.location.pathname,
+          });
+        }
+      });
+    </script>
     <main>
       <slot />
     </main>
