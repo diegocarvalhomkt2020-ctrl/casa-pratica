@@ -54,6 +54,22 @@ const breadcrumbSchema = {
     agora.
   </p>
 
+  <section class="raciocinio">
+    <h2>O que muda de verdade entre as faixas</h2>
+    <p>
+      Até R$50 você resolve um problema pontual, mas com pouca margem de
+      erro: peças simples de plástico que racham se caírem, sem recurso
+      extra como etiqueta ou vedação hermética. Na faixa de R$50 a R$150
+      já são kits mais completos, com mais peças ou material melhor, mas
+      mais de uma avaliação real aponta que o tamanho chega menor do que
+      sugerem as fotos, então vale conferir as medidas exatas antes de
+      comprar. Acima de R$150 estão as estruturas maiores, de duas
+      bandejas ou com dezenas de potes, boa parte delas produto importado
+      (Amazon Global), o que muda o prazo de entrega e às vezes encurta o
+      prazo de devolução pra 7 dias em vez dos 30 dias padrão da Amazon.
+    </p>
+  </section>
+
   {faixas.filter((faixa) => faixa.produtos.length > 0).map((faixa) => (
     <section id={faixa.id} class="faixa">
       <h2>{faixa.titulo}</h2>
