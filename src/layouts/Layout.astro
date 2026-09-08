@@ -53,6 +53,7 @@ const ehAtual = (href) => pathname === href || (href !== '/' && pathname.startsW
           <a href="/organizacao-cozinha/" aria-current={ehAtual('/organizacao-cozinha/') ? 'page' : undefined}>Cozinha</a>
           <a href="/organizacao-banheiro/" aria-current={ehAtual('/organizacao-banheiro/') ? 'page' : undefined}>Banheiro</a>
           <a href="/organizacao-armario/" aria-current={ehAtual('/organizacao-armario/') ? 'page' : undefined}>Armário</a>
+          <a href="/guia-gratis/" aria-current={ehAtual('/guia-gratis/') ? 'page' : undefined}>Guia grátis</a>
           <a class="nav-ver-todos" href="/" aria-current={ehAtual('/') ? 'page' : undefined}>Ver todos ›</a>
         </nav>
       </div>
@@ -124,7 +125,7 @@ const ehAtual = (href) => pathname === href || (href !== '/' && pathname.startsW
         box-shadow: 0 1px 4px rgba(0,0,0,0.045);
       }
       .topo-inner {
-        max-width: 760px;
+        max-width: 920px;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
@@ -185,7 +186,7 @@ const ehAtual = (href) => pathname === href || (href !== '/' && pathname.startsW
       }
       .topo nav a.nav-ver-todos:hover { border-color: var(--cor-acento); color: var(--cor-acento); }
       .topo nav { display: flex; flex-wrap: wrap; align-items: center; }
-      @media (max-width: 820px) {
+      @media (max-width: 940px) {
         .menu-toggle { display: block; }
         .topo-inner { flex-wrap: wrap; }
         .topo nav {
