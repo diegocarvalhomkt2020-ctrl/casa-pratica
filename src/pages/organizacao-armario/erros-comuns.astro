@@ -1,0 +1,105 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const erros = [
+  {
+    titulo: "Comprar cabide fino demais pra roupa pesada",
+    texto: "Cabide de veludo fino é ótimo pra economizar espaço, mas pode ceder com casaco pesado ou peça mais estruturada. Reserve os cabides de madeira ou mais reforçados pra essas peças.",
+  },
+  {
+    titulo: "Empilhar caixa organizadora sem tampa ou trava",
+    texto: "Caixa sem trava pode abrir ou desalinhar se empilhada com peso em cima. Se o plano é empilhar mais de 2 caixas, prefira as com trava nas laterais.",
+  },
+  {
+    titulo: "Não etiquetar caixa organizadora opaca",
+    texto: "Caixa opaca (não transparente) sem etiqueta vira um mistério em poucos meses. Etiquete por categoria (roupa de inverno, cama, etc.) assim que guardar.",
+  },
+  {
+    titulo: "Escolher sapateira sem contar os pares reais primeiro",
+    texto: "É fácil subestimar quantos pares de sapato você tem. Conte antes de escolher a capacidade — sapateira pequena demais vira sapato empilhado no chão de novo.",
+  },
+  {
+    titulo: "Ignorar as medidas reais do espaço do armário",
+    texto: "Sapateira estreita ou caixa grande demais pode não caber no vão que você tem. Meça a largura e a altura disponíveis antes de comprar qualquer organizador fixo.",
+  },
+];
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Início", item: "https://casapratica.dicasinteligentes.com/" },
+    { "@type": "ListItem", position: 2, name: "Organização de armário", item: "https://casapratica.dicasinteligentes.com/organizacao-armario/" },
+    { "@type": "ListItem", position: 3, name: "Erros comuns", item: "https://casapratica.dicasinteligentes.com/organizacao-armario/erros-comuns/" },
+  ],
+};
+---
+<Layout
+  title="Erros comuns organizando o armário"
+  description="Os erros mais comuns na hora de escolher cabide, caixa organizadora e sapateira pro armário, e como evitar cada um."
+>
+  <p><a href="/organizacao-armario/">← Organização de armário</a></p>
+  <h1>Erros comuns organizando o armário</h1>
+  <p class="atualizado">Atualizado em setembro de 2026</p>
+
+  <p>
+    A maior parte dos problemas com cabide, caixa e sapateira não é sobre
+    o produto ser ruim, é sobre escolher a capacidade ou o tipo errado pro
+    seu uso. Confira esses erros antes de comprar qualquer coisa.
+  </p>
+
+  <ol class="erros-lista">
+    {erros.map((erro) => (
+      <li>
+        <h2>{erro.titulo}</h2>
+        <p>{erro.texto}</p>
+      </li>
+    ))}
+  </ol>
+
+  <p class="cta-final">
+    Já sabe onde não errar? <a href="/organizacao-armario/">Veja a lista completa →</a>
+  </p>
+
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+
+  <style>
+    .atualizado { color: var(--cor-texto-suave); font-size: 0.9rem; }
+    .erros-lista {
+      list-style: none;
+      padding: 0;
+      margin: 2rem 0;
+      counter-reset: erro;
+    }
+    .erros-lista li {
+      counter-increment: erro;
+      padding: 1.1rem 0 1.1rem 2.5rem;
+      position: relative;
+      border-bottom: 1px solid var(--cor-borda);
+    }
+    .erros-lista li::before {
+      content: counter(erro);
+      position: absolute;
+      left: 0;
+      top: 1.1rem;
+      width: 1.6rem;
+      height: 1.6rem;
+      border-radius: 50%;
+      background: var(--cor-acento);
+      color: #fff;
+      font-size: 0.85rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .erros-lista h2 { font-size: 1.05rem; margin: 0 0 0.35rem; }
+    .erros-lista p { margin: 0; color: var(--cor-texto-suave); }
+    .cta-final {
+      margin-top: 2rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--cor-borda);
+      font-weight: 600;
+    }
+  </style>
+</Layout>

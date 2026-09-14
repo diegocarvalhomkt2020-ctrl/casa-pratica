@@ -1,0 +1,105 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const erros = [
+  {
+    titulo: "Não fixar estante alta e estreita na parede",
+    texto: "Estante de 6 níveis (ou mais alta que larga) tem risco real de tombar se ficar carregada e solta. Fixação na parede é recomendação padrão de segurança pra esse formato, ainda mais em casa com criança ou pet.",
+  },
+  {
+    titulo: "Comprar sapateira sem medir quantos pares tem de verdade",
+    texto: "É fácil subestimar. Conte os pares reais antes de escolher a capacidade — sapateira pequena demais vira sapato empilhado do lado de fora de novo em poucas semanas.",
+  },
+  {
+    titulo: "Não testar a trava/fixação do organizador de cabo antes de prender tudo",
+    texto: "Fixador adesivo mal colado solta com o peso do cabo depois de um tempo. Limpe a superfície antes de colar, e teste puxando levemente antes de organizar todos os fios de vez.",
+  },
+  {
+    titulo: "Ignorar o peso que a estante vai realmente carregar",
+    texto: "Livro pesa mais do que parece quando empilhado. Distribua o peso maior nas prateleiras de baixo, mais perto do centro de gravidade, não no topo.",
+  },
+  {
+    titulo: "Escolher só pela estética sem pensar na rotina de uso",
+    texto: "Sapateira fechada (com porta) protege da poeira, mas é mais lenta no dia a dia. Se você troca de sapato toda hora saindo de casa, um modelo aberto costuma servir melhor na prática.",
+  },
+];
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Início", item: "https://casapratica.dicasinteligentes.com/" },
+    { "@type": "ListItem", position: 2, name: "Organização de sala de estar", item: "https://casapratica.dicasinteligentes.com/organizacao-sala/" },
+    { "@type": "ListItem", position: 3, name: "Erros comuns", item: "https://casapratica.dicasinteligentes.com/organizacao-sala/erros-comuns/" },
+  ],
+};
+---
+<Layout
+  title="Erros comuns organizando a sala de estar"
+  description="Os erros mais comuns na hora de escolher e instalar estante, sapateira e organizador de cabos na sala, e como evitar cada um."
+>
+  <p><a href="/organizacao-sala/">← Organização de sala de estar</a></p>
+  <h1>Erros comuns organizando a sala de estar</h1>
+  <p class="atualizado">Atualizado em setembro de 2026</p>
+
+  <p>
+    A maior parte dos problemas com estante, sapateira e organizador de
+    cabos não é sobre o produto em si, é sobre como foi escolhido ou
+    instalado. Confira esses erros antes de montar qualquer coisa.
+  </p>
+
+  <ol class="erros-lista">
+    {erros.map((erro) => (
+      <li>
+        <h2>{erro.titulo}</h2>
+        <p>{erro.texto}</p>
+      </li>
+    ))}
+  </ol>
+
+  <p class="cta-final">
+    Já sabe onde não errar? <a href="/organizacao-sala/">Veja a lista completa →</a>
+  </p>
+
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+
+  <style>
+    .atualizado { color: var(--cor-texto-suave); font-size: 0.9rem; }
+    .erros-lista {
+      list-style: none;
+      padding: 0;
+      margin: 2rem 0;
+      counter-reset: erro;
+    }
+    .erros-lista li {
+      counter-increment: erro;
+      padding: 1.1rem 0 1.1rem 2.5rem;
+      position: relative;
+      border-bottom: 1px solid var(--cor-borda);
+    }
+    .erros-lista li::before {
+      content: counter(erro);
+      position: absolute;
+      left: 0;
+      top: 1.1rem;
+      width: 1.6rem;
+      height: 1.6rem;
+      border-radius: 50%;
+      background: var(--cor-acento);
+      color: #fff;
+      font-size: 0.85rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .erros-lista h2 { font-size: 1.05rem; margin: 0 0 0.35rem; }
+    .erros-lista p { margin: 0; color: var(--cor-texto-suave); }
+    .cta-final {
+      margin-top: 2rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--cor-borda);
+      font-weight: 600;
+    }
+  </style>
+</Layout>

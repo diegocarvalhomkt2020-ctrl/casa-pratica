@@ -1,0 +1,137 @@
+{
+  "_nota": "3 zonas com 2 produtos reais pesquisados na Amazon cada, com foto e link de afiliado. Apenas Amazon, sem Mercado Livre.",
+  "zonas": [
+    {
+      "id": "cesto-roupa",
+      "nome": "Cesto de roupa suja",
+      "tempoEstimado": "10 a 15 min",
+      "descricao": "Roupa suja espalhada pelo chão do quarto ou banheiro é o primeiro sinal de que falta um cesto no lugar certo. Resolver essa zona é rápido e barato.",
+      "produtos": [
+        {
+          "id": "AMZ-LAV-01",
+          "nome": "Cesto de Roupa Suja com Alças em Bambu, Com Tampa",
+          "imagem": "/images/produtos/cesto-roupa-suja-bambu-com-tampa.png",
+          "selo": "Mais avaliado",
+          "precoMin": 59,
+          "precoMax": 59,
+          "nota": 4.7,
+          "avaliacoes": 1700,
+          "pros": [
+            "Bom volume de avaliações (1,7 mil) com nota alta",
+            "Tampa esconde a roupa suja, forro removível facilita lavar",
+            "Estrutura em bambu, mais resistente que opções só de tecido"
+          ],
+          "contra": "Por ter estrutura rígida em bambu, ocupa mais espaço fixo que um cesto dobrável de tecido — não dá pra guardar achatado quando vazio.",
+          "paraQuem": "Pra quem tem espaço fixo reservado e quer algo com tampa e boa durabilidade",
+          "linkAmazon": "https://www.amazon.com.br/dp/B0C8P9Q9P5?tag=dicasinteli05-20"
+        },
+        {
+          "id": "AMZ-LAV-02",
+          "nome": "Cesto Organizador Multiuso 12L, Linha Flow",
+          "imagem": "/images/produtos/cesto-organizador-multiuso-12l-flow.png",
+          "selo": "Escolha da Amazon",
+          "precoMin": 36,
+          "precoMax": 36,
+          "nota": 4.8,
+          "avaliacoes": 465,
+          "pros": [
+            "Selo \"Escolha da Amazon\" na categoria, nota mais alta (4,8)",
+            "Disponível em 7 tamanhos, ajusta pro espaço certo",
+            "Mais barato que a opção em bambu"
+          ],
+          "contra": "Sem tampa — a roupa suja fica visível, diferente do modelo em bambu desta lista.",
+          "paraQuem": "Pra quem quer economizar e não se importa com o cesto aberto",
+          "linkAmazon": "https://www.amazon.com.br/dp/B0CZTVCHCH?tag=dicasinteli05-20"
+        }
+      ]
+    },
+    {
+      "id": "varal",
+      "nome": "Varal de chão",
+      "tempoEstimado": "10 a 15 min",
+      "descricao": "Área de serviço sem varal fixo vira dependência de tanquinho ou secadora pra tudo. Um varal de chão retrátil resolve sem precisar furar parede.",
+      "produtos": [
+        {
+          "id": "AMZ-LAV-03",
+          "nome": "Varal de Chão 3 Andares Grande, Dobrável Retrátil",
+          "imagem": "/images/produtos/varal-chao-3-andares-dobravel-retratil.png",
+          "selo": "Mais vendido",
+          "precoMin": 78,
+          "precoMax": 110,
+          "nota": 4.4,
+          "avaliacoes": 6000,
+          "pros": [
+            "Disparado o mais vendido da categoria (6 mil avaliações, mais de 900 compras no mês)",
+            "3 andares, boa capacidade pra secar bastante roupa de uma vez",
+            "Com rodinhas, fácil de mover"
+          ],
+          "contra": "Nota um pouco mais baixa (4,4) que a opção Powermaid desta lista — volume alto de vendas também significa mais relatos variados de experiência.",
+          "paraQuem": "Pra quem quer o mais popular do mercado e tem bastante roupa pra secar de uma vez",
+          "linkAmazon": "https://www.amazon.com.br/dp/B0DDF6S66V?tag=dicasinteli05-20"
+        },
+        {
+          "id": "AMZ-LAV-04",
+          "nome": "Powermaid Varal de Chão Retrátil com Base Antiderrapante",
+          "imagem": "/images/produtos/powermaid-varal-chao-retratil-base-antiderrapante.png",
+          "selo": "Escolha da Amazon",
+          "precoMin": 61,
+          "precoMax": 72,
+          "nota": 4.7,
+          "avaliacoes": 76,
+          "pros": [
+            "Nota mais alta da categoria (4,7), selo \"Escolha da Amazon\"",
+            "Base antiderrapante, mais estável em piso liso",
+            "Suporta até 10kg de roupa"
+          ],
+          "contra": "Volume de avaliações bem menor (76) que o modelo mais vendido — menos histórico acumulado.",
+          "paraQuem": "Pra quem prioriza estabilidade e nota mais alta, mesmo com menos avaliações",
+          "linkAmazon": "https://www.amazon.com.br/dp/B0DJHFDY3T?tag=dicasinteli05-20"
+        }
+      ]
+    },
+    {
+      "id": "produtos-limpeza",
+      "nome": "Produtos de limpeza",
+      "tempoEstimado": "10 a 15 min",
+      "descricao": "Detergente, amaciante e sabão em pó espalhados em cima da máquina de lavar é o terceiro ponto que mais bagunça a área de serviço.",
+      "produtos": [
+        {
+          "id": "AMZ-LAV-05",
+          "nome": "Organizador para Tanque de Parede, Linha Flow",
+          "imagem": "/images/produtos/organizador-tanque-parede-flow.png",
+          "selo": "Compacto",
+          "precoMin": 45,
+          "precoMax": 45,
+          "nota": 4.7,
+          "avaliacoes": 63,
+          "pros": [
+            "Instala direto na parede perto do tanque, sem ocupar bancada",
+            "Compacto e leve, nota alta (4,7)",
+            "Mesma linha (Flow) do cesto multiuso desta lista, visual combinando"
+          ],
+          "contra": "Volume de avaliações pequeno (63) — produto ainda relativamente novo no mercado.",
+          "paraQuem": "Pra quem quer manter produtos de limpeza fora da bancada, perto do tanque",
+          "linkAmazon": "https://www.amazon.com.br/dp/B0GKPYDD2B?tag=dicasinteli05-20"
+        },
+        {
+          "id": "AMZ-LAV-06",
+          "nome": "Prateleira Multiuso com Rodízios, 3 Andares, Arthi",
+          "imagem": "/images/produtos/prateleira-multiuso-rodizios-3-andares-arthi.png",
+          "selo": "Maior capacidade",
+          "precoMin": 80,
+          "precoMax": 144,
+          "nota": 4.7,
+          "avaliacoes": 439,
+          "pros": [
+            "3 andares, cabe detergente, amaciante, sabão em pó e mais numa peça só",
+            "Com rodízios, fácil de mover pra limpar atrás",
+            "Bom volume de avaliações (439) com nota alta"
+          ],
+          "contra": "É de plástico — não é o material mais durável a longo prazo comparado a estruturas de metal, mesmo sendo mais barato e leve.",
+          "paraQuem": "Pra quem tem bastante produto de limpeza e quer organizar tudo numa estrutura só",
+          "linkAmazon": "https://www.amazon.com.br/dp/B0BFJSWDQY?tag=dicasinteli05-20"
+        }
+      ]
+    }
+  ]
+}

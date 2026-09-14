@@ -1,0 +1,149 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import dados from '../../data/produtos-homeoffice.json';
+
+const produtos = dados.zonas.flatMap((zona) => zona.produtos);
+const top3 = [...produtos].sort((a, b) => b.avaliacoes - a.avaliacoes).slice(0, 3);
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Início", item: "https://casapratica.dicasinteligentes.com/" },
+    { "@type": "ListItem", position: 2, name: "Organização de home office", item: "https://casapratica.dicasinteligentes.com/organizacao-homeoffice/" },
+    { "@type": "ListItem", position: 3, name: "Comparativo Top 3", item: "https://casapratica.dicasinteligentes.com/organizacao-homeoffice/comparativo-top3/" },
+  ],
+};
+---
+<Layout
+  title="Comparativo Top 3 de home office"
+  description="Os 3 produtos mais avaliados pra organização de home office, lado a lado, com preço, nota e o defeito real de cada um."
+>
+  <p><a href="/organizacao-homeoffice/">← Organização de home office</a></p>
+  <h1>Comparativo Top 3: organização de home office</h1>
+  <p class="atualizado">Atualizado em setembro de 2026</p>
+
+  <p>
+    Os 3 produtos mais avaliados da lista, lado a lado: preço, nota,
+    principal ponto forte e o defeito real que mais pesa na decisão.
+  </p>
+
+  <div class="tabela-wrap">
+    <table>
+      <thead>
+        <tr>
+          <td></td>
+          {top3.map((p) => <th scope="col">{p.selo}</th>)}
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Produto</th>
+          {top3.map((p) => <td data-label="Produto"><strong>{p.nome}</strong></td>)}
+        </tr>
+        <tr>
+          <th scope="row">Preço</th>
+          {top3.map((p) => <td data-label="Preço">{p.precoMin === p.precoMax ? `R$ ${p.precoMin}` : `R$ ${p.precoMin} a R$ ${p.precoMax}`}</td>)}
+        </tr>
+        <tr>
+          <th scope="row">Nota</th>
+          {top3.map((p) => <td data-label="Nota">★ {p.nota} ({p.avaliacoes} avaliações)</td>)}
+        </tr>
+        <tr>
+          <th scope="row">Maior ponto forte</th>
+          {top3.map((p) => <td data-label="Maior ponto forte">{p.pros[0]}</td>)}
+        </tr>
+        <tr>
+          <th scope="row">Vale saber</th>
+          {top3.map((p) => <td data-label="Vale saber" class="linha-contra">{p.contra}</td>)}
+        </tr>
+        <tr>
+          <th scope="row"><span class="sr-only">Link</span></th>
+          {top3.map((p) => (
+            <td data-label="">
+              {p.linkAmazon && (
+                <a class="botao-tabela" href={p.linkAmazon} rel="sponsored nofollow">Ver preço</a>
+              )}
+            </td>
+          ))}
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <section class="raciocinio">
+    <h2>Qual dos 3 vence pra qual perfil</h2>
+    <p>
+      O suporte de notebook em alumínio é o mais avaliado e o mais barato
+      dos três, mas é simples, sem os 10 níveis de regulagem fina do
+      modelo ELG. O suporte ELG é o segundo mais avaliado e o mais
+      ajustável, só que o preço máximo anunciado é quase o dobro do
+      mínimo, vale conferir o preço final antes de decidir. Já o Acrimet é
+      o organizador de mesa mais avaliado, prático pro dia a dia, mas é
+      peça fixa, não modular, então não dá pra reconfigurar se a
+      necessidade de organização mudar.
+    </p>
+  </section>
+
+  <p class="cta-final">
+    Quer ver todos os produtos pesquisados, não só o Top 3?
+    <a href="/organizacao-homeoffice/">Volte pro guia completo →</a>
+  </p>
+
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+
+  <style>
+    .atualizado { color: var(--cor-texto-suave); font-size: 0.9rem; }
+    .tabela-wrap { overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.85rem; min-width: 560px; }
+    th, td {
+      text-align: left;
+      padding: 0.65rem 0.6rem;
+      border-bottom: 1px solid var(--cor-borda);
+      vertical-align: top;
+    }
+    thead th {
+      color: var(--cor-acento);
+      font-weight: 700;
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+    tbody th {
+      text-align: left;
+      font-weight: 600;
+      color: var(--cor-texto-suave);
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0 0 0 0);
+      white-space: nowrap;
+      border: 0;
+    }
+    .linha-contra { color: var(--cor-vale-saber); font-size: 0.82rem; }
+    .botao-tabela {
+      display: inline-block;
+      background: var(--cor-acento);
+      color: #fff;
+      text-decoration: none;
+      padding: 0.35rem 0.7rem;
+      border-radius: 999px;
+      font-size: 0.78rem;
+      white-space: nowrap;
+    }
+    .cta-final {
+      margin-top: 2rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--cor-borda);
+      font-weight: 600;
+    }
+  </style>
+</Layout>

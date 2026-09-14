@@ -1,7 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import ProdutoCard from '../../components/ProdutoCard.astro';
-import dados from '../../data/produtos-armario.json';
+import dados from '../../data/produtos-sala.json';
 
 const zonas = dados.zonas;
 
@@ -14,22 +14,22 @@ const breadcrumbSchema = {
   "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "Início", item: "https://casapratica.dicasinteligentes.com/" },
-    { "@type": "ListItem", position: 2, name: "Organização de armário", item: "https://casapratica.dicasinteligentes.com/organizacao-armario/" },
+    { "@type": "ListItem", position: 2, name: "Organização de sala de estar", item: "https://casapratica.dicasinteligentes.com/organizacao-sala/" },
   ],
 };
 
 const faq = [
   {
-    pergunta: "Cabide fino (tipo veludo) realmente cabe mais roupa que um cabide comum?",
-    resposta: "Cabe. Um cabide de plástico comum tem cerca de 1,2 a 1,5cm de espessura; o cabide de veludo fino tem 0,6cm, ou seja, menos da metade. Multiplicando por 30 ou 40 peças penduradas, essa diferença de milímetros vira centímetros reais de espaço livre no cabideiro.",
+    pergunta: "Estante alta precisa mesmo ser fixada na parede?",
+    resposta: "Se for uma estante estreita e alta (tipo a de 6 níveis desta lista), sim — é recomendação padrão de segurança pra móveis altos e estreitos, ainda mais em casa com criança ou pet que possa esbarrar. Estante mais baixa e larga tem menos risco, mas fixar nunca é exagero.",
   },
   {
-    pergunta: "Caixa transparente ou caixa opaca com tampa, qual escolher?",
-    resposta: "Depende do que pesa mais pra você. Transparente (como a bolsa com visor) deixa achar a peça sem abrir, mas geralmente é de tecido mais macio e não aguenta empilhar peso em cima. Opaca e rígida (como a caixa de 56L com trava) empilha com segurança, mas exige etiquetar ou lembrar o que guardou dentro. Não existe opção \"melhor\", só a que serve mais pro seu uso.",
+    pergunta: "Vale a pena ter sapateira na sala se já tenho no quarto?",
+    resposta: "Vale, principalmente se a sala funciona como entrada da casa. O ganho não é substituir a do quarto, é evitar que o sapato do dia a dia (o que você usa toda hora) fique largado no chão da sala.",
   },
   {
-    pergunta: "Sapateira fechada (com capa) ou aberta, qual vale mais a pena?",
-    resposta: "Fechada com capa (como a SONGMICS de 9 níveis) protege o sapato de poeira, mas ocupa mais espaço vertical e é mais lenta pra pegar o par no dia a dia. Aberta (como a VASAGLE estreita) é mais rápida de acessar e cabe em corredor estreito, mas deixa o sapato exposto. Se o armário já é fechado, a versão aberta costuma bastar.",
+    pergunta: "Organizador de cabo realmente faz diferença ou é só estética?",
+    resposta: "As duas coisas. Além de deixar mais bonito atrás do rack, cabo organizado é mais fácil de identificar quando um aparelho para de funcionar — você sabe exatamente qual fio seguir, sem puxar tudo pra descobrir.",
   },
 ];
 
@@ -44,11 +44,11 @@ const faqSchema = {
 };
 ---
 <Layout
-  title="Organização de armário: cabide, caixa e sapateira"
-  description="Cabide, caixa organizadora e sapateira pesquisados na Amazon, com preço, nota e o defeito real de cada um, pra organizar o guarda-roupa sem chute."
+  title="Organização de sala de estar: estante, sapateira e cabos"
+  description="Estante, sapateira e organizador de cabos pesquisados na Amazon, com preço, nota e o defeito real de cada um, pra organizar a sala sem chute."
 >
   <p><a href="/">← Início</a></p>
-  <h1>Organização de armário: cabide, caixa e sapateira</h1>
+  <h1>Organização de sala de estar: estante, sapateira e cabos</h1>
   <p class="atualizado">Atualizado em setembro de 2026</p>
 
   <p class="atualizado">
@@ -57,9 +57,9 @@ const faqSchema = {
   </p>
 
   <p>
-    Cabide de plástico fino que quebra, roupa de estação amontoada e sapato
-    solto no chão são os três problemas que mais tomam espaço de armário.
-    Cada zona abaixo resolve um desses de forma separada.
+    Livro sem lugar fixo, sapato solto perto da porta e fio embolado atrás
+    da TV são os três problemas que mais tiram a sala de organizada. Cada
+    zona abaixo resolve um desses de forma separada.
   </p>
 
   <section class="como-escolhemos">
@@ -67,8 +67,7 @@ const faqSchema = {
     <p>
       Nenhum produto entra nessa lista sem um contra declarado (bloco "Vale
       saber" em cada card), tirado da ficha técnica e das características
-      reais do produto. Preço sempre em faixa, nunca fixo: faixa de preço
-      muda com o tempo, valor fixo não.
+      reais do produto. Preço sempre em faixa, nunca fixo.
     </p>
   </section>
 
@@ -105,18 +104,14 @@ const faqSchema = {
   <section class="honestidade">
     <h2>Onde vale gastar mais, onde não faz diferença</h2>
     <p>
-      Nos cabides, o kit de veludo (R$123 por 30 peças) sai mais barato por
-      unidade do que o kit de madeira (R$63 por 10 peças): R$4,10 contra
-      R$6,30 cada. Se o objetivo é só economizar espaço, o de veludo vence
-      até no preço. Nas caixas, a diferença de R$40 pra R$123 não é sobre
-      qualidade, é sobre função: bolsa de tecido dobra e cabe em qualquer
-      canto, caixa rígida empilha com segurança, e a com divisória mantém
-      peça separada por tipo. Já na sapateira, pagar R$36 a mais pela versão
-      de 9 níveis (R$128) em vez da de 3 níveis (R$92) compensa bastante,
-      porque a capacidade quase triplica (18 para 40-50 pares) por menos de
-      40% de aumento no preço. A sapateira estreita da VASAGLE custa mais
-      caro não por ser melhor, mas por resolver um problema específico de
-      espaço apertado.
+      Na estante, a diferença entre a de 6 níveis (~R$293) e a compacta
+      (~R$244) é sobre capacidade vertical, não sobre qualidade — escolha
+      pelo espaço de parede que você tem, não pelo preço. Na sapateira, os
+      R$85 de diferença entre a de 24 pares e a mais barata compram nota
+      mais alta (4,7 contra 4,2) e mais capacidade — vale considerar se o
+      volume de sapatos justifica. Já em organizador de cabo, a diferença
+      de poucos reais entre as duas opções é só sobre método (mangueira
+      única x fixador individual), não sobre qualidade.
     </p>
   </section>
 
@@ -137,11 +132,13 @@ const faqSchema = {
 
   <p class="cluster-link">
     Veja também:
-    <a href="/organizacao-armario/erros-comuns/">os erros mais comuns organizando o armário →</a>
+    <a href="/organizacao-sala/erros-comuns/">os erros mais comuns organizando a sala →</a>
     ·
-    <a href="/organizacao-armario/por-orcamento/">os mesmos produtos por orçamento →</a>
+    <a href="/organizacao-sala/por-orcamento/">os mesmos produtos por orçamento →</a>
     ·
-    <a href="/organizacao-armario/comparativo-top3/">comparativo Top 3 lado a lado →</a>
+    <a href="/organizacao-sala/comparativo-top3/">comparativo Top 3 lado a lado →</a>
+    ·
+    <a href="/organizacao-armario/">organização de armário, zona por zona →</a>
     ·
     <a href="/organizacao-cozinha/">organização de cozinha, zona por zona →</a>
     ·

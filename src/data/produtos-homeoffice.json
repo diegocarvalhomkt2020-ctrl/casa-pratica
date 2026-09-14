@@ -1,0 +1,137 @@
+{
+  "_nota": "3 zonas com 2 produtos reais pesquisados na Amazon cada, com foto e link de afiliado. Apenas Amazon, sem Mercado Livre.",
+  "zonas": [
+    {
+      "id": "organizador-mesa",
+      "nome": "Organizador de mesa",
+      "tempoEstimado": "10 a 15 min",
+      "descricao": "Caneta, clipe e papel solto em cima da mesa são o que mais atrapalha a concentração no home office. Um organizador fixo resolve isso rápido.",
+      "produtos": [
+        {
+          "id": "AMZ-HOME-01",
+          "nome": "Acrimet Organizador de Mesa, 6 Divisórias, Branco",
+          "imagem": "/images/produtos/acrimet-organizador-mesa-6-divisorias-branco.png",
+          "selo": "Mais avaliado",
+          "precoMin": 43,
+          "precoMax": 43,
+          "nota": 4.8,
+          "avaliacoes": 3400,
+          "pros": [
+            "Disparado o mais avaliado da categoria (3,4 mil avaliações)",
+            "6 divisórias, espaço pra caderno, pasta e blocos além de caneta",
+            "Marca com histórico consolidado em artigos de escritório"
+          ],
+          "contra": "É uma peça fixa, não modular — se a necessidade de organização mudar, não dá pra reconfigurar como num organizador com gaveta.",
+          "paraQuem": "Pra quem quer o mais testado do mercado e uma solução direta, sem gaveta",
+          "linkAmazon": "https://www.amazon.com.br/dp/B08J8GK1TR?tag=dicasinteli05-20"
+        },
+        {
+          "id": "AMZ-HOME-02",
+          "nome": "Organizador de Mesa Com Gaveta, Porta Treco Multiuso",
+          "imagem": "/images/produtos/organizador-mesa-gaveta-porta-treco-multiuso.png",
+          "selo": "Com gaveta",
+          "precoMin": 39,
+          "precoMax": 48,
+          "nota": 4.6,
+          "avaliacoes": 2100,
+          "pros": [
+            "Vem com gaveta, útil pra guardar item pequeno fora da vista",
+            "Bom volume de avaliações (2,1 mil), preço competitivo",
+            "Estrutura mais compacta que a Acrimet"
+          ],
+          "contra": "Nota levemente mais baixa que a Acrimet (4,6 contra 4,8) — ainda assim uma boa avaliação geral.",
+          "paraQuem": "Pra quem quer esconder itens pequenos numa gaveta em vez de deixar tudo à mostra",
+          "linkAmazon": "https://www.amazon.com.br/dp/B094DL22SQ?tag=dicasinteli05-20"
+        }
+      ]
+    },
+    {
+      "id": "suporte-notebook",
+      "nome": "Suporte de notebook",
+      "tempoEstimado": "5 a 10 min",
+      "descricao": "Notebook direto na mesa força o pescoço a olhar pra baixo o dia inteiro. Um suporte de altura ajustável resolve essa postura sem precisar de monitor externo.",
+      "produtos": [
+        {
+          "id": "AMZ-HOME-03",
+          "nome": "Suporte Para Notebook E MacBook em Alumínio com Altura Ajustável",
+          "imagem": "/images/produtos/suporte-notebook-macbook-aluminio-altura-ajustavel.png",
+          "selo": "Escolha da Amazon",
+          "precoMin": 17,
+          "precoMax": 24,
+          "nota": 4.5,
+          "avaliacoes": 4800,
+          "pros": [
+            "Disparado o mais avaliado (4,8 mil avaliações, mais de 3 mil compras no mês)",
+            "Alumínio, mais resistente que opções de plástico",
+            "Preço muito baixo pro volume de avaliação que tem"
+          ],
+          "contra": "É um suporte simples, sem os 10 níveis de regulagem fina do modelo ELG desta lista — os ajustes de altura são mais limitados.",
+          "paraQuem": "Pra quem quer o mais testado do mercado, gastando pouco",
+          "linkAmazon": "https://www.amazon.com.br/dp/B086CB6BXW?tag=dicasinteli05-20"
+        },
+        {
+          "id": "AMZ-HOME-04",
+          "nome": "Suporte de Mesa Portátil ELG, 10 Níveis de Regulagem, Dobrável",
+          "imagem": "/images/produtos/suporte-notebook-elg-10-niveis-dobravel.png",
+          "selo": "Mais ajustável",
+          "precoMin": 19,
+          "precoMax": 39,
+          "nota": 4.6,
+          "avaliacoes": 3700,
+          "pros": [
+            "10 níveis de regulagem, mais preciso que o suporte simples",
+            "Dobrável, vem com bolsa de transporte — bom pra quem trabalha fora de casa também",
+            "Bom volume de avaliações (3,7 mil) com nota alta"
+          ],
+          "contra": "Preço máximo (R$39,90) é bem mais alto que o mínimo anunciado — vale conferir o preço final antes de decidir, varia bastante com a oferta do dia.",
+          "paraQuem": "Pra quem quer mais precisão de ajuste ou trabalha em mais de um lugar",
+          "linkAmazon": "https://www.amazon.com.br/dp/B0B91CDCM5?tag=dicasinteli05-20"
+        }
+      ]
+    },
+    {
+      "id": "luminaria-mesa",
+      "nome": "Luminária de mesa",
+      "tempoEstimado": "5 a 10 min",
+      "descricao": "Luz de teto genérica cansa a vista rápido numa jornada de tela longa. Luminária de mesa dedicada resolve isso e ainda ajuda a videochamada.",
+      "produtos": [
+        {
+          "id": "AMZ-HOME-05",
+          "nome": "Luminária LED de Mesa, 64cm, Luz Dupla, Proteção Ocular",
+          "imagem": "/images/produtos/luminaria-led-mesa-64cm-luz-dupla-protecao-ocular.png",
+          "selo": "Mais barata",
+          "precoMin": 99,
+          "precoMax": 129,
+          "nota": 4.3,
+          "avaliacoes": 38,
+          "pros": [
+            "Braço de 64cm, boa área de cobertura pra mesa grande",
+            "10 níveis de brilho e temperatura de cor ajustável (3000K-6000K)",
+            "Alimentação USB, fácil de conectar em qualquer fonte"
+          ],
+          "contra": "Volume de avaliações ainda pequeno (38) e a nota mais baixa das duas opções desta lista.",
+          "paraQuem": "Pra quem quer gastar menos numa luminária com boa área de cobertura",
+          "linkAmazon": "https://www.amazon.com.br/dp/B0FH1R3HD7?tag=dicasinteli05-20"
+        },
+        {
+          "id": "AMZ-HOME-06",
+          "nome": "Tobeape Luminária LED com Controle Remoto, Luz Dupla",
+          "imagem": "/images/produtos/tobeape-luminaria-led-controle-remoto-luz-dupla.png",
+          "selo": "Mais completa",
+          "precoMin": 170,
+          "precoMax": 189,
+          "nota": 4.9,
+          "avaliacoes": 41,
+          "pros": [
+            "Nota mais alta da categoria (4,9), com controle remoto e timer",
+            "5 cores de luz e dimerização, útil pra quem faz videochamada",
+            "Prende na mesa com garra, libera espaço de bancada"
+          ],
+          "contra": "É quase o dobro do preço da opção mais barata desta lista, e o volume de avaliações também ainda é baixo (41).",
+          "paraQuem": "Pra quem quer mais recursos (controle remoto, timer, cores) e não se importa em pagar mais",
+          "linkAmazon": "https://www.amazon.com.br/dp/B0GTY96GYX?tag=dicasinteli05-20"
+        }
+      ]
+    }
+  ]
+}

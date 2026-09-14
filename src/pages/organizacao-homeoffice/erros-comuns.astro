@@ -1,0 +1,105 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const erros = [
+  {
+    titulo: "Usar suporte de notebook sem teclado e mouse externos",
+    texto: "Elevar a tela ajuda a postura do pescoço, mas se você continuar digitando no teclado do próprio notebook (agora mais alto), força o pulso numa posição pior. Suporte só compensa de verdade com teclado e mouse separados.",
+  },
+  {
+    titulo: "Posicionar a luminária de mesa gerando reflexo na tela",
+    texto: "Luminária mal posicionada pode refletir direto no monitor e cansar a vista mais do que ajudar. Posicione de lado, não de frente pra tela.",
+  },
+  {
+    titulo: "Sobrecarregar o organizador de mesa com item que não é de mesa",
+    texto: "Organizador de canetas e clipes não foi feito pra segurar item pesado (carregador, power bank). Use gaveta ou outro espaço pra isso, senão o organizador entorta ou quebra.",
+  },
+  {
+    titulo: "Não conferir se o suporte de notebook é compatível com o tamanho da tela",
+    texto: "Notebook muito grande ou muito pequeno pode não encaixar direito em alguns suportes. Confira a faixa de polegadas suportada antes de comprar.",
+  },
+  {
+    titulo: "Deixar fio solto no chão perto do espaço de trabalho",
+    texto: "Além do risco de tropeço, fio solto acumula poeira e é o primeiro lugar que belisca quando você move a cadeira. Vale organizar isso junto com o resto da mesa, não só depois.",
+  },
+];
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Início", item: "https://casapratica.dicasinteligentes.com/" },
+    { "@type": "ListItem", position: 2, name: "Organização de home office", item: "https://casapratica.dicasinteligentes.com/organizacao-homeoffice/" },
+    { "@type": "ListItem", position: 3, name: "Erros comuns", item: "https://casapratica.dicasinteligentes.com/organizacao-homeoffice/erros-comuns/" },
+  ],
+};
+---
+<Layout
+  title="Erros comuns organizando o home office"
+  description="Os erros mais comuns na hora de escolher organizador de mesa, suporte de notebook e luminária pro home office, e como evitar cada um."
+>
+  <p><a href="/organizacao-homeoffice/">← Organização de home office</a></p>
+  <h1>Erros comuns organizando o home office</h1>
+  <p class="atualizado">Atualizado em setembro de 2026</p>
+
+  <p>
+    A maior parte dos problemas com organização de home office não é
+    sobre o produto em si, é sobre como ele é usado no dia a dia. Confira
+    esses erros antes de montar sua mesa.
+  </p>
+
+  <ol class="erros-lista">
+    {erros.map((erro) => (
+      <li>
+        <h2>{erro.titulo}</h2>
+        <p>{erro.texto}</p>
+      </li>
+    ))}
+  </ol>
+
+  <p class="cta-final">
+    Já sabe onde não errar? <a href="/organizacao-homeoffice/">Veja a lista completa →</a>
+  </p>
+
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+
+  <style>
+    .atualizado { color: var(--cor-texto-suave); font-size: 0.9rem; }
+    .erros-lista {
+      list-style: none;
+      padding: 0;
+      margin: 2rem 0;
+      counter-reset: erro;
+    }
+    .erros-lista li {
+      counter-increment: erro;
+      padding: 1.1rem 0 1.1rem 2.5rem;
+      position: relative;
+      border-bottom: 1px solid var(--cor-borda);
+    }
+    .erros-lista li::before {
+      content: counter(erro);
+      position: absolute;
+      left: 0;
+      top: 1.1rem;
+      width: 1.6rem;
+      height: 1.6rem;
+      border-radius: 50%;
+      background: var(--cor-acento);
+      color: #fff;
+      font-size: 0.85rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .erros-lista h2 { font-size: 1.05rem; margin: 0 0 0.35rem; }
+    .erros-lista p { margin: 0; color: var(--cor-texto-suave); }
+    .cta-final {
+      margin-top: 2rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--cor-borda);
+      font-weight: 600;
+    }
+  </style>
+</Layout>

@@ -1,0 +1,137 @@
+{
+  "_nota": "3 zonas com 2 produtos reais pesquisados na Amazon cada, com foto e link de afiliado. Apenas Amazon, sem Mercado Livre.",
+  "zonas": [
+    {
+      "id": "estante-prateleira",
+      "nome": "Estante e prateleira",
+      "tempoEstimado": "20 a 30 min",
+      "descricao": "Livro, porta-retrato e objeto de decoração espalhados pela sala somem em minutos quando têm um lugar fixo pra ficar. Estante aberta resolve isso sem fechar o ambiente.",
+      "produtos": [
+        {
+          "id": "AMZ-SALA-01",
+          "nome": "VASAGLE Estante de Livros com 6 Níveis, 178,5cm",
+          "imagem": "/images/produtos/vasagle-estante-livros-6-niveis.png",
+          "selo": "Mais completa",
+          "precoMin": 293,
+          "precoMax": 359,
+          "nota": 4.4,
+          "avaliacoes": 2400,
+          "pros": [
+            "6 níveis de prateleira aberta, boa capacidade de organização vertical",
+            "Marca com bom volume de avaliações (2,4 mil) e nota consistente",
+            "Disponível em 3 tamanhos, dá pra ajustar ao espaço"
+          ],
+          "contra": "Por ser alta (178,5cm) e estreita, recomenda-se fixar na parede pra estabilidade — sem fixação, o risco de tombar aumenta com prateleiras muito carregadas.",
+          "paraQuem": "Pra quem tem parede livre e quer maximizar organização vertical",
+          "linkAmazon": "https://www.amazon.com.br/dp/B0FMXF7ZVD?tag=dicasinteli05-20"
+        },
+        {
+          "id": "AMZ-SALA-02",
+          "nome": "VASAGLE Estante de Livros Compacta, 107,7cm",
+          "imagem": "/images/produtos/vasagle-estante-livros-compacta.png",
+          "selo": "Mais compacta",
+          "precoMin": 244,
+          "precoMax": 299,
+          "nota": 4.4,
+          "avaliacoes": 1300,
+          "pros": [
+            "Mais baixa e estável que a versão de 6 níveis, menos risco de tombamento",
+            "Mesma marca de confiança, disponível em 2 tamanhos",
+            "Boa opção pra sala com pé-direito baixo ou espaço reduzido"
+          ],
+          "contra": "Menor capacidade de armazenamento que a versão de 6 níveis — menos prateleiras significa menos objetos organizados no mesmo espaço de parede.",
+          "paraQuem": "Pra quem tem menos itens pra guardar ou prefere um móvel mais baixo",
+          "linkAmazon": "https://www.amazon.com.br/dp/B08LDHR5VP?tag=dicasinteli05-20"
+        }
+      ]
+    },
+    {
+      "id": "sapateira-entrada",
+      "nome": "Sapateira e entrada",
+      "tempoEstimado": "15 a 20 min",
+      "descricao": "Sapato solto perto da porta é o primeiro sinal de sala desorganizada pra quem entra em casa. Uma sapateira dedicada resolve isso na entrada, sem precisar de guarda-roupa.",
+      "produtos": [
+        {
+          "id": "AMZ-SALA-03",
+          "nome": "Sapateira Organizadora 6 Prateleiras, 24 Pares",
+          "imagem": "/images/produtos/sapateira-organizadora-6-prateleiras-24-pares.png",
+          "selo": "Maior capacidade",
+          "precoMin": 144,
+          "precoMax": 169,
+          "nota": 4.7,
+          "avaliacoes": 66,
+          "pros": [
+            "Capacidade pra 24 pares, boa nota (4,7)",
+            "6 prateleiras, dá pra organizar por tipo de calçado",
+            "Preço competitivo pra capacidade alta"
+          ],
+          "contra": "Volume de avaliações ainda pequeno (66) comparado a outros organizadores mais estabelecidos da categoria.",
+          "paraQuem": "Pra família com bastante calçado e pouco espaço de armário",
+          "linkAmazon": "https://www.amazon.com.br/dp/B0GQLMPGF1?tag=dicasinteli05-20"
+        },
+        {
+          "id": "AMZ-SALA-04",
+          "nome": "SONGMICS Sapateira de 3 Níveis, 20 a 24 Pares",
+          "imagem": "/images/produtos/songmics-sapateira-3-niveis-20-24-pares.png",
+          "selo": "Mais barata",
+          "precoMin": 59,
+          "precoMax": 69,
+          "nota": 4.2,
+          "avaliacoes": 11900,
+          "pros": [
+            "A mais barata da categoria, com o maior volume de avaliações (quase 12 mil)",
+            "Empilhável, montagem vertical ou invertida conforme o espaço",
+            "Marca consolidada em organização doméstica"
+          ],
+          "contra": "É a nota mais baixa desta lista (4,2) apesar do alto volume de vendas — vale ler as avaliações recentes antes de decidir.",
+          "paraQuem": "Pra quem quer gastar pouco e não se importa com a nota um pouco mais baixa",
+          "linkAmazon": "https://www.amazon.com.br/dp/B0BXCFR2XV?tag=dicasinteli05-20"
+        }
+      ]
+    },
+    {
+      "id": "organizador-cabos",
+      "nome": "Organizador de cabos e TV",
+      "tempoEstimado": "10 a 15 min",
+      "descricao": "Fio de TV, videogame e caixa de som embolado atrás do rack é o tipo de bagunça que ninguém vê até precisar mexer. Organizador de cabo resolve rápido e barato.",
+      "produtos": [
+        {
+          "id": "AMZ-SALA-05",
+          "nome": "Sfor Organizador de Fios e Cabos, 19mm x 1,5m",
+          "imagem": "/images/produtos/sfor-organizador-fios-cabos-19mm.png",
+          "selo": "Mais barato",
+          "precoMin": 16,
+          "precoMax": 16,
+          "nota": 4.6,
+          "avaliacoes": 1200,
+          "pros": [
+            "Preço muito baixo, selo de mais vendido da categoria",
+            "Nota alta (4,6) com bom volume de avaliações (1,2 mil)",
+            "Agrupa vários cabos numa mangueira só, some com o emaranhado atrás do rack"
+          ],
+          "contra": "É uma peça única de 1,5m — pra rack grande ou muitos aparelhos, pode ser necessário comprar mais de uma unidade.",
+          "paraQuem": "Pra quem quer resolver o fio da TV/videogame gastando pouco",
+          "linkAmazon": "https://www.amazon.com.br/dp/B08R58CWKD?tag=dicasinteli05-20"
+        },
+        {
+          "id": "AMZ-SALA-06",
+          "nome": "Abcfixadores Organizador de Cabos e Fios Oculto, Kit 6 Unidades",
+          "imagem": "/images/produtos/abcfixadores-organizador-cabos-oculto-kit6.png",
+          "selo": "Kit com mais peças",
+          "precoMin": 19,
+          "precoMax": 19,
+          "nota": 4.6,
+          "avaliacoes": 948,
+          "pros": [
+            "Vem com 6 unidades, melhor pra distribuir em vários pontos do rack ou mesa",
+            "Fixação oculta embaixo do móvel, cabo não fica visível",
+            "Nota consistente (4,6) com quase mil avaliações"
+          ],
+          "contra": "É fixador individual por cabo, não agrupa vários cabos numa mangueira só como a opção Sfor — mais trabalhoso de instalar se forem muitos fios.",
+          "paraQuem": "Pra quem tem vários pontos de cabo espalhados e quer prender cada um no lugar certo",
+          "linkAmazon": "https://www.amazon.com.br/dp/B0CK7Q2QY9?tag=dicasinteli05-20"
+        }
+      ]
+    }
+  ]
+}

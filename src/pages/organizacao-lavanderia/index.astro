@@ -1,7 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import ProdutoCard from '../../components/ProdutoCard.astro';
-import dados from '../../data/produtos-armario.json';
+import dados from '../../data/produtos-lavanderia.json';
 
 const zonas = dados.zonas;
 
@@ -14,22 +14,22 @@ const breadcrumbSchema = {
   "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "Início", item: "https://casapratica.dicasinteligentes.com/" },
-    { "@type": "ListItem", position: 2, name: "Organização de armário", item: "https://casapratica.dicasinteligentes.com/organizacao-armario/" },
+    { "@type": "ListItem", position: 2, name: "Organização de lavanderia", item: "https://casapratica.dicasinteligentes.com/organizacao-lavanderia/" },
   ],
 };
 
 const faq = [
   {
-    pergunta: "Cabide fino (tipo veludo) realmente cabe mais roupa que um cabide comum?",
-    resposta: "Cabe. Um cabide de plástico comum tem cerca de 1,2 a 1,5cm de espessura; o cabide de veludo fino tem 0,6cm, ou seja, menos da metade. Multiplicando por 30 ou 40 peças penduradas, essa diferença de milímetros vira centímetros reais de espaço livre no cabideiro.",
+    pergunta: "Varal de chão substitui varal fixo de teto ou parede?",
+    resposta: "Pra apartamento sem varal instalado, sim, resolve bem. Se você já tem varal de teto/parede, o de chão funciona mais como reforço pra dia de lavagem grande, ou pra quem mora de aluguel e não quer furar parede.",
   },
   {
-    pergunta: "Caixa transparente ou caixa opaca com tampa, qual escolher?",
-    resposta: "Depende do que pesa mais pra você. Transparente (como a bolsa com visor) deixa achar a peça sem abrir, mas geralmente é de tecido mais macio e não aguenta empilhar peso em cima. Opaca e rígida (como a caixa de 56L com trava) empilha com segurança, mas exige etiquetar ou lembrar o que guardou dentro. Não existe opção \"melhor\", só a que serve mais pro seu uso.",
+    pergunta: "Vale gastar mais no cesto de roupa com tampa?",
+    resposta: "Só se a estética/cheiro importar mais que o preço. Funcionalmente, os dois guardam roupa suja igual — a tampa é sobre não ver a roupa acumulada, não sobre durabilidade.",
   },
   {
-    pergunta: "Sapateira fechada (com capa) ou aberta, qual vale mais a pena?",
-    resposta: "Fechada com capa (como a SONGMICS de 9 níveis) protege o sapato de poeira, mas ocupa mais espaço vertical e é mais lenta pra pegar o par no dia a dia. Aberta (como a VASAGLE estreita) é mais rápida de acessar e cabe em corredor estreito, mas deixa o sapato exposto. Se o armário já é fechado, a versão aberta costuma bastar.",
+    pergunta: "Prateleira de plástico aguenta o peso de vários produtos de limpeza?",
+    resposta: "Pras 3 prateleiras juntas, sim, dentro do uso normal doméstico — o ponto de atenção é distribuir o peso maior (baldes cheios, por exemplo) na prateleira de baixo, mais perto do chão.",
   },
 ];
 
@@ -44,11 +44,11 @@ const faqSchema = {
 };
 ---
 <Layout
-  title="Organização de armário: cabide, caixa e sapateira"
-  description="Cabide, caixa organizadora e sapateira pesquisados na Amazon, com preço, nota e o defeito real de cada um, pra organizar o guarda-roupa sem chute."
+  title="Organização de lavanderia: cesto, varal e produtos de limpeza"
+  description="Cesto de roupa, varal de chão e organizador de produtos de limpeza pesquisados na Amazon, com preço, nota e o defeito real de cada um."
 >
   <p><a href="/">← Início</a></p>
-  <h1>Organização de armário: cabide, caixa e sapateira</h1>
+  <h1>Organização de lavanderia: cesto, varal e produtos de limpeza</h1>
   <p class="atualizado">Atualizado em setembro de 2026</p>
 
   <p class="atualizado">
@@ -57,9 +57,9 @@ const faqSchema = {
   </p>
 
   <p>
-    Cabide de plástico fino que quebra, roupa de estação amontoada e sapato
-    solto no chão são os três problemas que mais tomam espaço de armário.
-    Cada zona abaixo resolve um desses de forma separada.
+    Roupa suja espalhada, falta de varal e produto de limpeza largado em
+    cima da máquina são os três problemas que mais bagunçam a área de
+    serviço. Cada zona abaixo resolve um desses de forma separada.
   </p>
 
   <section class="como-escolhemos">
@@ -67,8 +67,7 @@ const faqSchema = {
     <p>
       Nenhum produto entra nessa lista sem um contra declarado (bloco "Vale
       saber" em cada card), tirado da ficha técnica e das características
-      reais do produto. Preço sempre em faixa, nunca fixo: faixa de preço
-      muda com o tempo, valor fixo não.
+      reais do produto. Preço sempre em faixa, nunca fixo.
     </p>
   </section>
 
@@ -105,18 +104,14 @@ const faqSchema = {
   <section class="honestidade">
     <h2>Onde vale gastar mais, onde não faz diferença</h2>
     <p>
-      Nos cabides, o kit de veludo (R$123 por 30 peças) sai mais barato por
-      unidade do que o kit de madeira (R$63 por 10 peças): R$4,10 contra
-      R$6,30 cada. Se o objetivo é só economizar espaço, o de veludo vence
-      até no preço. Nas caixas, a diferença de R$40 pra R$123 não é sobre
-      qualidade, é sobre função: bolsa de tecido dobra e cabe em qualquer
-      canto, caixa rígida empilha com segurança, e a com divisória mantém
-      peça separada por tipo. Já na sapateira, pagar R$36 a mais pela versão
-      de 9 níveis (R$128) em vez da de 3 níveis (R$92) compensa bastante,
-      porque a capacidade quase triplica (18 para 40-50 pares) por menos de
-      40% de aumento no preço. A sapateira estreita da VASAGLE custa mais
-      caro não por ser melhor, mas por resolver um problema específico de
-      espaço apertado.
+      No cesto de roupa, a diferença de ~R$23 entre o de bambu com tampa e
+      o multiuso sem tampa é sobre estética, não durabilidade — os dois
+      seguram roupa suja igual bem. No varal, o mais vendido (~R$79) e o
+      Powermaid (~R$62) têm preço parecido, mas notas diferentes (4,4
+      contra 4,7): vale considerar o Powermaid se a prioridade é
+      estabilidade. Nos produtos de limpeza, a prateleira de 3 andares
+      custa mais que o organizador de tanque porque resolve mais
+      problema de uma vez (vários produtos, não só sabão em pó).
     </p>
   </section>
 
@@ -137,15 +132,17 @@ const faqSchema = {
 
   <p class="cluster-link">
     Veja também:
-    <a href="/organizacao-armario/erros-comuns/">os erros mais comuns organizando o armário →</a>
+    <a href="/organizacao-lavanderia/erros-comuns/">os erros mais comuns organizando a lavanderia →</a>
     ·
-    <a href="/organizacao-armario/por-orcamento/">os mesmos produtos por orçamento →</a>
+    <a href="/organizacao-lavanderia/por-orcamento/">os mesmos produtos por orçamento →</a>
     ·
-    <a href="/organizacao-armario/comparativo-top3/">comparativo Top 3 lado a lado →</a>
+    <a href="/organizacao-lavanderia/comparativo-top3/">comparativo Top 3 lado a lado →</a>
+    ·
+    <a href="/organizacao-armario/">organização de armário, zona por zona →</a>
+    ·
+    <a href="/organizacao-sala/">organização de sala de estar →</a>
     ·
     <a href="/organizacao-cozinha/">organização de cozinha, zona por zona →</a>
-    ·
-    <a href="/organizacao-banheiro/">organização de banheiro sem furar parede →</a>
   </p>
 
   <section class="faq">

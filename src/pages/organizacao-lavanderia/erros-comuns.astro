@@ -1,0 +1,106 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const erros = [
+  {
+    titulo: "Comprar cesto sem tampa achando que qualquer um resolve",
+    texto: "Se cheiro importa pra você, cesto sem tampa vai incomodar rápido. Mas também não é motivo pra pagar mais se isso não te afeta — a diferença é estética e conveniência, não durabilidade.",
+  },
+  {
+    titulo: "Não testar a estabilidade do varal antes de carregar com roupa molhada",
+    texto: "Roupa molhada pesa bem mais que parece. Abra o varal e teste com as mãos antes de pendurar tudo de uma vez, principalmente em modelo mais barato ou com rodinhas.",
+  },
+  {
+    titulo: "Sobrecarregar uma prateleira só com produto pesado",
+    texto: "Distribua garrafas grandes de detergente e amaciante nas prateleiras de baixo. Prateleira de plástico sobrecarregada no topo pode ceder com o tempo.",
+  },
+  {
+    titulo: "Guardar cesto ou varal úmido depois de lavar",
+    texto: "Área de serviço costuma ser mais úmida — seque bem antes de guardar peças dobráveis, principalmente as com dobras e cantos, senão acumula mofo rápido.",
+  },
+  {
+    titulo: "Não medir o espaço antes de comprar prateleira com rodízio",
+    texto: "Prateleira de 3 andares ocupa mais espaço de chão do que parece na foto do anúncio. Meça a área de serviço antes de comprar, principalmente se for apertada.",
+  },
+];
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Início", item: "https://casapratica.dicasinteligentes.com/" },
+    { "@type": "ListItem", position: 2, name: "Organização de lavanderia", item: "https://casapratica.dicasinteligentes.com/organizacao-lavanderia/" },
+    { "@type": "ListItem", position: 3, name: "Erros comuns", item: "https://casapratica.dicasinteligentes.com/organizacao-lavanderia/erros-comuns/" },
+  ],
+};
+---
+<Layout
+  title="Erros comuns organizando a lavanderia"
+  description="Os erros mais comuns na hora de escolher cesto, varal e organizador de produtos de limpeza pra área de serviço, e como evitar cada um."
+>
+  <p><a href="/organizacao-lavanderia/">← Organização de lavanderia</a></p>
+  <h1>Erros comuns organizando a lavanderia</h1>
+  <p class="atualizado">Atualizado em setembro de 2026</p>
+
+  <p>
+    A maior parte dos problemas com cesto, varal e organizador de produtos
+    de limpeza não é sobre o produto em si, é sobre como foi escolhido ou
+    usado no dia a dia. Confira esses erros antes de comprar qualquer
+    coisa.
+  </p>
+
+  <ol class="erros-lista">
+    {erros.map((erro) => (
+      <li>
+        <h2>{erro.titulo}</h2>
+        <p>{erro.texto}</p>
+      </li>
+    ))}
+  </ol>
+
+  <p class="cta-final">
+    Já sabe onde não errar? <a href="/organizacao-lavanderia/">Veja a lista completa →</a>
+  </p>
+
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+
+  <style>
+    .atualizado { color: var(--cor-texto-suave); font-size: 0.9rem; }
+    .erros-lista {
+      list-style: none;
+      padding: 0;
+      margin: 2rem 0;
+      counter-reset: erro;
+    }
+    .erros-lista li {
+      counter-increment: erro;
+      padding: 1.1rem 0 1.1rem 2.5rem;
+      position: relative;
+      border-bottom: 1px solid var(--cor-borda);
+    }
+    .erros-lista li::before {
+      content: counter(erro);
+      position: absolute;
+      left: 0;
+      top: 1.1rem;
+      width: 1.6rem;
+      height: 1.6rem;
+      border-radius: 50%;
+      background: var(--cor-acento);
+      color: #fff;
+      font-size: 0.85rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .erros-lista h2 { font-size: 1.05rem; margin: 0 0 0.35rem; }
+    .erros-lista p { margin: 0; color: var(--cor-texto-suave); }
+    .cta-final {
+      margin-top: 2rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--cor-borda);
+      font-weight: 600;
+    }
+  </style>
+</Layout>
