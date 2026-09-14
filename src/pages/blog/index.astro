@@ -1,0 +1,64 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import dados from '../../data/blog.json';
+
+const posts = [...dados.posts].sort((a, b) => b.dataPublicacao.localeCompare(a.dataPublicacao));
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Início", "item": new URL('/', Astro.site).toString() },
+    { "@type": "ListItem", "position": 2, "name": "Blog", "item": new URL('/blog/', Astro.site).toString() },
+  ],
+};
+---
+<Layout title="Blog" description="Dicas e guias de organização pra casa: rotina, truques e o que vale saber antes de comprar.">
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+
+  <nav class="trilha"><a href="/">Início</a> &rsaquo; Blog</nav>
+
+  <h1>Blog</h1>
+  <p>Dicas e guias de organização pra casa, além dos comparativos de produto.</p>
+
+  {posts.length === 0 && (
+    <p class="em-breve">Ainda não tem post publicado aqui. Os comparativos completos já estão nas páginas de cada ambiente.</p>
+  )}
+
+  <div class="grade">
+    {posts.map((p) => (
+      <a href={`/blog/${p.slug}/`} class="cartao">
+        {p.imagem && <img src={p.imagem} alt={p.titulo} width="360" height="240" loading="lazy" />}
+        <div class="cartao-texto">
+          <h2>{p.titulo}</h2>
+          <p>{p.resumo}</p>
+        </div>
+      </a>
+    ))}
+  </div>
+
+  <style>
+    .trilha { font-size: 0.85rem; color: var(--cor-texto-suave); margin-bottom: 1rem; }
+    .trilha a { color: var(--cor-texto-suave); }
+    .em-breve { color: var(--cor-texto-suave); }
+    .grade {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .cartao {
+      display: block;
+      text-decoration: none;
+      color: var(--cor-texto);
+      background: var(--cor-superficie);
+      border: 1px solid var(--cor-borda);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    .cartao img { width: 100%; aspect-ratio: 3/2; object-fit: cover; display: block; }
+    .cartao-texto { padding: 1rem; }
+    .cartao h2 { font-size: 1.05rem; margin: 0 0 0.4rem; }
+    .cartao p { font-size: 0.85rem; color: var(--cor-texto-suave); margin: 0; }
+  </style>
+</Layout>

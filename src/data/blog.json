@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "slug": "cheiro-de-mofo-no-armario",
+      "titulo": "Por que a roupa guardada fica com cheiro de mofo (e como evitar)",
+      "resumo": "O motivo real do cheiro de mofo em armário fechado, os sinais de que já tem umidade demais, e a forma mais simples de prevenir.",
+      "dataPublicacao": "2026-09-14",
+      "corpo": [
+        { "tipo": "paragrafo", "texto": "Armário fechado sem ventilação acumula umidade do próprio ar, mesmo sem vazamento ou infiltração visível. É essa umidade parada que gera o cheiro de mofo na roupa guardada, principalmente em casa perto do mar, região úmida, ou armário encostado em parede externa." },
+        { "tipo": "subtitulo", "texto": "Sinais de que já passou do ponto" },
+        { "tipo": "lista", "itens": [
+          "Cheiro de mofo mesmo em roupa lavada e seca antes de guardar",
+          "Mancha escura ou esverdeada em canto do armário ou na base da roupa",
+          "Madeira do armário empenando ou gaveta emperrando com facilidade",
+          "Roupa que \"amolece\" ou muda de textura depois de meses guardada"
+        ] },
+        { "tipo": "subtitulo", "texto": "O que resolve de verdade" },
+        { "tipo": "paragrafo", "texto": "Abrir o armário pra arejar de vez em quando ajuda, mas em casa sem muita circulação de ar isso nem sempre é suficiente. Um absorvente de umidade dentro do armário captura a umidade do ar fechado antes que ela vire mofo — é solução simples, não elimina infiltração estrutural (isso precisa de reparo de verdade), mas resolve o caso mais comum, que é só o ar parado." }
+      ],
+      "produtoDestaque": {
+        "nome": "Sanol Evita Mofo (Sanol Sec) - Kit 4x100g",
+        "selo": "Mais avaliado",
+        "precoMin": 30,
+        "precoMax": 30,
+        "nota": 4.8,
+        "avaliacoes": 3400,
+        "pros": [
+          "Nota mais alta da categoria (4,8) com o maior volume de avaliação disparado (3,4 mil)",
+          "Kit com 3 fragrâncias diferentes (Neutro, Lavanda, Baby), rende pros principais ambientes da casa",
+          "Não precisa de tomada nem manutenção, só trocar quando o compartimento de água enche"
+        ],
+        "contra": "É solução passiva: absorve a umidade do ar fechado, mas não resolve infiltração ou vazamento real — isso precisa de reparo separado. Precisa ficar de olho no compartimento de água pra trocar na hora certa.",
+        "paraQuem": "Pra armário, closet ou gaveta fechada sem ventilação, não pra casa com infiltração ativa",
+        "linkAmazon": "https://www.amazon.com.br/dp/B0779PKMG9?tag=dicasinteli05-20"
+      },
+      "pilarRelacionado": { "href": "/organizacao-armario/", "label": "cabide, caixa organizadora e sapateira" }
+    }
+  ]
+}

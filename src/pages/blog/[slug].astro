@@ -1,0 +1,107 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import ProdutoCard from '../../components/ProdutoCard.astro';
+import dados from '../../data/blog.json';
+
+export function getStaticPaths() {
+  return dados.posts.map((p) => ({
+    params: { slug: p.slug },
+    props: { post: p },
+  }));
+}
+
+const { post: p } = Astro.props;
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Início", "item": new URL('/', Astro.site).toString() },
+    { "@type": "ListItem", "position": 2, "name": "Blog", "item": new URL('/blog/', Astro.site).toString() },
+    { "@type": "ListItem", "position": 3, "name": p.titulo, "item": new URL(`/blog/${p.slug}/`, Astro.site).toString() },
+  ],
+};
+
+const postSchema = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": p.titulo,
+  "description": p.resumo,
+  "datePublished": p.dataPublicacao,
+  "author": { "@type": "Organization", "name": "Casa Prática" },
+  ...(p.imagem ? { "image": [new URL(p.imagem, Astro.site).toString()] } : {}),
+};
+---
+<Layout title={p.titulo} description={p.resumo} image={p.imagem}>
+  <script type="application/ld+json" set:html={JSON.stringify(postSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+
+  <nav class="trilha">
+    <a href="/">Início</a> &rsaquo; <a href="/blog/">Blog</a> &rsaquo; {p.titulo}
+  </nav>
+
+  <h1>{p.titulo}</h1>
+  <p class="atualizado">Publicado em {new Date(p.dataPublicacao + 'T00:00:00').toLocaleDateString('pt-BR', { day: '2-digit', month: 'long', year: 'numeric' })}</p>
+
+  {p.imagem && <img src={p.imagem} alt={p.titulo} class="foto-capa" width="720" height="480" />}
+
+  <div class="corpo">
+    {p.corpo.map((bloco) => {
+      if (bloco.tipo === 'paragrafo') return <p>{bloco.texto}</p>;
+      if (bloco.tipo === 'subtitulo') return <h2>{bloco.texto}</h2>;
+      if (bloco.tipo === 'lista') return (
+        <ul>
+          {bloco.itens.map((item) => <li>{item}</li>)}
+        </ul>
+      );
+      return null;
+    })}
+  </div>
+
+  {p.produtoDestaque && (
+    <section class="produto-destaque">
+      <h2>Vale considerar</h2>
+      <ProdutoCard produto={p.produtoDestaque} />
+    </section>
+  )}
+
+  {p.pilarRelacionado && (
+    <p class="cta-pilar">
+      Quer comparar as opções com preço, nota e contra real de cada uma?
+      <a href={p.pilarRelacionado.href}>Veja {p.pilarRelacionado.label} →</a>
+    </p>
+  )}
+
+  <style>
+    .trilha { font-size: 0.85rem; color: var(--cor-texto-suave); margin-bottom: 1rem; }
+    .trilha a { color: var(--cor-texto-suave); }
+    .atualizado { color: var(--cor-texto-suave); font-size: 0.9rem; margin-top: -0.5rem; }
+    .foto-capa {
+      width: 100%;
+      max-width: 640px;
+      height: auto;
+      border-radius: 12px;
+      display: block;
+      margin: 1.5rem 0;
+    }
+    .corpo p { margin: 0 0 1.1rem; }
+    .corpo h2 { margin: 1.75rem 0 0.75rem; font-size: 1.25rem; }
+    .corpo ul { padding-left: 1.2rem; margin: 0 0 1.1rem; }
+    .corpo li { margin-bottom: 0.4rem; }
+    .produto-destaque {
+      margin: 2rem 0;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--cor-borda);
+    }
+    .produto-destaque h2 { margin: 0 0 1rem; font-size: 1.15rem; }
+    .cta-pilar {
+      margin-top: 2rem;
+      padding: 1.25rem;
+      background: var(--cor-superficie);
+      border: 1px solid var(--cor-borda);
+      border-radius: 12px;
+      font-weight: 600;
+    }
+    .cta-pilar a { display: block; margin-top: 0.35rem; font-weight: 700; }
+  </style>
+</Layout>
