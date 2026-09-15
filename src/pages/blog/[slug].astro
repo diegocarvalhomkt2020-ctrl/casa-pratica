@@ -31,10 +31,21 @@ const postSchema = {
   "author": { "@type": "Organization", "name": "Casa Prática" },
   ...(p.imagem ? { "image": [new URL(p.imagem, Astro.site).toString()] } : {}),
 };
+
+const faqSchema = p.faq && p.faq.length > 0 ? {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": p.faq.map((f) => ({
+    "@type": "Question",
+    "name": f.pergunta,
+    "acceptedAnswer": { "@type": "Answer", "text": f.resposta },
+  })),
+} : null;
 ---
 <Layout title={p.titulo} description={p.resumo} image={p.imagem}>
   <script type="application/ld+json" set:html={JSON.stringify(postSchema)} />
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+  {faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
 
   <nav class="trilha">
     <a href="/">Início</a> &rsaquo; <a href="/blog/">Blog</a> &rsaquo; {p.titulo}
@@ -62,6 +73,18 @@ const postSchema = {
     <section class="produto-destaque">
       <h2>Vale considerar</h2>
       <ProdutoCard produto={p.produtoDestaque} />
+    </section>
+  )}
+
+  {p.faq && p.faq.length > 0 && (
+    <section class="faq">
+      <h2>Perguntas frequentes</h2>
+      {p.faq.map((f) => (
+        <div class="faq-item">
+          <h3>{f.pergunta}</h3>
+          <p>{f.resposta}</p>
+        </div>
+      ))}
     </section>
   )}
 
@@ -94,6 +117,10 @@ const postSchema = {
       border-top: 1px solid var(--cor-borda);
     }
     .produto-destaque h2 { margin: 0 0 1rem; font-size: 1.15rem; }
+    .faq { margin: 2rem 0; }
+    .faq-item { margin-bottom: 1.25rem; }
+    .faq-item h3 { font-size: 1.05rem; margin-bottom: 0.3rem; }
+    .faq-item p { margin: 0; color: var(--cor-texto-suave); }
     .cta-pilar {
       margin-top: 2rem;
       padding: 1.25rem;
