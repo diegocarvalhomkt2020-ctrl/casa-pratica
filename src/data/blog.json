@@ -15,11 +15,11 @@
           "Roupa que \"amolece\" ou muda de textura depois de meses guardada"
         ] },
         { "tipo": "subtitulo", "texto": "O que resolve de verdade" },
-        { "tipo": "paragrafo", "texto": "Abrir o armário pra arejar de vez em quando ajuda, mas em casa sem muita circulação de ar isso nem sempre é suficiente. Um absorvente de umidade dentro do armário captura a umidade do ar fechado antes que ela vire mofo — é solução simples, não elimina infiltração estrutural (isso precisa de reparo de verdade), mas resolve o caso mais comum, que é só o ar parado." },
+        { "tipo": "paragrafo", "texto": "Abrir o armário pra arejar de vez em quando ajuda, mas em casa sem muita circulação de ar isso nem sempre é suficiente. Um absorvente de umidade dentro do armário captura a umidade do ar fechado antes que ela vire mofo. É solução simples, não elimina infiltração estrutural (isso precisa de reparo de verdade), mas resolve o caso mais comum, que é só o ar parado." },
         { "tipo": "subtitulo", "texto": "Quando o problema é maior que o armário" },
-        { "tipo": "paragrafo", "texto": "Se o cheiro volta rápido mesmo trocando o absorvente com frequência, ou se aparece em mais de um cômodo, o problema pode ser umidade do ambiente inteiro, não só do armário fechado — comum em casa térrea, porão ou perto do mar. Nesse caso, um desumidificador elétrico de ambiente (que trata o ar do cômodo, não só de dentro do móvel) rende mais do que multiplicar sachê. O sachê continua valendo como reforço pontual dentro de gaveta e closet." },
+        { "tipo": "paragrafo", "texto": "Se o cheiro volta rápido mesmo trocando o absorvente com frequência, ou se aparece em mais de um cômodo, o problema pode ser umidade do ambiente inteiro, não só do armário fechado. É comum em casa térrea, porão ou perto do mar. Nesse caso, um desumidificador elétrico de ambiente (que trata o ar do cômodo, não só de dentro do móvel) rende mais do que multiplicar sachê. O sachê continua valendo como reforço pontual dentro de gaveta e closet." },
         { "tipo": "subtitulo", "texto": "Rotina simples que ajuda" },
-        { "tipo": "paragrafo", "texto": "Nunca guardar roupa que só pareça seca — se foi passada a ferro ou tirada do varal recentemente, ela ainda solta umidade por algumas horas. Deixar um pequeno espaço de ar entre as peças penduradas também ajuda a circulação, em vez de lotar o cabide até o fim. E vale checar o compartimento de água do absorvente periodicamente, não só quando o cheiro já voltou." }
+        { "tipo": "paragrafo", "texto": "Nunca guardar roupa que só pareça seca: se foi passada a ferro ou tirada do varal recentemente, ela ainda solta umidade por algumas horas. Deixar um pequeno espaço de ar entre as peças penduradas também ajuda a circulação, em vez de lotar o cabide até o fim. E vale checar o compartimento de água do absorvente periodicamente, não só quando o cheiro já voltou." }
       ],
       "produtoDestaque": {
         "nome": "Sanol Evita Mofo (Sanol Sec) - Kit 4x100g",
@@ -33,22 +33,22 @@
           "Kit com 3 fragrâncias diferentes (Neutro, Lavanda, Baby), rende pros principais ambientes da casa",
           "Não precisa de tomada nem manutenção, só trocar quando o compartimento de água enche"
         ],
-        "contra": "É solução passiva: absorve a umidade do ar fechado, mas não resolve infiltração ou vazamento real — isso precisa de reparo separado. Precisa ficar de olho no compartimento de água pra trocar na hora certa.",
+        "contra": "É solução passiva: absorve a umidade do ar fechado, mas não resolve infiltração ou vazamento real: isso precisa de reparo separado. Precisa ficar de olho no compartimento de água pra trocar na hora certa.",
         "paraQuem": "Pra armário, closet ou gaveta fechada sem ventilação, não pra casa com infiltração ativa",
         "linkAmazon": "https://www.amazon.com.br/dp/B0779PKMG9?tag=dicasinteli05-20"
       },
       "faq": [
         {
           "pergunta": "Sachê de absorção de umidade resolve infiltração de parede?",
-          "resposta": "Não. Ele resolve umidade parada no ar de um espaço fechado, mas infiltração é problema estrutural (parede, telhado, cano) e precisa de reparo específico — usar sachê nesse caso só mascara o sintoma por um tempo."
+          "resposta": "Não. Ele resolve umidade parada no ar de um espaço fechado, mas infiltração é problema estrutural (parede, telhado, cano) e precisa de reparo específico. Usar sachê nesse caso só mascara o sintoma por um tempo."
         },
         {
           "pergunta": "Cada quanto tempo trocar o absorvente?",
-          "resposta": "Não tem prazo fixo, depende da umidade do ambiente — o sinal certo é o compartimento de água enchendo. Vale checar a cada poucas semanas até pegar o ritmo do seu armário específico."
+          "resposta": "Não tem prazo fixo, depende da umidade do ambiente. O sinal certo é o compartimento de água enchendo. Vale checar a cada poucas semanas até pegar o ritmo do seu armário específico."
         },
         {
           "pergunta": "Dá pra usar naftalina em vez de absorvente de umidade?",
-          "resposta": "São coisas diferentes: naftalina afasta traça e outros insetos, não absorve umidade. Se o problema for mofo, naftalina sozinha não resolve — mas dá pra usar os dois juntos se tiver os dois problemas ao mesmo tempo."
+          "resposta": "São coisas diferentes: naftalina afasta traça e outros insetos, não absorve umidade. Se o problema for mofo, naftalina sozinha não resolve, mas dá pra usar os dois juntos se tiver os dois problemas ao mesmo tempo."
         }
       ],
       "pilarRelacionado": { "href": "/organizacao-armario/", "label": "cabide, caixa organizadora e sapateira" }
