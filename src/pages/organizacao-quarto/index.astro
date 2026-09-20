@@ -1,7 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import ProdutoCard from '../../components/ProdutoCard.astro';
-import dados from '../../data/produtos-armario.json';
+import dados from '../../data/produtos-quarto.json';
 
 const zonas = dados.zonas;
 
@@ -14,22 +14,22 @@ const breadcrumbSchema = {
   "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "Início", item: "https://casapratica.dicasinteligentes.com/" },
-    { "@type": "ListItem", position: 2, name: "Organização de armário", item: "https://casapratica.dicasinteligentes.com/organizacao-armario/" },
+    { "@type": "ListItem", position: 2, name: "Organização de quarto", item: "https://casapratica.dicasinteligentes.com/organizacao-quarto/" },
   ],
 };
 
 const faq = [
   {
-    pergunta: "Cabide fino (tipo veludo) realmente cabe mais roupa que um cabide comum?",
-    resposta: "Cabe. Um cabide de plástico comum tem cerca de 1,2 a 1,5cm de espessura; o cabide de veludo fino tem 0,6cm, ou seja, menos da metade. Multiplicando por 30 ou 40 peças penduradas, essa diferença de milímetros vira centímetros reais de espaço livre no cabideiro.",
+    pergunta: "Mesa de cabeceira estreita cabe em quarto pequeno?",
+    resposta: "Cabe, mas meça antes. A Artely mede 25 x 33 cm e a Leomonio tem cerca de 18 cm de profundidade, pela ficha técnica. Confira o espaço real entre a cama e a parede, e a largura que sobra pra passar.",
   },
   {
-    pergunta: "Caixa transparente ou caixa opaca com tampa, qual escolher?",
-    resposta: "Depende do que pesa mais pra você. Transparente (como a bolsa com visor) deixa achar a peça sem abrir, mas geralmente é de tecido mais macio e não aguenta empilhar peso em cima. Opaca e rígida (como a caixa de 56L com trava) empilha com segurança, mas exige etiquetar ou lembrar o que guardou dentro. Não existe opção \"melhor\", só a que serve mais pro seu uso.",
+    pergunta: "Colmeia de tecido ou de plástico: qual escolher?",
+    resposta: "A de tecido (Ordene) é macia e serve bem pra roupa íntima, mas uma avaliação relata que as divisões amassam com o tempo. O kit de plástico transparente (Organizaplus) deixa ver o que tem em cada espaço, mas precisa de gaveta com pelo menos 10 cm de altura livre.",
   },
   {
-    pergunta: "Sapateira fechada (com capa) ou aberta, qual vale mais a pena?",
-    resposta: "Fechada com capa (como a SONGMICS de 9 níveis) protege o sapato de poeira, mas ocupa mais espaço vertical e é mais lenta pra pegar o par no dia a dia. Aberta (como a VASAGLE estreita) é mais rápida de acessar e cabe em corredor estreito, mas deixa o sapato exposto. Se o armário já é fechado, a versão aberta costuma bastar.",
+    pergunta: "Cabideiro de chão aguenta roupa pesada?",
+    resposta: "Depende do modelo. O mancebo Kontuz suporta até 24 kg e o SONGMICS até 90 kg, segundo os anúncios. Mesmo assim, distribua o peso pelos ganchos ou trilhos em vez de concentrar tudo de um lado.",
   },
 ];
 
@@ -44,11 +44,11 @@ const faqSchema = {
 };
 ---
 <Layout
-  title="Organização de armário: cabide, caixa e sapateira"
-  description="Cabide, caixa organizadora e sapateira pesquisados na Amazon, com preço, nota e o defeito real de cada um, pra organizar o guarda-roupa sem chute."
+  title="Organização de quarto: colmeia, mesa e cabideiro"
+  description="Colmeia de gaveta, mesa de cabeceira e cabideiro pesquisados na Amazon, com preço, nota e o defeito real de cada um, pra organizar o quarto sem chute."
 >
   <p><a href="/">← Início</a></p>
-  <h1>Organização de armário: cabide, caixa e sapateira</h1>
+  <h1>Organização de quarto: gaveta, cabeceira e cabideiro</h1>
   <p class="atualizado">Atualizado em setembro de 2026</p>
 
   <p class="atualizado">
@@ -57,9 +57,9 @@ const faqSchema = {
   </p>
 
   <p>
-    Cabide de plástico fino que quebra, roupa de estação amontoada e sapato
-    solto no chão são os três problemas que mais tomam espaço de armário.
-    Cada zona abaixo resolve um desses de forma separada.
+    Carregador e livro sem lugar, roupa usada largada na cadeira e gaveta
+    de roupa íntima bagunçada são os três pontos que mais deixam o quarto
+    desorganizado. Cada zona abaixo resolve um deles de forma separada.
   </p>
 
   <section class="como-escolhemos">
@@ -67,8 +67,7 @@ const faqSchema = {
     <p>
       Nenhum produto entra nessa lista sem um contra declarado (bloco "Vale
       saber" em cada card), tirado da ficha técnica e das características
-      reais do produto. Preço sempre em faixa, nunca fixo: faixa de preço
-      muda com o tempo, valor fixo não.
+      reais do produto. Preço sempre em faixa, nunca fixo.
     </p>
   </section>
 
@@ -105,18 +104,16 @@ const faqSchema = {
   <section class="honestidade">
     <h2>Onde vale gastar mais, onde não faz diferença</h2>
     <p>
-      Nos cabides, o kit de veludo (R$123 por 30 peças) sai mais barato por
-      unidade do que o kit de madeira (R$63 por 10 peças): R$4,10 contra
-      R$6,30 cada. Se o objetivo é só economizar espaço, o de veludo vence
-      até no preço. Nas caixas, a diferença de R$40 pra R$123 não é sobre
-      qualidade, é sobre função: bolsa de tecido dobra e cabe em qualquer
-      canto, caixa rígida empilha com segurança, e a com divisória mantém
-      peça separada por tipo. Já na sapateira, pagar R$36 a mais pela versão
-      de 9 níveis (R$128) em vez da de 3 níveis (R$92) compensa bastante,
-      porque a capacidade quase triplica (18 para 40-50 pares) por menos de
-      40% de aumento no preço. A sapateira estreita da VASAGLE custa mais
-      caro não por ser melhor, mas por resolver um problema específico de
-      espaço apertado.
+      Na gaveta, a diferença entre a colmeia Ordene (R$26) e o kit
+      Organizaplus (~R$79 a R$83) é sobre quantidade e material, não
+      sobre qualidade: a Ordene é uma peça de tecido só pra roupa
+      íntima, e o kit tem 12 peças de plástico e cobre a gaveta toda. Na
+      cabeceira, a Leomonio (R$330) custa mais que o dobro da Artely
+      (~R$116 a R$141), e o que se paga é capacidade: 13,6 kg contra 4
+      kg. Se você só apoia carregador e óculos, a mais barata resolve.
+      No cabideiro, o SONGMICS (~R$288 a R$360) custa mais de 5 vezes o
+      mancebo Kontuz (~R$47 a R$55) e só compensa se você tem muita
+      roupa pra deixar à vista.
     </p>
   </section>
 
@@ -137,17 +134,17 @@ const faqSchema = {
 
   <p class="cluster-link">
     Veja também:
-    <a href="/organizacao-armario/erros-comuns/">os erros mais comuns organizando o armário →</a>
+    <a href="/organizacao-quarto/erros-comuns/">os erros mais comuns organizando o quarto →</a>
     ·
-    <a href="/organizacao-armario/por-orcamento/">os mesmos produtos por orçamento →</a>
+    <a href="/organizacao-quarto/por-orcamento/">os mesmos produtos por orçamento →</a>
     ·
-    <a href="/organizacao-armario/comparativo-top3/">comparativo Top 3 lado a lado →</a>
+    <a href="/organizacao-quarto/comparativo-top3/">comparativo Top 3 lado a lado →</a>
     ·
-    <a href="/organizacao-quarto/">organização de quarto, zona por zona →</a>
+    <a href="/organizacao-armario/">organização de armário, zona por zona →</a>
     ·
-    <a href="/organizacao-cozinha/">organização de cozinha, zona por zona →</a>
+    <a href="/organizacao-sala/">organização de sala de estar, zona por zona →</a>
     ·
-    <a href="/organizacao-banheiro/">organização de banheiro sem furar parede →</a>
+    <a href="/organizacao-lavanderia/">organização de lavanderia →</a>
   </p>
 
   <section class="faq">
