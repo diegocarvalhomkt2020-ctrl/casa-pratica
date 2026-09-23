@@ -26,9 +26,16 @@ const breadcrumbSchema = {
   )}
 
   <div class="grade">
-    {posts.map((p) => (
+    {posts.map((p, i) => (
       <a href={`/blog/${p.slug}/`} class="cartao">
-        {p.imagem && <img src={p.imagem} alt={p.titulo} width="360" height="240" loading="lazy" />}
+        <div class="cartao-imagem">
+          {p.imagem && <img src={p.imagem} alt={p.titulo} width="360" height="240" loading="lazy" />}
+          {i === 0 && (
+            <span class="data-recente">
+              {new Date(p.dataPublicacao + 'T00:00:00').toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit' })}
+            </span>
+          )}
+        </div>
         <div class="cartao-texto">
           <h2>{p.titulo}</h2>
           <p>{p.resumo}</p>
@@ -56,7 +63,19 @@ const breadcrumbSchema = {
       border-radius: 12px;
       overflow: hidden;
     }
+    .cartao-imagem { position: relative; }
     .cartao img { width: 100%; aspect-ratio: 3/2; object-fit: cover; display: block; }
+    .data-recente {
+      position: absolute;
+      top: 0.5rem;
+      left: 0.5rem;
+      background: rgba(0, 0, 0, 0.55);
+      color: #fff;
+      font-size: 0.68rem;
+      font-weight: 600;
+      padding: 0.15rem 0.45rem;
+      border-radius: 999px;
+    }
     .cartao-texto { padding: 1rem; }
     .cartao h2 { font-size: 1.05rem; margin: 0 0 0.4rem; }
     .cartao p { font-size: 0.85rem; color: var(--cor-texto-suave); margin: 0; }
