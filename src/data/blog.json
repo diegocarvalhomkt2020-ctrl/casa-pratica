@@ -1,25 +1,144 @@
 {
   "posts": [
     {
+      "slug": "organizar-a-geladeira",
+      "titulo": "Como organizar a geladeira pra comida durar mais",
+      "resumo": "Onde guardar cada tipo de alimento na geladeira, o erro mais comum da porta e como caixas transparentes ajudam a não esquecer comida.",
+      "dataPublicacao": "2026-09-24",
+      "corpo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Geladeira bagunçada gasta comida à toa. O que fica escondido no fundo é esquecido, vence ou estraga, e o que é guardado no lugar errado dura menos do que deveria. Organizar não exige gastar muito: exige saber o que vai onde e conseguir enxergar o que tem lá dentro."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Onde guardar cada coisa"
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            "Prateleiras do meio e de cima: sobras, comida pronta e o que você vai comer nos próximos dias, sempre em pote fechado",
+            "Prateleira de baixo: carne crua, em pote com tampa ou bandeja, pra o líquido não pingar em outros alimentos",
+            "Gavetas de baixo: frutas e verduras, separadas quando possível",
+            "Porta: molhos, sucos e condimentos, que aguentam melhor a variação de temperatura"
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "O erro mais comum: guardar na porta o que estraga fácil"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "A porta é a parte da geladeira que mais sofre com abrir e fechar, e a temperatura ali oscila mais do que dentro. Por isso vale evitar guardar nela o que estraga com facilidade, como leite. O costume de deixar os ovos na porta também é comum, mas dentro da geladeira eles ficam em temperatura mais estável."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Regra simples: o que vence primeiro fica na frente"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Quando você compra algo novo, coloca atrás do que já estava. Sem isso, o mais antigo some no fundo e vira desperdício. Vale o mesmo pra sobra: pote transparente, com a data escrita na tampa, evita a dúvida de \"isso ainda está bom?\"."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Por que caixa transparente ajuda"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "O que você vê você usa. Caixas transparentes e empilháveis deixam enxergar o conteúdo sem abrir uma por uma, aproveitam a altura da prateleira e facilitam limpar, porque você tira o conjunto inteiro de uma vez. Antes de comprar qualquer uma, meça a altura e a profundidade das suas prateleiras, porque caixa que não cabe vira mais um problema."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Rotina de 5 minutos por semana"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Antes de ir ao mercado, olhe o que tem, tire o que venceu ou está estragando e coloque na frente o que precisa ser usado logo. Essa conferência curta costuma render mais do que uma faxina grande de vez em quando."
+        }
+      ],
+      "produtoDestaque": {
+        "nome": "Ou Kit Organizadores de Geladeira Clear Fresh 3 Peças",
+        "selo": "Kit com 3 peças",
+        "precoMin": 120,
+        "precoMax": 120,
+        "nota": 4.8,
+        "avaliacoes": 134,
+        "pros": [
+          "Nota 4,8 com 134 avaliações, 88% delas de 5 estrelas",
+          "O kit traz organizador de ovos pra 18 unidades, uma caixa com tampa de 5 litros e uma caixa com cesto de 5 litros",
+          "Transparente e empilhável, dá pra ver o conteúdo sem abrir. Um comprador destaca que a caixa de salada ajuda a conservar as folhas por mais tempo"
+        ],
+        "contra": "O preço de R$ 120 é alto perto de potes comuns e as 134 avaliações são bem menos que as de outros kits do tipo. É de acrílico, e uma compradora relatou que uma peça veio com a tampa lascada e que dá a impressão de trincar com descuido.",
+        "paraQuem": "Pra quem quer padronizar a geladeira com caixas transparentes empilháveis. Meça a prateleira antes, principalmente em geladeira pequena.",
+        "linkAmazon": "https://www.amazon.com.br/dp/B093XPSQFV?tag=dicasinteli05-20"
+      },
+      "faq": [
+        {
+          "pergunta": "Preciso comprar caixa organizadora pra organizar a geladeira?",
+          "resposta": "Não. O que mais funciona é a lógica de onde cada coisa fica e o que vence primeiro ficar na frente, e isso dá pra fazer com pote que você já tem. A caixa ajuda a manter a organização e a enxergar o conteúdo, mas não é obrigatória."
+        },
+        {
+          "pergunta": "Carne crua pode ficar em qualquer prateleira?",
+          "resposta": "O mais seguro é a prateleira de baixo, em pote com tampa ou bandeja, pra o líquido não pingar em alimentos que vão ser comidos crus, como frutas e verduras."
+        },
+        {
+          "pergunta": "De quanto em quanto tempo limpar a geladeira por dentro?",
+          "resposta": "Não existe um prazo único, mas passar um pano úmido nas prateleiras sempre que algo derramar e fazer uma limpeza mais completa de tempos em tempos evita cheiro e mancha. A conferência semanal antes do mercado ajuda a perceber o que precisa de limpeza."
+        }
+      ],
+      "pilarRelacionado": {
+        "href": "/organizacao-cozinha/",
+        "label": "organização de cozinha"
+      },
+      "imagem": "/images/blog/organizar-a-geladeira.png"
+    },
+    {
       "slug": "cheiro-de-mofo-no-armario",
       "titulo": "Por que a roupa guardada fica com cheiro de mofo",
       "resumo": "O motivo real do cheiro de mofo em armário fechado, os sinais de que já tem umidade demais, e a forma mais simples de prevenir.",
       "dataPublicacao": "2026-09-14",
       "corpo": [
-        { "tipo": "paragrafo", "texto": "Armário fechado sem ventilação acumula umidade do próprio ar, mesmo sem vazamento ou infiltração visível. É essa umidade parada que gera o cheiro de mofo na roupa guardada, principalmente em casa perto do mar, região úmida, ou armário encostado em parede externa." },
-        { "tipo": "subtitulo", "texto": "Sinais de que já passou do ponto" },
-        { "tipo": "lista", "itens": [
-          "Cheiro de mofo mesmo em roupa lavada e seca antes de guardar",
-          "Mancha escura ou esverdeada em canto do armário ou na base da roupa",
-          "Madeira do armário empenando ou gaveta emperrando com facilidade",
-          "Roupa que \"amolece\" ou muda de textura depois de meses guardada"
-        ] },
-        { "tipo": "subtitulo", "texto": "O que resolve de verdade" },
-        { "tipo": "paragrafo", "texto": "Abrir o armário pra arejar de vez em quando ajuda, mas em casa sem muita circulação de ar isso nem sempre é suficiente. Um absorvente de umidade dentro do armário captura a umidade do ar fechado antes que ela vire mofo. É solução simples, não elimina infiltração estrutural (isso precisa de reparo de verdade), mas resolve o caso mais comum, que é só o ar parado." },
-        { "tipo": "subtitulo", "texto": "Quando o problema é maior que o armário" },
-        { "tipo": "paragrafo", "texto": "Se o cheiro volta rápido mesmo trocando o absorvente com frequência, ou se aparece em mais de um cômodo, o problema pode ser umidade do ambiente inteiro, não só do armário fechado. É comum em casa térrea, porão ou perto do mar. Nesse caso, um desumidificador elétrico de ambiente (que trata o ar do cômodo, não só de dentro do móvel) rende mais do que multiplicar sachê. O sachê continua valendo como reforço pontual dentro de gaveta e closet." },
-        { "tipo": "subtitulo", "texto": "Rotina simples que ajuda" },
-        { "tipo": "paragrafo", "texto": "Nunca guardar roupa que só pareça seca: se foi passada a ferro ou tirada do varal recentemente, ela ainda solta umidade por algumas horas. Deixar um pequeno espaço de ar entre as peças penduradas também ajuda a circulação, em vez de lotar o cabide até o fim. E vale checar o compartimento de água do absorvente periodicamente, não só quando o cheiro já voltou." }
+        {
+          "tipo": "paragrafo",
+          "texto": "Armário fechado sem ventilação acumula umidade do próprio ar, mesmo sem vazamento ou infiltração visível. É essa umidade parada que gera o cheiro de mofo na roupa guardada, principalmente em casa perto do mar, região úmida, ou armário encostado em parede externa."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Sinais de que já passou do ponto"
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            "Cheiro de mofo mesmo em roupa lavada e seca antes de guardar",
+            "Mancha escura ou esverdeada em canto do armário ou na base da roupa",
+            "Madeira do armário empenando ou gaveta emperrando com facilidade",
+            "Roupa que \"amolece\" ou muda de textura depois de meses guardada"
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "O que resolve de verdade"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Abrir o armário pra arejar de vez em quando ajuda, mas em casa sem muita circulação de ar isso nem sempre é suficiente. Um absorvente de umidade dentro do armário captura a umidade do ar fechado antes que ela vire mofo. É solução simples, não elimina infiltração estrutural (isso precisa de reparo de verdade), mas resolve o caso mais comum, que é só o ar parado."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Quando o problema é maior que o armário"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Se o cheiro volta rápido mesmo trocando o absorvente com frequência, ou se aparece em mais de um cômodo, o problema pode ser umidade do ambiente inteiro, não só do armário fechado. É comum em casa térrea, porão ou perto do mar. Nesse caso, um desumidificador elétrico de ambiente (que trata o ar do cômodo, não só de dentro do móvel) rende mais do que multiplicar sachê. O sachê continua valendo como reforço pontual dentro de gaveta e closet."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Rotina simples que ajuda"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Nunca guardar roupa que só pareça seca: se foi passada a ferro ou tirada do varal recentemente, ela ainda solta umidade por algumas horas. Deixar um pequeno espaço de ar entre as peças penduradas também ajuda a circulação, em vez de lotar o cabide até o fim. E vale checar o compartimento de água do absorvente periodicamente, não só quando o cheiro já voltou."
+        }
       ],
       "produtoDestaque": {
         "nome": "Sanol Evita Mofo (Sanol Sec) - Kit 4x100g",
@@ -51,7 +170,10 @@
           "resposta": "São coisas diferentes: naftalina afasta traça e outros insetos, não absorve umidade. Se o problema for mofo, naftalina sozinha não resolve, mas dá pra usar os dois juntos se tiver os dois problemas ao mesmo tempo."
         }
       ],
-      "pilarRelacionado": { "href": "/organizacao-armario/", "label": "cabide, caixa organizadora e sapateira" }
+      "pilarRelacionado": {
+        "href": "/organizacao-armario/",
+        "label": "cabide, caixa organizadora e sapateira"
+      }
     }
   ]
 }
