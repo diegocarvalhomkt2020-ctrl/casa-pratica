@@ -1,6 +1,4 @@
 ---
-import blogDados from '../data/blog.json';
-
 const { title, description, image } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 // Imagem social padrão da marca (1200x630). Páginas podem passar `image`
@@ -8,14 +6,6 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const ogImage = new URL(image ?? "/images/og-casa-pratica.png", Astro.site).href;
 const pathname = Astro.url.pathname;
 const ehAtual = (href) => pathname === href || (href !== '/' && pathname.startsWith(href));
-
-const ultimoPostData = blogDados.posts
-  .map((p) => p.dataPublicacao)
-  .sort()
-  .at(-1);
-const ultimoPostDataCurta = ultimoPostData
-  ? new Date(ultimoPostData + 'T00:00:00').toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit' })
-  : null;
 ---
 <!doctype html>
 <html lang="pt-BR">
@@ -60,7 +50,7 @@ const ultimoPostDataCurta = ultimoPostData
           <span class="menu-toggle-icon"></span>
         </button>
         <nav id="menu-principal">
-          <a href="/blog/" aria-current={ehAtual('/blog/') ? 'page' : undefined}>Blog{ultimoPostDataCurta && <span class="blog-data">{ultimoPostDataCurta}</span>}</a>
+          <a href="/blog/" aria-current={ehAtual('/blog/') ? 'page' : undefined}>Blog</a>
           <a href="/guia-gratis/" aria-current={ehAtual('/guia-gratis/') ? 'page' : undefined}>Guia grátis</a>
           <a class="nav-ver-todos" href="/" aria-current={ehAtual('/') ? 'page' : undefined}>Ver todos ›</a>
         </nav>
@@ -191,14 +181,6 @@ const ultimoPostDataCurta = ultimoPostData
         color: var(--cor-texto-suave);
         border: 1px solid var(--cor-borda);
         margin-left: 0.75rem;
-      }
-      .blog-data {
-        display: inline-block;
-        margin-left: 0.35rem;
-        font-size: 0.68rem;
-        font-weight: 500;
-        color: var(--cor-texto-suave);
-        opacity: 0.75;
       }
       .topo nav a.nav-ver-todos:hover { border-color: var(--cor-acento); color: var(--cor-acento); }
       .topo nav { display: flex; flex-wrap: wrap; align-items: center; }
