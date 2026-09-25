@@ -1,6 +1,82 @@
 {
   "posts": [
     {
+      "slug": "como-secar-roupa-em-apartamento",
+      "titulo": "Como secar roupa em apartamento sem sacada",
+      "resumo": "Onde secar roupa quando não há sacada nem quintal, como evitar cheiro e mofo dentro de casa e o cuidado com o quarto fechado.",
+      "dataPublicacao": "2026-09-26",
+      "corpo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Sem sacada e sem quintal, secar roupa vira uma questão de ventilação. Roupa úmida num cômodo fechado demora mais pra secar, pode ficar com cheiro e ainda joga umidade nas paredes e no guarda-roupa. Dá pra resolver com poucos ajustes."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "O que faz a roupa secar mais rápido"
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            "Ar circulando: janela aberta e, se der, a porta também, pro ar passar",
+            "Roupa bem torcida ou centrifugada: quanto menos água sai da máquina, mais o cômodo precisa absorver",
+            "Espaço entre as peças: roupa amontoada seca por fora e fica úmida no meio",
+            "Um ventilador apontado pra roupa, mesmo em velocidade baixa, ajuda mais do que esperar o ar parado"
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Onde secar"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "O melhor lugar é o cômodo com mais ventilação, que costuma ser a área de serviço ou a sala, com a janela aberta. Banheiro com janela também funciona, mas sem janela ele só junta vapor. Se o espaço é pequeno, um varal que dobra evita que a roupa ocupe o cômodo o tempo todo."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Pode secar roupa dentro do quarto?"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Pode, com cuidado. O risco é a umidade se acumular: quarto fechado com roupa molhada, principalmente à noite, deixa o ar úmido e favorece mofo em parede, cortina e guarda-roupa. Deixe a janela aberta, mantenha a roupa longe do guarda-roupa e evite dormir com o quarto fechado e o varal cheio."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Varal de chão: vale a pena?"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "É a solução mais comum em apartamento porque dobra e guarda atrás de uma porta, sem furar parede. O contra é físico: aberto e cheio, ocupa um bom pedaço do cômodo. Na página de lavanderia comparamos os dois modelos que pesquisamos, de cerca de R$ 60 a R$ 110, com nota e o que cada um tem de contra."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Como saber se a roupa ficou úmida demais"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Se a roupa leva mais de um dia inteiro pra secar, ou fica com cheiro de guardado depois de seca, ela ficou úmida por tempo demais. O jeito é lavar de novo e dar mais ventilação. Guardar roupa ainda úmida no armário leva o cheiro pro armário todo."
+        }
+      ],
+      "faq": [
+        {
+          "pergunta": "Quanto tempo a roupa demora pra secar dentro de casa?",
+          "resposta": "Depende da peça, da ventilação e do clima. Peças finas costumam secar em algumas horas com janela aberta e ventilador, e peças grossas, como jeans e toalha, podem levar bem mais de um dia. Não dá pra cravar um tempo único."
+        },
+        {
+          "pergunta": "Ventilador ajuda a secar roupa?",
+          "resposta": "Ajuda, porque tira a camada de ar úmido em volta da roupa. Ele não resolve sozinho num cômodo fechado, então funciona melhor com a janela aberta."
+        },
+        {
+          "pergunta": "Vale a pena ter secadora em apartamento?",
+          "resposta": "Resolve o tempo e a umidade, mas custa mais, gasta energia, ocupa espaço e nem toda peça pode ir. Pra quem lava pouco, ventilação e varal costumam bastar."
+        }
+      ],
+      "pilarRelacionado": {
+        "href": "/organizacao-lavanderia/",
+        "label": "lavanderia"
+      },
+      "imagem": "/images/blog/como-secar-roupa-em-apartamento.png"
+    },
+    {
       "slug": "organizar-a-geladeira",
       "titulo": "Como organizar a geladeira pra comida durar mais",
       "resumo": "Onde guardar cada tipo de alimento na geladeira, o erro mais comum da porta e como caixas transparentes ajudam a não esquecer comida.",
