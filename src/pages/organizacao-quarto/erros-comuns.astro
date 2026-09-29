@@ -1,0 +1,105 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const erros = [
+  {
+    titulo: "Comprar colmeia sem medir a altura da gaveta",
+    texto: "As peças têm de 9 a 10 cm de altura (Ordene e Organizaplus, pela ficha técnica) e só servem em gaveta com essa folga por dentro. Meça a gaveta antes de escolher, principalmente se for levar o kit inteiro.",
+  },
+  {
+    titulo: "Esperar que a colmeia de tecido mantenha a forma pra sempre",
+    texto: "Divisória de tecido amassa com o uso, e uma avaliação da Ordene relata exatamente isso. Se você mexe na gaveta todo dia, o plástico tende a segurar melhor a forma.",
+  },
+  {
+    titulo: "Pôr peso demais na mesa de cabeceira",
+    texto: "A Artely aguenta só 4 kg pela ficha técnica. Abajur pesado, pilha de livros e carregador passam disso rápido. Olhe o peso máximo recomendado, não só o tamanho.",
+  },
+  {
+    titulo: "Não medir o espaço antes de comprar mesa ou cabideiro",
+    texto: "A Artely mede 25 x 33 cm, a Leomonio tem cerca de 18 x 40 cm e o cabideiro SONGMICS ocupa 59 x 100 cm no chão. Meça o espaço real ao lado da cama e no canto do quarto, incluindo a folga pra passar.",
+  },
+  {
+    titulo: "Passar do limite de peso do cabideiro",
+    texto: "O mancebo Kontuz suporta até 24 kg segundo o anúncio, e casaco de inverno com bolsa cheia soma rápido. Distribua o peso pelos ganchos e respeite o limite do modelo.",
+  },
+];
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Início", item: "https://casapratica.dicasinteligentes.com/" },
+    { "@type": "ListItem", position: 2, name: "Organização de quarto", item: "https://casapratica.dicasinteligentes.com/organizacao-quarto/" },
+    { "@type": "ListItem", position: 3, name: "Erros comuns", item: "https://casapratica.dicasinteligentes.com/organizacao-quarto/erros-comuns/" },
+  ],
+};
+---
+<Layout
+  title="Erros comuns organizando o quarto"
+  description="Os erros mais comuns na hora de escolher colmeia de gaveta, mesa de cabeceira e cabideiro de chão no quarto, e como evitar cada um."
+>
+  <p><a href="/organizacao-quarto/">← Organização de quarto</a></p>
+  <h1>Erros comuns organizando o quarto</h1>
+  <p class="atualizado">Atualizado em setembro de 2026</p>
+
+  <p>
+    A maior parte dos problemas com colmeia, mesa de cabeceira e cabideiro
+    não é sobre o produto em si, é sobre a medida ou o peso que ele vai
+    aguentar. Confira esses erros antes de comprar.
+  </p>
+
+  <ol class="erros-lista">
+    {erros.map((erro) => (
+      <li>
+        <h2>{erro.titulo}</h2>
+        <p>{erro.texto}</p>
+      </li>
+    ))}
+  </ol>
+
+  <p class="cta-final">
+    Já sabe onde não errar? <a href="/organizacao-quarto/">Veja a lista completa →</a>
+  </p>
+
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+
+  <style>
+    .atualizado { color: var(--cor-texto-suave); font-size: 0.9rem; }
+    .erros-lista {
+      list-style: none;
+      padding: 0;
+      margin: 2rem 0;
+      counter-reset: erro;
+    }
+    .erros-lista li {
+      counter-increment: erro;
+      padding: 1.1rem 0 1.1rem 2.5rem;
+      position: relative;
+      border-bottom: 1px solid var(--cor-borda);
+    }
+    .erros-lista li::before {
+      content: counter(erro);
+      position: absolute;
+      left: 0;
+      top: 1.1rem;
+      width: 1.6rem;
+      height: 1.6rem;
+      border-radius: 50%;
+      background: var(--cor-acento);
+      color: #fff;
+      font-size: 0.85rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .erros-lista h2 { font-size: 1.05rem; margin: 0 0 0.35rem; }
+    .erros-lista p { margin: 0; color: var(--cor-texto-suave); }
+    .cta-final {
+      margin-top: 2rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--cor-borda);
+      font-weight: 600;
+    }
+  </style>
+</Layout>

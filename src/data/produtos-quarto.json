@@ -1,0 +1,137 @@
+{
+  "_nota": "RASCUNHO (pesquisado em 20/09/2026, ainda sem foto). 3 zonas com 2 produtos reais da Amazon cada, link de afiliado. Preços e notas são de 20/09/2026 e precisam ser reconferidos no dia de publicar. Ver pesquisa-quarto.md pra fonte de cada dado e o que não deu pra verificar.",
+  "zonas": [
+    {
+      "id": "gaveta-roupa-intima",
+      "nome": "Gaveta de roupa íntima",
+      "tempoEstimado": "10 a 15 min",
+      "descricao": "Meia, calcinha e cueca soltas se misturam e a gaveta vira bagunça em poucos dias. Uma divisória dá um lugar fixo pra cada peça e deixa tudo à vista.",
+      "produtos": [
+        {
+          "id": "AMZ-QUARTO-01",
+          "nome": "Ordene Organizador de Gaveta Tipo Colmeia, 24 compartimentos",
+          "imagem": "/images/produtos/ordene-colmeia-24-compartimentos.png",
+          "selo": "Mais avaliada",
+          "precoMin": 26,
+          "precoMax": 26,
+          "nota": 4.6,
+          "avaliacoes": 1917,
+          "pros": [
+            "24 compartimentos numa peça só, medindo 31 x 33,5 x 9 cm",
+            "A mais barata da lista",
+            "Nota 4,6 com quase 1,9 mil avaliações"
+          ],
+          "contra": "Uma das avaliações recentes (3 de 5) diz que as divisões amassam com o tempo, então não é uma peça rígida. Mede 9 cm de altura, confira se cabe na sua gaveta.",
+          "paraQuem": "Pra quem quer organizar meias e calcinhas gastando pouco",
+          "linkAmazon": "https://www.amazon.com.br/dp/B078J855LF?tag=dicasinteli05-20"
+        },
+        {
+          "id": "AMZ-QUARTO-02",
+          "nome": "Organizaplus Kit 12 Colmeias Organizadoras de Gaveta (4 P, 4 M e 4 G)",
+          "imagem": "/images/produtos/organizaplus-kit-12-colmeias.png",
+          "selo": "Kit completo",
+          "precoMin": 79,
+          "precoMax": 83,
+          "nota": 4.7,
+          "avaliacoes": 797,
+          "pros": [
+            "12 peças em 3 tamanhos, com 10 espaços cada, servem pra meia, cueca, camiseta e bermuda",
+            "Plástico transparente, dá pra ver o que tem em cada espaço",
+            "Nota 4,7 com quase 800 avaliações"
+          ],
+          "contra": "As peças têm 10 cm de altura e 35 cm de comprimento, então só servem em gaveta com essa folga. Meça a gaveta antes de comprar o kit inteiro.",
+          "paraQuem": "Pra quem quer organizar a gaveta toda, não só a de roupa íntima",
+          "linkAmazon": "https://www.amazon.com.br/dp/B0D79NVM3Q?tag=dicasinteli05-20"
+        }
+      ]
+    },
+    {
+      "id": "mesa-cabeceira",
+      "nome": "Mesa de cabeceira",
+      "tempoEstimado": "30 a 45 min",
+      "descricao": "Carregador, óculos, livro e copo d'água acabam no colchão ou no chão. Uma mesa pequena dá lugar fixo pro que você usa antes de dormir.",
+      "produtos": [
+        {
+          "id": "AMZ-QUARTO-03",
+          "nome": "Artely Mesa de Apoio Bis com Prateleiras",
+          "imagem": "/images/produtos/artely-mesa-apoio-bis-branco.png",
+          "selo": "Mais barata",
+          "precoMin": 116,
+          "precoMax": 141,
+          "nota": 4.7,
+          "avaliacoes": 489,
+          "pros": [
+            "Prateleiras abertas, com 25 x 33 x 78,5 cm",
+            "Fabricação nacional",
+            "Nota 4,7 com quase 500 avaliações"
+          ],
+          "contra": "Aguenta só 4 kg segundo a ficha técnica, então abajur pesado e pilha de livros passam do limite. Uma avaliação cita pés fracos e falta de numeração nas peças na hora de montar.",
+          "paraQuem": "Pra quem quer uma mesa simples e barata só pro básico da cabeceira",
+          "linkAmazon": "https://www.amazon.com.br/dp/B076VV5M5C?tag=dicasinteli05-20"
+        },
+        {
+          "id": "AMZ-QUARTO-04",
+          "nome": "Leomonio Mesa Lateral Estreita ZBZ01, com cesta",
+          "imagem": "/images/produtos/leomonio-mesa-lateral-estreita-zbz01.png",
+          "selo": "Mais avaliada",
+          "precoMin": 330,
+          "precoMax": 330,
+          "nota": 4.6,
+          "avaliacoes": 1378,
+          "pros": [
+            "Suporta até 13,6 kg, mais que o triplo da Artely",
+            "Estrutura de ferro, com cesta de tecido oxford lavável",
+            "Garantia de 18 meses do vendedor e pés ajustáveis"
+          ],
+          "contra": "É a mais cara da lista, mais que o dobro da Artely. É estreita, com cerca de 18 cm de profundidade pela ficha técnica, então cabe pouca coisa em cima.",
+          "paraQuem": "Pra quem guarda mais coisa na cabeceira e quer uma peça mais firme",
+          "linkAmazon": "https://www.amazon.com.br/dp/B0CSXM56FB?tag=dicasinteli05-20"
+        }
+      ]
+    },
+    {
+      "id": "roupa-do-dia-cabideiro",
+      "nome": "Roupa do dia e cabideiro",
+      "tempoEstimado": "15 a 30 min",
+      "descricao": "A roupa usada que ainda está limpa, o casaco e a bolsa vão parar na cadeira ou na cama. Um cabideiro dá lugar pra isso sem abrir o guarda-roupa.",
+      "produtos": [
+        {
+          "id": "AMZ-QUARTO-05",
+          "nome": "Kontuz Mancebo Cabideiro de Chão, 12 ganchos",
+          "imagem": "/images/produtos/kontuz-mancebo-12-ganchos.png",
+          "selo": "Mais barata",
+          "precoMin": 47,
+          "precoMax": 55,
+          "nota": 4.4,
+          "avaliacoes": 1067,
+          "pros": [
+            "12 ganchos, 170 cm de altura e base antiderrapante de 55 x 55 cm",
+            "Suporta até 24 kg segundo o anúncio",
+            "Nota 4,4 com mais de mil avaliações"
+          ],
+          "contra": "É a nota mais baixa da lista (4,4). Avaliações citam montagem difícil: parafusos grossos e falta de manual de instruções.",
+          "paraQuem": "Pra quem quer um lugar pra casaco, bolsa e a roupa do dia gastando pouco",
+          "linkAmazon": "https://www.amazon.com.br/dp/B0BTQ5F4KP?tag=dicasinteli05-20"
+        },
+        {
+          "id": "AMZ-QUARTO-06",
+          "nome": "SONGMICS Cabideiro de Chão com Trilho Duplo e Rodízios",
+          "imagem": "/images/produtos/songmics-cabideiro-chao-trilho-duplo.png",
+          "selo": "Mais robusta",
+          "precoMin": 288,
+          "precoMax": 360,
+          "nota": 4.7,
+          "avaliacoes": 2603,
+          "pros": [
+            "Dois trilhos de 100 cm e prateleira embaixo pra sapatos",
+            "Suporta até 90 kg no total, segundo o anúncio",
+            "4 rodízios, 2 com trava"
+          ],
+          "contra": "Ocupa 1 metro de largura por 59 cm de profundidade e custa mais de 5 vezes o mancebo. Só faz sentido se você tem muita roupa pra deixar à vista.",
+          "paraQuem": "Pra quem quer um cabideiro de verdade no quarto, no lugar de um armário extra",
+          "linkAmazon": "https://www.amazon.com.br/dp/B078GLLHBL?tag=dicasinteli05-20"
+        }
+      ]
+    }
+  ]
+}
