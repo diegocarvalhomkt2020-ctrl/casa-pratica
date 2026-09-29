@@ -251,6 +251,102 @@
         "label": "cabide, caixa organizadora e sapateira"
       },
       "imagem": "/images/blog/cheiro-de-mofo-no-armario.png"
+    },
+    {
+      "slug": "como-organizar-embaixo-da-pia",
+      "titulo": "Como organizar embaixo da pia da cozinha",
+      "resumo": "Como aproveitar o espaço embaixo da pia, o que guardar ali e o cuidado com a umidade, com os contras dos organizadores que pesquisamos.",
+      "imagem": "/images/blog/como-organizar-embaixo-da-pia.png",
+      "dataPublicacao": "2026-09-29",
+      "corpo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Embaixo da pia costuma virar depósito: produtos de limpeza soltos, esponjas, sacos e o cano no meio. Organizar ali é aproveitar a altura, separar por uso e cuidar da umidade."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Comece esvaziando"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Tire tudo, limpe o fundo e confira se há vazamento ou mancha de umidade nos canos. Organizar em cima de um vazamento só esconde o problema."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Separe por tipo"
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            "Produtos de limpeza de uso diário na frente",
+            "Esponjas, panos e sacos de lixo numa caixa ou cesto",
+            "Itens pesados e líquidos embaixo, pra não tombar",
+            "Nada que estrague com umidade, como papel e caixas de papelão"
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Aproveite a altura"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Um organizador de dois andares ou uma prateleira dobra a área útil, mas o cano atrapalha. Escolha um modelo que contorne o cano e meça a largura, a profundidade e a altura do vão antes de comprar."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "O que os organizadores que pesquisamos têm de contra"
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            "Sevenblue de 2 andares (R$210 a R$230, nota 4,5): é importado, uma garrafa muito grande pode não caber na gaveta e o prazo de devolução é de 7 dias, menor que o padrão",
+            "Tramontina Plurale (R$74 a R$90, nota 4,8): a bandeja que recolhe água é difícil de tirar pra limpar, segundo uma avaliação",
+            "OU Organizador de Pia Duplo (R$20 a R$25, nota 4,8): não tem furinhos de escoamento, e a água da esponja fica empoçada, segundo mais de uma avaliação"
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Cuidado com a umidade"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "O ambiente é úmido. Prefira plástico ou metal a materiais que absorvem água, deixe a porta aberta de vez em quando pra arejar e confira se o organizador tem escoamento pra não juntar água no fundo."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Revise uma vez por mês"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Separar uma vez não resolve pra sempre. Produto de limpeza vazio, sacola rasgada e esponja que já devia ter ido pro lixo se acumulam rápido nesse vão, porque é um espaço que você não olha todo dia. Reserve dois minutos por mês pra tirar o que não serve mais e recolocar cada coisa na divisória certa. É mais rápido revisar um pouco todo mês do que esvaziar tudo de novo daqui a um ano."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Se o vão for muito estreito"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Pia com sifão baixo ou tubulação muito à frente reduz bastante o espaço útil, e nem todo organizador cabe. Nesses casos, um organizador simples de gaveta empilhável, sem estrutura fixa, costuma se adaptar melhor do que um modelo de dois andares com medida única. Meça a menor distância livre, não só a largura da abertura, antes de escolher."
+        }
+      ],
+      "faq": [
+        {
+          "pergunta": "Dá pra organizar embaixo da pia sem comprar nada?",
+          "resposta": "Dá pra começar: esvazie, separe por tipo, use caixas que você já tem e ponha os itens pesados embaixo. O organizador ajuda depois, quando você vê o que realmente falta."
+        },
+        {
+          "pergunta": "O que não guardar embaixo da pia?",
+          "resposta": "Itens que estragam com umidade, como papel e papelão. Produtos de limpeza ficam ali, mas com a tampa bem fechada e longe do alcance de crianças e pets."
+        },
+        {
+          "pergunta": "Organizador de dois andares cabe em qualquer pia?",
+          "resposta": "Não. O sifão e a altura do vão mudam de casa pra casa. Meça o espaço livre e compare com as medidas do organizador antes de comprar."
+        }
+      ],
+      "pilarRelacionado": {
+        "href": "/organizacao-cozinha/",
+        "label": "cozinha"
+      }
     }
   ]
 }
