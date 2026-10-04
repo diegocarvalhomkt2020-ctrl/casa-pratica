@@ -455,6 +455,101 @@
         "href": "/organizacao-armario/",
         "label": "cabide, caixa organizadora e sapateira"
       }
+    },
+    {
+      "slug": "como-organizar-banheiro-pequeno-sem-armario",
+      "titulo": "Como organizar banheiro pequeno sem armário",
+      "resumo": "Como organizar banheiro pequeno sem armário e sem furar a parede, o que fazer em imóvel alugado e os contras dos nichos adesivos que pesquisamos.",
+      "imagem": "/images/blog/como-organizar-banheiro-pequeno-sem-armario.png",
+      "dataPublicacao": "2026-10-05",
+      "corpo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Sem armário, o que sobra é a parede, o vão do box e a bancada. Dá pra organizar tudo sem furar nada, o que ajuda muito quem mora de aluguel, mas o adesivo tem limites que vale conhecer."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Use a parede do box"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Nicho e prateleira adesiva no box tiram o xampu do chão sem obra. A cola só funciona se a parede estiver limpa, desengordurada e seca, e o peso que ela aguenta é limitado."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Bancada: agrupe o que usa todo dia"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Uma bandeja ou um cesto pequeno agrupa os itens de uso diário. O que não é usado todo dia sai da bancada, e a pia ganha espaço."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Porta e cantos"
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            "Ganchos de porta ou de toalheiro pra toalhas e roupões",
+            "Prateleira de canto no box, que aproveita um espaço que ficaria vazio",
+            "Cesto no chão ao lado do vaso pra papel e itens de reposição"
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "O que os nichos adesivos que pesquisamos têm de contra"
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            "Kit com 2 nichos (R$28 a R$35, nota 4,3): a cola só firma se a parede for limpa e desengordurada. Quem pula esse passo relata descolamento em poucos dias",
+            "Kit com 3 suportes de canto (R$27 a R$32, nota 4,2): a cola vem fraca em parte dos relatos, e as medidas reais chegam um pouco menores do que a foto sugere",
+            "Kit com 2 prateleiras com adesivo (R$54 a R$65, nota 4,1): o encaixe com parafuso é apontado como frágil e não vem com instrução de montagem"
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Em imóvel alugado"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Confira o contrato antes de colar qualquer coisa e teste num canto discreto. Na hora de retirar, aquecer a cola com um secador costuma ajudar a soltar sem danificar o azulejo, mas não é garantia."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Alternativa sem cola: suporte com ventosa"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Quando a parede do box é de vidro ou azulejo liso, um suporte com ventosa costuma prender melhor que o adesivo, porque a fixação depende de pressão e não de cola. O ponto fraco é o contrário do adesivo: ventosa perde a força com o tempo e precisa ser reapertada de vez em quando, principalmente em ambiente muito úmido."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Quando vale a pena furar, mesmo de aluguel"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Um furo pequeno e bem tampado na saída, com massa de reparo, pode ser combinado com o proprietário antes, e muitos contratos aceitam. Se o banheiro for pequeno e vai receber peso real (toalha, roupão, produto pesado), um suporte parafusado aguenta muito mais do que qualquer adesivo ou ventosa."
+        }
+      ],
+      "faq": [
+        {
+          "pergunta": "Nicho adesivo aguenta quanto peso?",
+          "resposta": "Depende do modelo e da colagem. Nos que pesquisamos, quem guarda item pesado relata reforçar com fita dupla face. Prefira guardar itens leves, como sabonete e xampu pequeno."
+        },
+        {
+          "pergunta": "Como fazer o adesivo grudar melhor?",
+          "resposta": "Limpe e desengordure a parede, deixe secar e espere o tempo indicado pelo fabricante antes de pôr peso. Quem pula a limpeza relata descolamento em poucos dias."
+        },
+        {
+          "pergunta": "Dá pra organizar o banheiro sem gastar?",
+          "resposta": "Dá pra começar: tire da bancada o que não é de uso diário, agrupe o resto numa bandeja ou cesto e use as prateleiras que você já tem."
+        }
+      ],
+      "pilarRelacionado": {
+        "href": "/organizacao-banheiro/",
+        "label": "banheiro"
+      }
     }
   ]
 }
