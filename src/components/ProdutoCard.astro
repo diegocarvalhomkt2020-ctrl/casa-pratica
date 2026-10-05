@@ -30,7 +30,7 @@ const schema = nota && {
 <div class="card">
   {imagem && <img class="foto" src={imagem} alt={nome} width="660" height="220" loading="lazy" />}
   {selo && <p class="selo">{selo}</p>}
-  <h4>{nome}</h4>
+  <h3>{nome}</h3>
 
   <p class="prova-social">
     {nota
@@ -84,7 +84,7 @@ const schema = nota && {
     margin: 0 0 0.3rem;
     font-weight: 600;
   }
-  h4 { margin: 0 0 0.4rem; font-size: 1.05rem; }
+  h3 { margin: 0 0 0.4rem; font-size: 1.05rem; }
   .prova-social { margin: 0 0 0.4rem; font-size: 0.88rem; color: var(--cor-texto-suave); }
   .preco { font-weight: 700; margin: 0 0 0.75rem; }
   .pros { margin: 0 0 0.75rem; padding-left: 1.1rem; }
