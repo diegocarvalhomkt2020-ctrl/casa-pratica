@@ -550,6 +550,114 @@
         "href": "/organizacao-banheiro/",
         "label": "banheiro"
       }
+    },
+    {
+      "slug": "como-esconder-fios-da-tv-sem-painel",
+      "titulo": "Como esconder os fios da TV sem painel",
+      "resumo": "Formas baratas de organizar e esconder os fios da TV sem painel e sem quebrar a parede, com os contras dos organizadores que pesquisamos.",
+      "imagem": "/images/blog/como-esconder-fios-da-tv-sem-painel.jpg",
+      "dataPublicacao": "2026-10-07",
+      "corpo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Sem painel e sem obra, dá pra deixar os fios da TV organizados com poucas peças baratas. O objetivo é agrupar, fixar e deixar o que sobrar de cabo fora da vista."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Passo a passo"
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            "Desligue tudo da tomada e tire uma foto de como os cabos estavam ligados",
+            "Separe os cabos de energia dos de sinal, como HDMI e antena",
+            "Agrupe cada conjunto com uma mangueira organizadora ou com fixadores, deixando uma folga pra mexer nos aparelhos",
+            "Fixe pela parede ou pela parte de trás do móvel, sempre em superfície limpa",
+            "Só religue depois de tudo fixado"
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Opções sem quebrar parede"
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            "Mangueira organizadora, que agrupa vários fios numa peça só",
+            "Fixadores individuais, que prendem cada cabo na parede ou no móvel",
+            "Canaleta adesiva, que esconde os fios num trilho colado na parede"
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "O que os organizadores que pesquisamos têm de contra"
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            "Sfor, mangueira de 1,5 m (R$16, nota 4,6): é uma peça única, e em rack grande ou com muitos aparelhos pode ser preciso comprar mais de uma",
+            "Abcfixadores, kit com 6 fixadores (R$19, nota 4,6): prende cada cabo individualmente e é mais trabalhoso de instalar se forem muitos fios"
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Folga e etiqueta"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Deixe uma folga de alguns centímetros no cabo pra conseguir tirar o aparelho do lugar sem soltar tudo, e etiquete as pontas com um pedaço de fita. Assim, quando um aparelho para de funcionar, você sabe exatamente qual fio seguir, sem puxar tudo pra descobrir."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Se os fios ainda aparecem"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Canaleta pintada da cor da parede costuma sumir bem. Se o rack é aberto, prenda os cabos pela parte de trás e deixe visível só o que precisa ficar ligado."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Cuidados"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Não cubra régua de tomadas nem esconda os fios num lugar sem ventilação. E teste o fixador adesivo antes de prender tudo: ele solta com o peso do cabo se a superfície não estiver limpa."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Quando vale trocar a mangueira organizadora por um painel"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Mangueira e canaleta resolvem bem quando são poucos aparelhos. Com muita coisa ligada (TV, som, videogame, roteador, decodificador), o volume de cabo costuma ficar visível mesmo organizado, e aí um painel ripado ou uma parede de madeira reserva mais espaço escondido atrás, embora custe mais e geralmente precise de instalação profissional."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Aparelho novo, cabo novo"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Antes de organizar de novo, aproveite pra trocar cabo HDMI muito longo por um do tamanho certo pra distância real entre os aparelhos. Cabo sobrando é o que mais volta a aparecer solto depois de um tempo, mesmo com toda a organização."
+        }
+      ],
+      "faq": [
+        {
+          "pergunta": "Dá pra esconder os fios sem furar a parede?",
+          "resposta": "Dá: canaleta adesiva, mangueira organizadora ou fixadores adesivos. O adesivo pode soltar com o peso do cabo, então limpe a superfície antes de colar e teste antes de prender tudo."
+        },
+        {
+          "pergunta": "Posso juntar todos os fios numa só mangueira?",
+          "resposta": "Costuma-se agrupar os cabos de energia entre si e os de sinal entre si. Se notar interferência na imagem, separe os de energia dos de sinal."
+        },
+        {
+          "pergunta": "Preciso desligar tudo pra organizar?",
+          "resposta": "Sim. Desconecte da tomada antes de mexer, tire uma foto de como estava ligado e só religue depois de tudo fixado."
+        }
+      ],
+      "pilarRelacionado": {
+        "href": "/organizacao-sala/",
+        "label": "sala de estar"
+      }
     }
   ]
 }
