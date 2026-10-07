@@ -658,6 +658,89 @@
         "href": "/organizacao-sala/",
         "label": "sala de estar"
       }
+    },
+    {
+      "slug": "organizar-mesa-home-office",
+      "titulo": "Como organizar a mesa do home office",
+      "resumo": "O que deixar sempre à mão, o que tirar da mesa de vez e como dividir o espaço quando o home office é também a mesa de jantar ou o quarto.",
+      "imagem": "/images/blog/organizar-mesa-home-office.jpg",
+      "dataPublicacao": "2026-10-10",
+      "corpo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Mesa de trabalho bagunçada não é falta de disciplina, é falta de um lugar certo pra cada coisa. Quando tudo tem um lugar fixo, arrumar no fim do dia leva menos de um minuto, em vez de virar uma tarefa que você sempre adia."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "O que fica sempre à mão"
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            "Só o que você usa todos os dias: notebook ou monitor, mouse, uma caneta, um bloco de notas",
+            "Carregador preso na mesa ou na parede, nunca solto rolando de um lado pro outro",
+            "Um porta-trecos pequeno pra clipe, pen drive e outras miudezas que se perdem fácil"
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "O que sai da mesa"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Documento que você não mexe toda semana, material de outro projeto já entregue, caneca vazia, caixa que ainda não foi guardada: tudo isso é peso visual que distrai mesmo sem você perceber. Separe uma gaveta ou uma caixa fora da mesa só pra material de uso esporádico, e revise essa caixa uma vez por mês."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Quando a mesa é compartilhada com outro uso"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Se o home office é a mesa de jantar ou uma mesa no quarto, o problema não é falta de espaço, é falta de um sinal claro de \"hoje o trabalho parou\". Uma caixa ou bandeja onde tudo do trabalho entra no fim do expediente resolve isso: você tira a caixa da mesa, e o espaço volta a ser mesa de jantar ou quarto, sem misturar as duas coisas o dia inteiro."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Organização vertical economiza mesa"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Uma prateleira ou um organizador de parede acima da mesa tira do tampo o que você usa com menos frequência (livro, pasta, porta-documento), sem precisar andar até outro cômodo. Isso libera a área de trabalho de verdade, que é onde o notebook e os braços precisam de espaço livre."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Iluminação também é organização"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Mesa perto de janela, com luz natural vindo de lado (não de frente pra tela, que causa reflexo), reduz a vontade de acender luz artificial forte e cansa menos os olhos ao longo do dia. Onde não tem janela boa, uma luminária de mesa direcionável ajuda mais que a luz geral do teto, porque ilumina só onde você trabalha."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Um teste rápido pra saber se a mesa está organizada de verdade"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Feche o notebook e olhe a mesa: se não sobrar nada que não seja decoração, está organizada. Se sobrar papel, caneca ou objeto de outro uso, esse é o item que precisa de um lugar fixo fora da mesa, não mais um organizador em cima dela."
+        }
+      ],
+      "faq": [
+        {
+          "pergunta": "Preciso comprar organizador pra arrumar a mesa do home office?",
+          "resposta": "Não necessariamente. O primeiro passo é decidir o que fica e o que sai da mesa. Organizador ajuda a manter depois, mas a decisão de reduzir o que está ali é o que mais muda a bagunça."
+        },
+        {
+          "pergunta": "Como manter a mesa organizada no fim do dia?",
+          "resposta": "Reserve 1 minuto antes de fechar o notebook pra devolver cada coisa ao lugar fixo dela. É mais rápido que parece quando cada item já tem um lugar certo, e evita a bagunça acumular semana após semana."
+        },
+        {
+          "pergunta": "Vale a pena ter dois monitores ou um monitor maior em vez de notebook só?",
+          "resposta": "Isso depende do tipo de trabalho, não é uma regra de organização. O que vale pra qualquer configuração é medir o espaço da mesa antes de comprar qualquer equipamento novo, pra não sobrar sem espaço pra outra coisa."
+        }
+      ],
+      "pilarRelacionado": {
+        "href": "/organizacao-homeoffice/",
+        "label": "organização de home office"
+      }
     }
   ]
 }
