@@ -741,6 +741,89 @@
         "href": "/organizacao-homeoffice/",
         "label": "organização de home office"
       }
+    },
+    {
+      "slug": "organizar-cabos-home-office",
+      "titulo": "Como organizar os cabos do home office",
+      "resumo": "Por que os cabos embolam de novo mesmo depois de organizados, e um jeito simples de identificar e prender cada um sem gastar muito.",
+      "imagem": "/images/blog/organizar-cabos-home-office.jpg",
+      "dataPublicacao": "2026-10-14",
+      "corpo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Cabo embolado atrás da mesa não é só estética: atrapalha limpar o chão, dificulta trocar de equipamento e esconde poeira que se acumula sem você ver. O motivo de embolar de novo depois de organizado quase sempre é o mesmo: nada prende o cabo no lugar, então ele volta a se mexer toda vez que você passa perto."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Identifique antes de prender"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Antes de comprar qualquer organizador, separe os cabos por função: energia, dados (rede, USB) e periférico (mouse, teclado). Cabo de energia não deve ficar torcido junto com cabo de dados fino, porque o peso e o calor de um afetam o outro com o tempo."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Três formas de prender, do mais simples ao mais completo"
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            "Abraçadeira de velcro reutilizável: mais barata, prende feixes de cabo junto, fácil de abrir se precisar trocar algo",
+            "Canaleta adesiva na parede ou no rodapé: esconde o trajeto do cabo até a tomada, bom pra quem quer o visual mais limpo",
+            "Caixa organizadora de régua: esconde a régua e os plugues sobrando, deixando só os cabos que saem dela visíveis"
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Deixe folga, não aperte demais"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Cabo esticado ao máximo estressa o conector com o tempo e é mais fácil de arrancar sem querer. Deixe uma folga pequena em cada ponto de fixação, o suficiente pra mover o equipamento um pouco sem puxar o cabo."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Etiquetar economiza tempo depois"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Uma etiqueta simples (ou um pedaço de fita com o nome escrito) em cada ponta perto da tomada ou do roteador evita ter que seguir o cabo inteiro quando algo para de funcionar e você precisa saber qual é qual."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Quando vale trocar o cabo em vez de organizar"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Cabo comprido demais pra distância real é o que mais embola de novo, porque sempre sobra um trecho solto em algum lugar. Antes de comprar organizador, meça a distância entre a tomada e o equipamento e veja se um cabo mais curto resolve melhor do que qualquer canaleta ou abraçadeira."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Bateria e carregador sem fio também contam"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Mouse e teclado sem fio, ou um carregador por indução pro celular na mesa, reduzem o número de cabos que precisam ser organizados desde o início. Não é solução pra todo equipamento, mas em mesa muito pequena vale considerar antes de organizar o que já está cheio de fio."
+        }
+      ],
+      "faq": [
+        {
+          "pergunta": "Canaleta estraga a pintura da parede?",
+          "resposta": "A adesiva de boa qualidade costuma sair sem dano em parede pintada e seca, mas teste num canto escondido antes se a pintura for recente ou delicada. Pra quem não quer risco, a caixa organizadora de régua resolve sem grudar nada na parede."
+        },
+        {
+          "pergunta": "Posso juntar cabo de energia com cabo de rede no mesmo feixe?",
+          "resposta": "Dá pra passar juntos numa canaleta, mas evite enrolar os dois junto e apertado: o cabo de energia pode gerar interferência no de rede se ficarem muito próximos por um trecho longo."
+        },
+        {
+          "pergunta": "Vale a pena comprar régua com cabo mais longo em vez de organizar o que já tenho?",
+          "resposta": "Só se a régua atual estiver forçando os cabos a esticar até o limite. Meça a distância real antes de comprar, porque régua com cabo longo demais também sobra e volta a embolar."
+        }
+      ],
+      "pilarRelacionado": {
+        "href": "/organizacao-homeoffice/",
+        "label": "organização de home office"
+      }
     }
   ]
 }
