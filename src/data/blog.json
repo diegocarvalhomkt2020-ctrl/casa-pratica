@@ -824,6 +824,89 @@
         "href": "/organizacao-homeoffice/",
         "label": "organização de home office"
       }
+    },
+    {
+      "slug": "como-lavar-tenis-em-casa-sem-estragar",
+      "titulo": "Como lavar tênis em casa sem estragar",
+      "resumo": "O que pode ir na máquina e o que só se lava na mão, como tirar mancha de sola branca e o jeito certo de secar sem deformar o tênis.",
+      "dataPublicacao": "2026-10-17",
+      "corpo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Tênis lavado do jeito errado sai descolado, desbotado ou com a sola amarelada, e boa parte disso é fácil de evitar antes de começar. O material do tênis é que decide se ele aguenta máquina ou se precisa ser lavado na mão."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "O que pode ir na máquina"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Tênis de tecido ou lona, sem muito enfeite colado, geralmente aguenta máquina em ciclo delicado, água fria e sem centrifugação forte. Tire os cadarços e a palmilha antes (lave separado), e coloque o tênis dentro de uma bolsa de lavar roupa ou uma fronha amarrada, pra proteger o tambor e o próprio tênis do impacto."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "O que só vai na mão"
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            "Tênis de couro ou camurça: água estraga o couro e a camurça mancha, use produto próprio pra cada material",
+            "Tênis com parte colada ou aplicação (glitter, strass): a máquina solta cola e enfeite com facilidade",
+            "Tênis de material misto sem etiqueta de composição clara: quando não tem certeza, lave na mão"
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Como tirar mancha de sola branca"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Uma pasta de bicarbonato de sódio com um pouco de água, aplicada com escova de dente velha e deixada agir por alguns minutos antes de enxaguar, costuma clarear sola branca amarelada sem precisar de produto forte. Repita se a mancha for antiga, em vez de esfregar mais forte de uma vez só."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Secar do jeito certo"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Nunca no sol direto ou perto de fonte de calor (secador, estufa, cima do fogão): o calor forte resseca e racha o material. Amasse papel toalha ou jornal dentro do tênis pra ele manter a forma e absorver umidade por dentro, e deixe secar à sombra, num lugar ventilado, virado de lado."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Como prevenir a mancha antes que apareça"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Um spray impermeabilizante próprio pra tecido ou camurça, aplicado no tênis novo antes do primeiro uso, dificulta que sujeira e líquido penetrem no material. Não substitui a lavagem quando o tênis já está sujo, mas reduz a frequência de lavagens fortes, que são as que mais desgastam a sola e a cola com o tempo."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "De quanto em quanto tempo lavar"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Tênis usado todo dia não precisa de lavagem completa toda semana. Limpar a sola e passar um pano levemente úmido no cabedal já resolve a maior parte da sujeira do dia a dia. Reserve a lavagem completa, seja na máquina ou na mão, pra quando a sujeira for visível ou o cheiro aparecer, evitando lavar em excesso."
+        }
+      ],
+      "faq": [
+        {
+          "pergunta": "Posso usar secador de cabelo pra secar o tênis mais rápido?",
+          "resposta": "Não é recomendado. O calor direto do secador pode ressecar e rachar o material, principalmente cola e partes de espuma. O papel amassado por dentro seca mais devagar, mas sem estragar o tênis."
+        },
+        {
+          "pergunta": "Tênis de couro pode ir na máquina em saco protetor?",
+          "resposta": "Não é indicado. Couro em contato com muita água tende a endurecer e rachar depois de seco, mesmo protegido dentro de um saco. Prefira limpar com pano levemente úmido e produto específico pra couro."
+        },
+        {
+          "pergunta": "Cadarço e palmilha lavam junto com o tênis?",
+          "resposta": "Melhor tirar os dois antes. O cadarço pode ir na máquina separado ou lavado na mão, e a palmilha geralmente lava melhor na mão, porque a máquina não limpa bem o fundo dela."
+        }
+      ],
+      "pilarRelacionado": {
+        "href": "/organizacao-lavanderia/",
+        "label": "organização de lavanderia"
+      },
+      "imagem": "/images/blog/como-lavar-tenis-em-casa-sem-estragar.jpg"
     }
   ]
 }
