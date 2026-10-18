@@ -907,6 +907,90 @@
         "label": "organização de lavanderia"
       },
       "imagem": "/images/blog/como-lavar-tenis-em-casa-sem-estragar.jpg"
+    },
+    {
+      "slug": "como-tirar-mofo-de-toalha",
+      "titulo": "Como tirar mofo e cheiro de mofo da toalha",
+      "resumo": "Por que a toalha pega cheiro de mofo mais rápido que outras roupas, como tirar a mancha e o hábito simples que evita o problema voltar.",
+      "imagem": "/images/blog/como-tirar-mofo-de-toalha.jpg",
+      "dataPublicacao": "2026-10-20",
+      "corpo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Toalha pega cheiro de mofo mais rápido que qualquer outra peça de roupa porque ela é feita pra reter água, e é exatamente a umidade parada que alimenta o mofo. Guardar ou pendurar a toalha ainda úmida é o motivo mais comum, mesmo em casa sem nenhum problema de infiltração."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Como tirar o mofo que já apareceu"
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            "Lave em água quente (se o tecido aguentar) com o dobro da quantidade normal de sabão em pó",
+            "Adicione meia xícara de vinagre branco no ciclo de enxágue, ele ajuda a neutralizar o cheiro sem estragar o tecido",
+            "Para mancha visível, esfregue bicarbonato de sódio direto na área antes de lavar",
+            "Seque ao sol sempre que possível: o sol ajuda a eliminar o que o vinagre não resolveu sozinho"
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Se uma lavada não resolver"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Cheiro de mofo muito forte às vezes precisa de mais de um ciclo. Repita a lavagem com vinagre antes de considerar a toalha perdida, e evite amaciante nessa lavagem: ele forma uma camada na fibra que pode prender o cheiro em vez de eliminar."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "O hábito que evita o problema voltar"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Nunca dobre ou pendure a toalha molhada num gancho fechado logo depois do banho. Estique bem numa barra ou varal, com espaço pro ar circular por toda a superfície, antes de guardar dobrada no armário. Toalha que fica amassada e úmida numa pilha é o cenário perfeito pro mofo voltar em poucos dias."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Banheiro sem ventilação exige atenção extra"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Se o banheiro não tem janela, a toalha não seca de verdade só pendurada ali dentro, mesmo esticada. Nesse caso, vale secar a toalha num outro cômodo com mais ventilação, ou trocar por uma toalha mais fina, que seca mais rápido, pros dias de maior umidade."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Quando a toalha já perdeu a função"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Toalha muito usada fica com a fibra achatada e absorve menos água, mesmo depois de lavada e sem cheiro nenhum. Se ela demora muito mais que as outras pra secar você, ou não absorve como antes, esse é um sinal de desgaste natural do tecido, não de mofo, e trocar resolve mais do que qualquer lavagem."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Toalha de rosto pede atenção redobrada"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Toalha de rosto e de mão ficam penduradas em ganchos menores, com menos espaço pro ar circular entre elas, e por isso pegam cheiro de mofo mais rápido que a toalha de banho. Troque de gancho pra um mais espaçado se notar que elas nunca secam completamente entre um uso e outro."
+        }
+      ],
+      "faq": [
+        {
+          "pergunta": "Toalha com mofo precisa ser jogada fora?",
+          "resposta": "Na maioria dos casos não. Uma ou duas lavagens com vinagre e sol costumam resolver. Só considere descartar se o cheiro persistir depois de várias tentativas ou se a mancha tiver deixado o tecido visivelmente deteriorado."
+        },
+        {
+          "pergunta": "Posso usar água sanitária pra tirar mofo de toalha colorida?",
+          "resposta": "Não é recomendado em toalha colorida ou estampada, porque desbota. Água sanitária diluída só é indicada pra toalha branca, e mesmo assim seguindo a proporção da embalagem pra não enfraquecer o tecido."
+        },
+        {
+          "pergunta": "Vinagre deixa a toalha com cheiro de vinagre depois?",
+          "resposta": "Não, o cheiro do vinagre evapora durante a secagem. Ele age no ciclo de enxágue neutralizando o odor do mofo, e não deixa resíduo de cheiro na toalha seca."
+        }
+      ],
+      "pilarRelacionado": {
+        "href": "/organizacao-banheiro/",
+        "label": "organização de banheiro"
+      }
     }
   ]
 }
