@@ -991,6 +991,89 @@
         "href": "/organizacao-banheiro/",
         "label": "organização de banheiro"
       }
+    },
+    {
+      "slug": "tampas-de-panela-como-organizar",
+      "titulo": "Como organizar as tampas de panela na cozinha",
+      "resumo": "Por que as tampas viram a maior bagunça do armário de panela e 4 jeitos de organizar sem precisar reformar a cozinha.",
+      "imagem": "/images/blog/tampas-de-panela-como-organizar.jpg",
+      "dataPublicacao": "2026-10-23",
+      "corpo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Panela empilha bem, tampa não. É por isso que o armário de panela costuma ser o que mais bagunça rápido de novo, mesmo depois de organizado: as tampas não têm formato pra empilhar e acabam soltas, escorregando ou tampando panela errada."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Organizador vertical de grade"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Um organizador de grade, encaixado dentro do armário ou numa gaveta funda, deixa cada tampa em pé, separada da vizinha. É a opção que ocupa menos espaço de largura e facilita ver e pegar a tampa certa sem tirar as outras do caminho."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Outras 3 formas de organizar"
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            "Prendedor de porta de armário: prende as tampas na parte de dentro da porta, liberando totalmente a prateleira",
+            "Gancho adesivo na lateral do armário: bom pra quem tem só 2 ou 3 tampas e não quer comprar organizador grande",
+            "Cesto ou caixa aberta, só pras tampas que não têm alça: menos organizado que os outros, mas resolve rápido sem gastar"
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Separe por tamanho, não por conjunto"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Muita gente organiza tampa junto da panela dela, mas isso ocupa o dobro do espaço. Tampas de tamanho parecido costumam servir em mais de uma panela: organize por diâmetro, da menor pra maior, e você aumenta a chance de uma tampa servir em outra panela quando a original não estiver à mão."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Meça antes de comprar organizador"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "A altura interna do armário e a profundidade da prateleira decidem qual organizador cabe. Organizador de grade alto demais pra prateleira baixa é o erro mais comum: meça o espaço livre antes de escolher o modelo."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Tampa que não serve em nenhuma panela"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Tampa de panela que quebrou ou que não serve em nenhuma panela que você ainda tem costuma ficar guardada por anos sem motivo, só ocupando espaço que poderia ter uma tampa útil. Separe as que realmente não combinam com nada e doe ou descarte, em vez de guardar por guardar."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Panela sem tampa própria"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Um prato invertido ou uma tampa de tamanho um pouco maior, apoiada por cima, resolve pra maioria dos usos rápidos, como abafar arroz ou esquentar algo no fogo baixo. Não substitui uma tampa que realmente encaixa em receita que precisa de vedação real, como cozimento a vapor."
+        }
+      ],
+      "faq": [
+        {
+          "pergunta": "Vale a pena separar tampa de vidro das de metal?",
+          "resposta": "Não é obrigatório, mas ajuda a evitar risco: tampa de metal encostando direto na de vidro por muito tempo pode arranhar o vidro. Um pano fino entre elas já resolve se forem guardadas próximas."
+        },
+        {
+          "pergunta": "Tampa sem alça de encaixe cabe no organizador de grade?",
+          "resposta": "A maioria dos organizadores de grade tem espaço suficiente entre as divisórias pra tampa sem alça ficar em pé, mas tampa muito fina pode escorregar. Nesse caso, um cesto raso resolve melhor."
+        },
+        {
+          "pergunta": "É melhor guardar a tampa em pé ou deitada?",
+          "resposta": "Em pé ocupa menos espaço de prateleira e facilita ver todas de uma vez. Deitada empilha mais fácil quando são poucas tampas, mas dificulta pegar a de baixo sem tirar as de cima."
+        }
+      ],
+      "pilarRelacionado": {
+        "href": "/organizacao-cozinha/",
+        "label": "organização de cozinha"
+      }
     }
   ]
 }
