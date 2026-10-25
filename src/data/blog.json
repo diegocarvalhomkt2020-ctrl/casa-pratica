@@ -1074,6 +1074,89 @@
         "href": "/organizacao-cozinha/",
         "label": "organização de cozinha"
       }
+    },
+    {
+      "slug": "organizar-sala-pequena-sem-gastar",
+      "titulo": "Como organizar a sala pequena sem gastar",
+      "resumo": "Truques de organização pra sala pequena que não dependem de móvel novo: onde guardar o que sobra e como abrir espaço visual sem reformar.",
+      "imagem": "/images/blog/organizar-sala-pequena-sem-gastar.jpg",
+      "dataPublicacao": "2026-10-26",
+      "corpo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Sala pequena bagunçada parece ainda menor do que é. Boa parte da sensação de espaço não vem do tamanho do cômodo, vem de quanta coisa está visível ao mesmo tempo, então organizar costuma resolver mais que trocar de móvel."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Use o que já tem antes de comprar"
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            "Caixa organizadora dentro do rack ou embaixo do sofá pra controle remoto, carregador e revista",
+            "Cesto com tampa pra manta e almofada extra, em vez de deixar amontoada num canto",
+            "Prateleira que já existia em outro cômodo, reaproveitada na parede da sala pra objeto decorativo"
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Vertical em vez de horizontal"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Em sala pequena, cada móvel baixo ocupa piso que você não recupera. Prateleira na parede, acima da altura dos olhos, guarda a mesma quantidade de objeto sem tomar espaço de circulação. É a mudança que mais abre a sensação de sala maior, mesmo sem trocar nenhum móvel."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Um lugar fixo pra cabo e controle"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Fio solto e controle remoto perdido em cima do sofá são o que mais chama atenção numa sala pequena, porque ficam no centro do ambiente. Um organizador de cabo atrás da TV e uma caixinha só pra controles resolve isso sem custo alto."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Espelho ajuda a sensação de espaço"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Um espelho grande na parede reflete luz e faz a sala parecer mais profunda do que é. Não é organização no sentido literal, mas funciona junto: ambiente mais claro e com menos coisa acumulada parece maior por si só."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Móvel multifuncional em vez de mais um móvel"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Puff que abre por dentro, mesa de centro com gaveta ou banco que também serve de apoio fazem o trabalho de dois móveis num espaço só. Antes de comprar mais uma peça pra guardar coisa, veja se o móvel que já tem (ou o próximo que vai comprar) pode acumular essa função."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Cor clara também abre espaço"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Parede e móvel em tom claro refletem mais luz do que cor escura, e isso conta na sensação de espaço tanto quanto a quantidade de objeto visível. Não precisa repintar tudo: uma estante ou rack claro no lugar de um escuro já muda a percepção do ambiente."
+        }
+      ],
+      "faq": [
+        {
+          "pergunta": "Preciso trocar o sofá pra sala parecer maior?",
+          "resposta": "Não necessariamente. Sofá encostado na parede, em vez de solto no meio do ambiente, já libera espaço de circulação. Trocar o sofá só faz diferença se o atual for desproporcional ao tamanho real da sala."
+        },
+        {
+          "pergunta": "Vale a pena tirar o tapete de sala pequena?",
+          "resposta": "Depende do tamanho do tapete, não da sala. Tapete pequeno demais, que não alcança nenhum móvel, deixa o ambiente com aparência picada. Um tapete que alcance ao menos os pés da frente do sofá costuma unificar melhor o espaço."
+        },
+        {
+          "pergunta": "Prateleira alta é segura em sala com criança pequena?",
+          "resposta": "Prateleira bem fixada na parede, com os parafusos certos pro tipo de parede, é segura mesmo com criança em casa. O risco maior está em prateleira solta ou mal fixada, então confira a fixação antes de usar pra guardar qualquer coisa."
+        }
+      ],
+      "pilarRelacionado": {
+        "href": "/organizacao-sala/",
+        "label": "organização de sala"
+      }
     }
   ]
 }
