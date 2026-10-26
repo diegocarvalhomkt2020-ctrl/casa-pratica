@@ -1157,6 +1157,89 @@
         "href": "/organizacao-sala/",
         "label": "organização de sala"
       }
+    },
+    {
+      "slug": "dobrar-roupa-para-guardar-mais-na-gaveta",
+      "titulo": "Como dobrar roupa pra guardar mais na gaveta",
+      "resumo": "A dobra vertical que faz a gaveta render o dobro, como ela ajuda a ver toda a roupa de uma vez e em quais peças funciona melhor.",
+      "imagem": "/images/blog/dobrar-roupa-para-guardar-mais-na-gaveta.jpg",
+      "dataPublicacao": "2026-10-29",
+      "corpo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "A forma mais comum de dobrar roupa é empilhar uma peça em cima da outra, mas essa pilha esconde tudo que não está por cima e desperdiça espaço de altura na gaveta. A dobra vertical (a roupa fica em pé, lado a lado, como fichário) resolve os dois problemas ao mesmo tempo."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Como funciona a dobra vertical"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Dobre a peça até formar um retângulo compacto, do jeito que já faz normalmente, mas pare antes da última dobra que deixaria ela achatada. Em vez de deitar a peça na pilha, coloque ela de pé na gaveta, apoiada nas vizinhas. O resultado é uma fileira de roupa em pé, onde cada uma é visível de cima, sem precisar tirar as outras do caminho."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Em quais peças funciona melhor"
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            "Camiseta e regata: são as que mais ganham espaço e visibilidade com essa dobra",
+            "Calça legging e moletom fino: dobram bem em pé sem perder a forma",
+            "Roupa íntima e meia: rende menos em volume, mas facilita muito achar o par certo"
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "O que não rende tanto assim"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Peça muito rígida ou grossa (moletom pesado, jaqueta) não dobra bem em pé e tende a tombar, derrubando a fileira inteira. Pra essas, a pilha tradicional, ou pendurada no cabide, ainda funciona melhor do que forçar a dobra vertical."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Divisor de gaveta ajuda a manter"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Sem nada segurando, as peças em pé tendem a tombar de novo com o tempo, principalmente ao abrir e fechar a gaveta. Um divisor simples (mesmo caixas de sapato cortadas ao meio) cria compartimentos que mantêm cada fileira separada e em pé por mais tempo."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Roupa esportiva e de material técnico"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Legging, camisa de treino e outras peças de tecido técnico costumam dobrar bem na vertical, parecido com camiseta comum, porque voltam à forma sozinhas mesmo depois de comprimidas. A diferença é que elas escorregam mais entre si, então um divisor ajuda ainda mais nesse tipo de peça do que numa gaveta de algodão comum."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Quanto tempo leva pra pegar o jeito"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Nas primeiras vezes, a dobra vertical demora mais que a forma antiga, porque a mão ainda não decorou o movimento. Depois de guardar a roupa lavada algumas vezes desse jeito, o tempo fica igual ou menor que empilhar, porque você não perde tempo procurando peça no fundo da pilha depois."
+        }
+      ],
+      "faq": [
+        {
+          "pergunta": "A dobra vertical funciona em qualquer tamanho de gaveta?",
+          "resposta": "Funciona melhor em gaveta funda, onde a peça tem altura suficiente pra ficar de pé sem tombar pra fora. Em gaveta rasa, pode não caber a peça inteira na vertical."
+        },
+        {
+          "pergunta": "Preciso comprar divisor de gaveta pra começar?",
+          "resposta": "Não pra testar. Comece organizando algumas peças em pé sem divisor e veja se gosta do resultado. Se tombar demais, aí vale investir num divisor ou improvisar um com caixa que já tem em casa."
+        },
+        {
+          "pergunta": "Vale a pena dobrar assim toalha e lençol também?",
+          "resposta": "Sim, o mesmo princípio funciona em roupa de cama e toalha guardadas em armário, não só em roupa de vestir. O ganho de visibilidade é parecido: dá pra ver todas as opções sem desmontar a pilha."
+        }
+      ],
+      "pilarRelacionado": {
+        "href": "/organizacao-armario/",
+        "label": "organização de armário"
+      }
     }
   ]
 }
