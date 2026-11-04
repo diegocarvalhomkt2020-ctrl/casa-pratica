@@ -1240,6 +1240,89 @@
         "href": "/organizacao-armario/",
         "label": "organização de armário"
       }
+    },
+    {
+      "slug": "gavetas-de-roupa-intimas-e-camisetas",
+      "titulo": "Como organizar gavetas de roupa íntima e camiseta",
+      "resumo": "Como separar roupa íntima sem misturar tudo num montinho só e organizar a gaveta de camiseta pra achar qualquer peça em segundos.",
+      "imagem": "/images/blog/gavetas-de-roupa-intimas-e-camisetas.jpg",
+      "dataPublicacao": "2026-11-03",
+      "corpo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Gaveta de roupa íntima e de camiseta são as que mais viram um montinho amassado, porque são peças pequenas e parecidas, fáceis de jogar lá dentro sem organizar. O problema não é o tamanho da gaveta, é a falta de divisão dentro dela."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Roupa íntima: divisórias fazem toda a diferença"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Um organizador de divisórias, ou mesmo caixinhas pequenas dentro da gaveta, separa calcinha, cueca, sutiã e meia em compartimentos próprios. Sem isso, tudo se mistura e vira uma bola só, difícil de separar par de meia ou achar a peça certa sem revirar tudo."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Sutiã merece um cuidado à parte"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Empilhar sutiã costuma amassar o bojo e deformar o aro com o tempo. O ideal é guardar em pé, um do lado do outro, com as taças encaixadas (uma dentro da outra) pra ocupar menos espaço sem achatar."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Camiseta: dobra vertical rende mais"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Camiseta dobrada em pé, lado a lado como fichário, mostra todas de uma vez e cabe mais que empilhada. Organize por cor ou por tipo (manga curta, regata, manga longa) pra facilitar ainda mais na hora de escolher o que vestir."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Peça que sai de uso não deve ficar na gaveta principal"
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            "Camiseta com elástico frouxo, gola esticada ou mancha permanente: vira pano de limpeza ou é descartada",
+            "Roupa íntima com elástico gasto: perde o suporte e não vale guardar por guardar",
+            "Peça de tamanho que não serve mais: separe pra doação em vez de ocupar espaço todo dia"
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Meia sem par: o que fazer"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Reserve um cantinho da gaveta ou uma caixinha só pra meia sem par, em vez de misturar com as que já têm dupla. Se o par não aparecer em duas ou três lavagens, é sinal de que ficou em outro cômodo ou se perdeu de verdade, e aí vale descartar em vez de guardar meia solta por anos."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "De quanto em quanto tempo revisar a gaveta toda"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Uma revisão a cada troca de estação costuma bastar pra manter divisória, roupa íntima e camiseta em ordem. O que desorganiza a gaveta é o uso do dia a dia, não o tempo parado."
+        }
+      ],
+      "faq": [
+        {
+          "pergunta": "Com que frequência trocar roupa íntima?",
+          "resposta": "Não existe um prazo fixo, mas o sinal claro é o elástico perder o suporte ou o tecido ficar transparente de tão fino. Confira a gaveta a cada troca de estação e separe o que já perdeu a função."
+        },
+        {
+          "pergunta": "Vale a pena comprar organizador específico pra sutiã?",
+          "resposta": "Ajuda, mas não é obrigatório. Guardar em pé, mesmo sem organizador específico, já evita boa parte do achatamento. O organizador rende mais espaço quando a gaveta é pequena ou tem muitos sutiãs."
+        },
+        {
+          "pergunta": "Como organizar quando a gaveta é compartilhada por duas pessoas?",
+          "resposta": "Divida fisicamente a gaveta em metades ou use divisórias diferentes pra cada pessoa, com camiseta de cada um numa fileira separada. Isso evita misturar tamanho e facilita achar a peça certa sem revirar o lado do outro."
+        }
+      ],
+      "pilarRelacionado": {
+        "href": "/organizacao-armario/",
+        "label": "organização de armário"
+      }
     }
   ]
 }
