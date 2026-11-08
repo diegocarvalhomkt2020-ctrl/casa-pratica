@@ -13,11 +13,6 @@ const schema = nota && {
   name: nome,
   ...(imagemAbsoluta && { image: imagemAbsoluta }),
   ...(paraQuem && { description: paraQuem }),
-  aggregateRating: {
-    "@type": "AggregateRating",
-    ratingValue: nota,
-    reviewCount: avaliacoes,
-  },
   offers: {
     "@type": "AggregateOffer",
     priceCurrency: "BRL",
@@ -34,7 +29,7 @@ const schema = nota && {
 
   <p class="prova-social">
     {nota
-      ? `★ ${nota} (${avaliacoes} avaliações${avaliacoesObs ? ` ${avaliacoesObs}` : ""})`
+      ? `★ ${nota} (${avaliacoes} avaliações${avaliacoesObs ? ` ${avaliacoesObs}` : ""} na Amazon)`
       : "Ainda sem avaliações suficientes"}
   </p>
 
